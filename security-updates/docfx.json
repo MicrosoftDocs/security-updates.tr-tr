@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -19,7 +20,9 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +32,16 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "layout": "Conceptual",
+      "breadcrumb_path": "/security-updates/breadcrumb/toc.json",
+      "ms.date": "10/11/2017",
+      "ms.topic": "article",
+      "ms.service": "Security",
+      "author": "BetaFred",
+      "ms.author": "BetaFred",
+      "contributors_to_exclude": ["kexugit","v-kents","jmgsworld","v-savila","v-yijwan","v-hearya","PrashobNambiar","LolsonGitHub","KimTapia"]
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "security-updates"
