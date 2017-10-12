@@ -1,0 +1,17 @@
+---
+TOCTitle: Troubleshooting Windows Server Update Services
+Title: Troubleshooting Windows Server Update Services
+ms:assetid: 'de75dec1-80d5-4c64-beff-89428aced855'
+ms:contentKeyID: 18155312
+ms:mtpsurl: 'https://technet.microsoft.com/tr-tr/library/Cc708580(v=WS.10)'
+---
+
+Troubleshooting Windows Server Update Services
+==============================================
+
+This guide provides troubleshooting information for Windows Server Update Services.
+
+**In this guide**
+
+-   [WSUS Server Administration Issues](https://technet.microsoft.com/2bb761d4-80c7-48fa-899e-4d1515daba85)
+-   [Client Computer Administration Issues](https://technet.microsoft.com/1618886d-8fcf-42e5-ab34-3baeeb8f3893)

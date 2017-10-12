@@ -1,0 +1,20 @@
+---
+TOCTitle: Upgrade Issues
+Title: Upgrade Issues
+ms:assetid: '95845c1f-ea09-4f85-b643-c8560efbcd37'
+ms:contentKeyID: 18155268
+ms:mtpsurl: 'https://technet.microsoft.com/tr-tr/library/Cc708494(v=WS.10)'
+---
+
+Upgrade Issues
+==============
+
+When an upgrade fails, WSUS might be uninstalled
+------------------------------------------------
+
+Depending on at what point an upgrade fails, you might lose your previous WSUS settings and data. Therefore, before attempting an upgrade, back up the following:
+
+-   WSUS database
+-   Update file storage folder
+
+For information about backing up and restoring your existing WSUS installation, see [Backing Up Windows Server Update Services](https://technet.microsoft.com/c0f1a661-eb48-4156-81a2-267d846f844f).
