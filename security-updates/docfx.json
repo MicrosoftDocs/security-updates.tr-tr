@@ -40,7 +40,7 @@
       "ms.service": "Security",
       "author": "BetaFred",
       "ms.author": "BetaFred",
-      "contributors_to_exclude": ["kexugit","v-kents","jmgsworld","v-savila","v-yijwan","v-hearya","PrashobNambiar","LolsonGitHub","KimTapia"]
+      "contributors_to_exclude": ["betafred", "kexugit","v-kents","jmgsworld","v-savila","v-yijwan","v-hearya","PrashobNambiar","LolsonGitHub","KimTapia"]
     },
     "fileMetadata": {},
     "template": [],
