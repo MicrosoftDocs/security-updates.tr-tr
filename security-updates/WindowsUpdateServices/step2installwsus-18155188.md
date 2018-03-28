@@ -36,12 +36,16 @@ The following procedure uses the default WSUS installation options for Windows S
 
 2.  Type the following command, where C: is the letter of your local hard disk, and then press ENTER:
 
-    
-        ```
+    ```
+        CD C:\WSUSFiles\wmsde
+    ```
+
 3.  Type the following command with consideration to the points listed below, and then press ENTER:
 
     
-        ```
+    ```
+    Sqlrun03.msi InstanceName=WSUS BlankSAPwd=1 Reboot=ReallySuppress DisableNetworkProtocols=1 DisableAgentStartup=1 DisableThrottle=1
+    ```
     -   If you want to specify the drive letter where the database instance will be located, you must add the DataDir="*Path*" argument to the command line, where *Path* is the path to the target directory in the file system.
     -   The command line implies that your WSUS database will have a blank password. However, during the actual installation of WSUS, a randomly generated password is set. You do not need to specify a password.
     -   The command line is not case sensitive.

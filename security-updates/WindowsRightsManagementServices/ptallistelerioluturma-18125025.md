@@ -33,7 +33,34 @@ BODY öğesi dört alt öğe içerir:
 
 | ![](images/Cc720208.note(WS.10).gif)Not                                                    |
 |-------------------------------------------------------------------------------------------------------------------------|
-        ```
+|ISSUEDTIME, PUBLICKEY ve SIGNATURE öğeleri RLsigner.exe tarafından ekleneceği veya üzerine yazılacağı için atlanabilir.|
+
+```
+<?xml version="1.0" ?> 
+<XrML xml:space=”preserve” version=”1.2”>
+  <BODY type="LICENSE" version="3.0">
+    <ISSUEDTIME>...</ISSUEDTIME> 
+    <DESCRIPTOR>
+      <OBJECT type="Revocation-List">
+        <ID type="MS-GUID">{d6373cba-01f1-4f32-ac58-260f580af0f8}</ID>
+      </OBJECT>
+    </DESCRIPTOR>
+<ISSUER>
+      <OBJECT type="Revocation-List">
+        <ID type="acsii-tag">External revocation authority</ID>
+        <NAME>Revocation list name</NAME>
+        <ADDRESS type="URL">https://somedomain.com/revocation_list_file</ADDRESS>
+      </OBJECT>
+      <PUBLICKEY>...</PUBLICKEY>
+    </ISSUER>
+  <REVOCATIONLIST>
+    <REVOKE>...<\REVOKE>
+    <REVOKE>...<\REVOKE>
+  </REVOCATIONLIST>
+  <SIGNATURE>...</SIGNATURE>
+</XrML>
+```
+        
 | ![](images/Cc720208.Caution(WS.10).gif)Dikkat                                             |
 |------------------------------------------------------------------------------------------------------------------------|
 | İptal listesinde URL'yi belirtirken, RMS SP1 veya RMS SP2 içinde artık UNC yolu desteklenmez. Bir URL kullanmalısınız. |
@@ -59,12 +86,33 @@ REVOKE öğeleri hakkında daha fazla bilgi için aşağıdaki örneklere bakın
 <span id="BKMK_1"></span>
 #### Sorumluları Ortak Anahtara Göre İptal Etme
 
-        ```
+```
+              <REVOKE category="principal" type="principal-key">
+        <PUBLICKEY>
+          <ALGORITHM>RSA-1024</ALGORITHM>
+          <PARAMETER name="public exponent">
+            <VALUE encoding="integer32">65537</VALUE>
+          </PARAMETER>
+          <PARAMETER name="modulus">
+            <VALUE encoding="base64" size="1024">
+6Jn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2FjApkY1RxgL8VAKIuEvIy9hRrvY1YhJx/0Ite5fZeg2crUFrmoQgZzaJ50FvoakA2QMgZZgxoQmwiGE0y40cEJtIlE0=
+            </VALUE>
+          </PARAMETER>
+        </PUBLICKEY>
+      </REVOKE>
+```
 
 <span id="BKMK_2"></span>
 #### Sertifikaları ve Lisansları GUID'ye Göre İptal Etme
 
-        ```
+```
+<REVOKE category="license" type="license-id">
+        <OBJECT>
+          <ID type="MS-GUID">{06BCB94D-43E5-419f-B180-AA9FD321ED7A}</ID>
+        </OBJECT>
+      </REVOKE>
+```
+
 #### Uygulama bildirimiyle iptal etme
 
 Uygulama bildirimiyle iptal etmek için sertifika verenin kimliğini, sertifika verenin ortak anahtarını, lisans kimliğini veya lisans karma değerini uygulama bildiriminden ayıklamanız gerekir. Bununla birlikte, uygulama bildirimleri base 64 kodludur; bu nedenle düz metinde bilgilere erişilemez. Rights Management Services Software Development Kit (SDK) ile; DRMConstructCertificateChain, DRMDeconstructCertificateChain ve DRMDecode yöntemlerini kullanarak uygulama bildiriminin şifresini çözmek ve gerekli bilgileri almak için bir program geliştirilebilir.
@@ -74,7 +122,17 @@ Belirli bir uygulamanın telif haklı içeriği kullanmasını engellemek istiyo
 <span id="BKMK_3"></span>
 #### Sertifikaları ve Lisansları Karma Değerine Göre İptal Etme
 
-        ```
+```
+<REVOKE category="license" type="license-hash">
+        <DIGEST>
+          <ALGORITHM>SHA1</ALGORITHM>
+          <VALUE encoding="base64" size="160">
+            ABfB4mcEslVCMEZR9reACqXHCoQ=
+          </VALUE>
+        </DIGEST>
+      </REVOKE>
+```
+
 #### Uygulama bildirimiyle iptal etme
 
 Uygulama bildirimiyle iptal etmek için sertifika verenin kimliğini, sertifika verenin ortak anahtarını, lisans kimliğini veya lisans karma değerini uygulama bildiriminden ayıklamanız gerekir. Bununla birlikte, uygulama bildirimleri base 64 kodludur; bu nedenle düz metinde bilgilere erişilemez. Rights Management Services SDK ile; DRMConstructCertificateChain, DRMDeconstructCertificateChain ve DRMDecode yöntemlerini kullanarak uygulama bildiriminin şifresini çözmek ve gerekli bilgileri almak için bir program geliştirilebilir.
@@ -84,12 +142,33 @@ Belirli bir uygulamanın telif haklı içeriği kullanmasını engellemek istiyo
 <span id="BKMK_4"></span>
 #### Sertifikaları ve Lisansları Verenin Ortak Anahtarına Göre İptal Etme
 
-        ```
+```
+<REVOKE category="license" type="issuer-key">
+        <PUBLICKEY>
+          <ALGORITHM>RSA-1024</ALGORITHM>
+          <PARAMETER name="public exponent">
+            <VALUE encoding="integer32">65537</VALUE>
+          </PARAMETER>
+          <PARAMETER name="modulus">
+            <VALUE encoding="base64" size="1024">
+AAn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2FjApkY1RxgL8VAKIuEvIy9hRrvY1YhJx/0Ite5fZeg2crUFrmoQgZzaJ50FvoakA2QMgZZgxoQmwiGE0y40cEJtIlE0=
+            </VALUE>
+          </PARAMETER>
+        </PUBLICKEY>
+      </REVOKE>
+```
 
 <span id="BKMK_5"></span>
 #### Sertifikaları ve Lisansları Verenin Kimliğine Göre İptal Etme
 
-        ```
+```
+      <REVOKE category="license" type="issuer-id">
+        <OBJECT type="MS-DRM-Server">
+          <ID type="MS-GUID">{2BE9E200-3040-41B9-8832-D4D0445EBBD6}</ID> 
+        </OBJECT>
+      </REVOKE>
+```
+
 | ![](images/Cc720208.note(WS.10).gif)Not                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bir kimlik türü belirtirken, genel benzersiz tanımlayıcı (GUID) ve kapatma etiketi arasında satırbaşı işareti olmadığından emin olun. Yanlışlıkla bir satırbaşı işareti eklenmişse, RMS istemcisi iptal listesini ayrıştıramaz. |
@@ -97,7 +176,14 @@ Belirli bir uygulamanın telif haklı içeriği kullanmasını engellemek istiyo
 <span id="BKMK_6"></span>
 #### İçeriği İçerik Kimliğine Göre İptal Etme
 
-        ```
+```
+<REVOKE category="content" type="content-id">
+        <OBJECT type="Microsoft Office Document">
+          <ID type="MS-GUID">{8702641D-3512-4AA4-A584-84C703A5B5C0}</ID>
+        </OBJECT>
+      </REVOKE>
+```
+
 | ![](images/Cc720208.note(WS.10).gif)Not                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bir kimlik türü belirtirken, genel benzersiz tanımlayıcı (GUID) ve kapatma etiketi arasında satırbaşı işareti olmadığından emin olun. Yanlışlıkla bir satırbaşı işareti eklenmişse, RMS istemcisi iptal listesini ayrıştıramaz. |
@@ -105,7 +191,15 @@ Belirli bir uygulamanın telif haklı içeriği kullanmasını engellemek istiyo
 <span id="BKMK_10"></span>
 #### Sorumluları Windows hesabına göre iptal etme
 
-        ```
+```
+<REVOKE category="principal" type="principal-id">
+        <OBJECT type="Group-Identity">
+          <ID type="Windows">{Windows account SID}</ID> 
+          <NAME>{E-mail address}</NAME> 
+        </OBJECT>
+      </REVOKE>
+```
+
 | ![](images/Cc720208.note(WS.10).gif)Not                                                                                                                                               |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bir kimlik türü belirtirken, Windows hesabı SID'si ve kapatma etiketi arasında satırbaşı işareti olmadığından emin olun. Yanlışlıkla bir satırbaşı işareti eklenmişse, RMS istemcisi iptal listesini ayrıştıramaz. |
@@ -113,7 +207,15 @@ Belirli bir uygulamanın telif haklı içeriği kullanmasını engellemek istiyo
 <span id="BKMK_7"></span>
 #### Sorumluları Windows Live Kimliğine Göre İptal Etme
 
-        ```
+```
+<REVOKE category="principal" type="principal-id">
+        <OBJECT type="Group-Identity">
+          <ID type="Passport">{PUID}</ID> 
+          <NAME>michael@contoso.com</NAME> 
+        </OBJECT>
+      </REVOKE>
+```
+
 | ![](images/Cc720208.note(WS.10).gif)Not                                                                                                                                                               |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bir kimlik türü belirtirken, asıl öğe benzersiz tanımlayıcı (PUID) ve kapatma etiketi arasında satırbaşı işareti olmadığından emin olun. Yanlışlıkla bir satırbaşı işareti eklenmişse, RMS istemcisi iptal listesini ayrıştıramaz. |
@@ -262,5 +364,25 @@ RLsigner.exe dönüş kodunda temel hata ve başarı bilgileri sağlar. Aşağı
   
 İptal listesi imzalama işlemini komut dosyası kullanarak otomatikleştirebilirsiniz. Aşağıdaki örnek VBScript, RLsigner.exe aracını çağırır ve sonuçları Sistem olay günlüğüne yazar
   
-<codesnippet asp="http://msdn2.microsoft.com/asp" language displaylanguage="Visual Basic">const EVT\_SUCCESS = 0 const EVT\_ERROR = 1 const EVT\_WARNING = 2 const EVT\_INFORMATION = 4 const EVT\_AUDIT\_SUCCESS = 8 const EVT\_AUDIT\_FAILURE = 16 Dim WshShell, oExec Set WshShell = CreateObject( "WScript.Shell" ) Set oExec = WshShell.Exec("rlsigner.exe input\_file key\_file output\_file") Do While oExec.Status = 0 WScript.Sleep 100 Loop if WshShell.ExitCode &lt;&gt; 0 Then WshShell.LogEvent EVT\_ERROR, "RLsigner failed with error """ + WshShell.ExitCode + """" else WshShell.LogEvent EVT\_SUCCESS, "RLsigner completed successfully" end if  
+```VB
+const EVT_SUCCESS       = 0
+const EVT_ERROR         = 1
+const EVT_WARNING       = 2
+const EVT_INFORMATION   = 4
+const EVT_AUDIT_SUCCESS = 8
+const EVT_AUDIT_FAILURE = 16
+
+Dim WshShell, oExec
+
+Set WshShell = CreateObject( "WScript.Shell" )
+Set oExec = WshShell.Exec("rlsigner.exe input_file key_file output_file")
+Do While oExec.Status = 0
+     WScript.Sleep 100
+Loop
+
+if WshShell.ExitCode <> 0 Then
+    WshShell.LogEvent EVT_ERROR, "RLsigner failed with error """ + WshShell.ExitCode + """"
+else
+    WshShell.LogEvent EVT_SUCCESS, "RLsigner completed successfully"
+end if
 ```
