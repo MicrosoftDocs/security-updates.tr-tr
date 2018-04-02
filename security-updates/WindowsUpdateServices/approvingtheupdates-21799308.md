@@ -91,7 +91,7 @@ You can approve the installation of updates for all the computers in your WSUS n
 
 7.  If you want the approval behavior to change for all children, approve **All Computers**, and then choose **Apply to Children.**
 
-8.  Click **OK** after setting all your approvals**.** The **Approval Progress** window will display the progress toward completing the approval. When the process is complete, the **Close** button will be available. Click **Close**.
+8.  Click **OK** after setting all your approvals. The **Approval Progress** window will display the progress toward completing the approval. When the process is complete, the **Close** button will be available. Click **Close**.
 
  
 <table style="border:1px solid black;">
