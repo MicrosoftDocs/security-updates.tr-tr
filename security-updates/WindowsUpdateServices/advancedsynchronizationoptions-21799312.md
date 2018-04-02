@@ -21,7 +21,7 @@ Use the **Update Files** section to determine whether update files will be store
 
 2.  In **Update Files and Languages**, click the **Update Files** tab.
 
-3.  If you want to store updates in WSUS, select the **Store update files locally on this server** check box. If you want clients to connect to the Internet to get updates, then select the **Do not store updates locally; computers install updates from Microsoft Update** check box**.**
+3.  If you want to store updates in WSUS, select the **Store update files locally on this server** check box. If you want clients to connect to the Internet to get updates, then select the **Do not store updates locally; computers install updates from Microsoft Update** check box.
 
  
 <table style="border:1px solid black;">

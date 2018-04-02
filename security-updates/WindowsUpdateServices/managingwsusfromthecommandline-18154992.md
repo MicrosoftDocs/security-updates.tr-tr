@@ -213,7 +213,7 @@ SUS 1.0 to WSUS migration scenarios and related procedures are covered extensive
   
 At the command line *%drive%*\\Program Files\\Update Services\\Tools&gt;, type:
   
-**wsusutil migratesus** \[**/content** *contentshare*\] \[**/approvals** *servername* \[*computergroup*\]\] \[**/log** *logfile*\] \[**/?**\]
+**wsusutil migratesus** \[**/content** *contentshare*\] \[**/approvals** *servername* \[*computergroup*\]\] \[**/log** *logfile*\] \[**/?**  \]
   
 The parameters are defined in the following table:
   
@@ -292,7 +292,7 @@ If the hard disk that stores update files fails, you must do the following:
   
 At the command line *%drive%\\*Program Files\\Update Services\\Tools&gt;, type:
   
-**wsusutil movecontent** *contentpath logfile* **-skipcopy** \[**/?**\]
+**wsusutil movecontent** *contentpath logfile* **-skipcopy** \[**/?**  \]
   
 The parameters are defined in the following table.
   

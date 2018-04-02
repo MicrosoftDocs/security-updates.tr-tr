@@ -33,7 +33,7 @@ If the IIS service (W3SVC) is stopped during WSUS installation, WSUS Setup start
 
 3.  In the **Add Roles Wizard**, click **Select Server Roles**, select the **Web Service (IIS)** check box, click **Next**, and then click **Next** again.
 
-    At this time you may see a message box **Add features required for Web Server (IIS)?** Click **Add Required Features**.
+    At this time you may see a message box **Add features required for Web Server (IIS)?**   Click **Add Required Features**.
 
 4.  In the **Select Role Services** window, make sure that the following services are selected:
 

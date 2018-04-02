@@ -138,3 +138,4 @@ Ek kaynaklar
 ------------
 
 [Windows Server Update Services 3.0 SP2 Adım Adım Kılavuzu](https://technet.microsoft.com/4b504edc-93b3-45b0-a7e8-d0107f1a4442)
+qq

@@ -173,7 +173,7 @@ RMS sunucusu donanımınız veya yazılımınızda hata oluşursa, yeni bir sunu
 
 Kullanıcının izinlerinin süresi dolarsa, RMS korumalı içeriği kullanamaz. RMS sunucusunun sistem saati RMS istemcisinin sistem saatinden ileriyse, kullanıcı, izinlerinin süresi dolmadığı halde RMS korumalı içeriği kullanamayabilir. İki bilgisayardaki sistem saatleri aynı olmadığı için, istemci bilgisayar içeriği açmaya çalıştığında aşağıdaki hata görüntülenebilir:
 
-**İzninizin süresi dolduğundan bu iletiyi açma izniniz yok. Farklı bir kimlik bilgisi kümesi kullanarak açmak ister misiniz?**
+**İzninizin süresi dolduğundan bu iletiyi açma izniniz yok. Farklı bir kimlik bilgisi kümesi kullanarak açmak ister misiniz?**  
 
 İstemci lisansı ve içerik lisansı geçerlidir, ancak saat farklılığı, istemcinin içerik lisansını geçersiz olarak yorumlamasına ve kullanıcıya bu hatayı döndürmesine neden olur. Bu da, kullanıcının, RMS hesap sertifikasıyla veya belge için kendisine verilen haklarla ilgili bir sorun olduğunu düşünmesine yol açar. İstemcideki saat, içerik yayımlama lisansının geçerlilik süresi aralığına geldikten sonra, kullanıcı içeriği açabilir.
 
