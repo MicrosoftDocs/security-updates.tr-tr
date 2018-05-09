@@ -51,13 +51,20 @@ Ensure that the Automatic Update client has been configured correctly.
 2.  Type:**reg query HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate**
 
     You should see output like the following if the client has been configured to get its updates from a WSUS server:
-
     
-        ```
+    ```
+        HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
+        WUServer    REG_SZ  http://WSUSServerName
+        WUStatusServer      REG_SZ  http://WSUSServerName
+        HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+    ```
     You should see output similar to the following if Automatic Update is functioning, but the client has not been configured to get its updates from a WSUS server:
-
     
-        ```
+    ```
+        HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
+        HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+    ```
+
     If the query returns the error, "The system was unable to find the specified registry key or value," Automatic Update has not been configured on this computer.
 
     If the output from step 2 above contains values for WUServer and WUStatusServer, try to contact the WSUS server listed in these values.
