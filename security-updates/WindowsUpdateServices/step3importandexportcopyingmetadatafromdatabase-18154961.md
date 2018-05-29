@@ -11,11 +11,11 @@ Step 3 Import and Export: Copying Metadata from Database
 
 Export update metadata from the database on the export server, and import it into the database on the import server. The WSUS Setup program copies WSUSutil.exe to the file system of the WSUS server during installation. You must be a member of the local Administrators group on the WSUS server to export or import metadata; both operations can only be run from the WSUS server itself.
 
-| ![](images/Cc720437.Important(WS.10).gif)Önemli                                                                                        |
+| ![](/security-updates/images/Cc720437.Important(WS.10).gif)Önemli                                                                                        |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Never import exported data from a source that you do not trust. Importing content from a source you do not trust might compromise the security of your WSUS server. |
 
-| ![](images/Cc720437.note(WS.10).gif)Not                                                               |
+| ![](/security-updates/images/Cc720437.note(WS.10).gif)Not                                                               |
 |------------------------------------------------------------------------------------------------------------------------------------|
 | During the import or export process, the Update Service, the Windows NT service that underpins the WSUS application, is shut down. |
 
@@ -51,6 +51,6 @@ Export update metadata from the database on the export server, and import it int
 
     WSUSutil.exe imports the metadata from the export server and creates a log file of the operation.
 
-| ![](images/Cc720437.note(WS.10).gif)Not                                               |
+| ![](/security-updates/images/Cc720437.note(WS.10).gif)Not                                               |
 |--------------------------------------------------------------------------------------------------------------------|
 | It can take from 3 to 4 hours for the database to validate content that has just been imported. Please be patient. |

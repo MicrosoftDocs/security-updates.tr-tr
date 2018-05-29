@@ -22,6 +22,6 @@ Kullanıcıların yetki alma hizmetini kullanmaya başlayabilmesi için, kullan�
 4.  Sonra girdiyi sağ tıklatın ve yetki alma hizmetini gösteren değer verisini belirtmek için **Değiştir**'i seçin:
     `http://`*lisans-sunucunuz*`/_wmcs/decommission`
 
-| ![](images/Cc747549.note(WS.10).gif)Not                                   |
+| ![](/security-updates/images/Cc747549.note(WS.10).gif)Not                                   |
 |--------------------------------------------------------------------------------------------------------|
 | Kuruluşta yetki alma modunda birden çok RMS sunucusu varsa, bu anahtar için birden çok girdi olabilir. |

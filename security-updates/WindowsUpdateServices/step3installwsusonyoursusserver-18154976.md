@@ -16,7 +16,7 @@ You must log on to the server you plan to install WSUS on by using an account th
 **To install WSUS on Windows 2000 Server with SUS**
 1.  Double-click the installer file **WSUSSetup.exe**.
 
-    | ![](images/Cc720449.note(WS.10).gif)Not                                                                                                                                           |
+    | ![](/security-updates/images/Cc720449.note(WS.10).gif)Not                                                                                                                                           |
     |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | The latest version of WSUSSetup.exe is available on the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=47374) for Windows Server Update Services at http://go.microsoft.com/fwlink/?LinkId=47374. |
 
@@ -28,14 +28,14 @@ You must log on to the server you plan to install WSUS on by using an account th
 
     Keep the default options, and click **Next**.
 
-    ![](images/Cc720449.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
+    ![](/security-updates/images/Cc720449.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
 
 5.  On the **Database Options** page, do one of the following depending on the operating system you are using:
 
     -   For Windows Server 2003, click **Install SQL Server desktop engine (Windows) on this computer**.
     -   For Windows 2000 Server, click **Use an existing database server on this computer**, select the instance name from the **SQL instance name** box, and then click **Next**.
 
-    ![](images/Cc720449.b25efed5-5654-485f-b34d-14686bed0240(WS.10).gif)
+    ![](/security-updates/images/Cc720449.b25efed5-5654-485f-b34d-14686bed0240(WS.10).gif)
 
 6.  On the **Web Site Selection** page, click **Create a Microsoft Windows Server Update Services Web site**.
 
@@ -47,10 +47,10 @@ You must log on to the server you plan to install WSUS on by using an account th
 
     Keep the default option, and click **Next**.
 
-    ![](images/Cc720449.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
+    ![](/security-updates/images/Cc720449.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
 
 8.  On the **Ready to Install Windows Server Update Services** page, review the selections, and click **Next**.
 
-    ![](images/Cc720449.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
+    ![](/security-updates/images/Cc720449.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
 
 9.  If the final page of the wizard confirms that WSUS installation was successfully completed, click **Finish**.

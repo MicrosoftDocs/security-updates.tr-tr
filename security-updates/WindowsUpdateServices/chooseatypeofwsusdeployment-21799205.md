@@ -23,7 +23,7 @@ The most basic WSUS deployment consists of a server inside the corporate firewal
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939820.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939820.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -39,7 +39,7 @@ By default, the WSUS server uses port 80 for HTTP protocol and port 443 for HT
 
 You can configure multiple WSUS servers to synchronize with a parent WSUS server. Chaining WSUS servers together is discussed later in this guide.
 
-![](images/Dd939820.76f9bd86-31a8-4542-89fb-522b647ab98d(WS.10).gif)
+![](/security-updates/images/Dd939820.76f9bd86-31a8-4542-89fb-522b647ab98d(WS.10).gif)
 
 Automatic Updates is the client component of WSUS. Automatic Updates must use the port assigned to the WSUS Web site in Microsoft Internet Information Services (IIS). If there are no Web sites running on the server where you install WSUS, you can use the default Web site or a custom Web site. If you set up WSUS on the default Web site, WSUS listens for Automatic Updates on port 80. If you use a custom Web site, WSUS listens on port 8530. Alternate port numbers cannot be specified at setup time, but can be configured afterwards.
 
@@ -49,7 +49,7 @@ If you use the custom Web site, you must also have a Web site set up and running
 
 Computer groups are an important part of WSUS deployments, even a basic deployment. Computer groups enable you to target updates to specific computers. There are two default computer groups: All Computers and Unassigned Computers. By default, when each client computer initially contacts the WSUS server, the server adds it to both these groups.
 
-![](images/Dd939820.f74817dd-8d19-497f-b310-f12f0060daa2(WS.10).gif)
+![](/security-updates/images/Dd939820.f74817dd-8d19-497f-b310-f12f0060daa2(WS.10).gif)
 
 You can move computers from the Unassigned Computers group to a group you create. You cannot remove computers from the All Computers group. The All Computers group enables you to target updates to every computer on your network regardless of group membership. The Unassigned Computers group permits you to target only computers that have not yet been assigned group membership.
 
@@ -62,7 +62,7 @@ One benefit of creating computer groups is that it enables you to test updates. 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939820.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939820.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -87,7 +87,7 @@ There are two ways to link WSUS servers together:
 
 For more information see [Choose a WSUS Management Style](https://technet.microsoft.com/7a9c8db5-9c94-425a-894d-94e10dad4a51).
 
-![](images/Dd939820.c3755c7d-5d76-4bc3-8f4b-30f76e550de5(WS.10).gif)
+![](/security-updates/images/Dd939820.c3755c7d-5d76-4bc3-8f4b-30f76e550de5(WS.10).gif)
 
 This type of configuration is useful for many types of deployment. You might use it to download updates once from the Internet and then distribute those updates to branch offices with downstream servers, saving bandwidth on your Internet connection. You might use it to scale WSUS in a large organization with more client computers than one WSUS server can manage. You might also use it to move updates closer to where they will be deployed.
 
@@ -104,7 +104,7 @@ When you set up a WSUS server hierarchy, you should point Automatic Updates on a
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939820.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939820.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -130,7 +130,7 @@ Networks disconnected from the Internet
 
 It is unnecessary for your entire network to be connected to the Internet in order for you to use WSUS. If you have a network segment that is not connected to the Internet, consider deploying WSUS as shown in the "Distributing Updates on an Isolated Segment" illustration below. In this example, you create a WSUS server that is connected to the Internet but isolated from the intranet. After you download updates to this server, you can export the updates to media, hand-carry the media to disconnected WSUS servers, and import the updates.
 
-![](images/Dd939820.14d5ffdf-7f91-43de-b59a-71ad8a1a67ab(WS.10).gif)
+![](/security-updates/images/Dd939820.14d5ffdf-7f91-43de-b59a-71ad8a1a67ab(WS.10).gif)
 
 Exporting and importing is also appropriate for organizations that have high-cost or low-bandwidth links to the Internet. Even with all the bandwidth-saving options described later in this guide, downloading enough updates for all Microsoft products throughout an organization can be bandwidth-intensive. Importing and exporting updates enables organizations to download updates once and distribute by using inexpensive media. See [Set Up a Disconnected Network (Import and Export the Updates)](https://technet.microsoft.com/9ee2ea63-ef22-47b4-93e7-84fb603e1afc) for more information about how to export and import updates.
 
@@ -147,11 +147,11 @@ Network load balancing clusters
 
 Network load balancing increases the reliability and performance of your WSUS network. You can set up multiple WSUS servers that share a single SQL Server 2005 or 2008 failover cluster, as in the "Network Load Balancing with a SQL Server Failover Cluster" illustration below. (Note that for this configuration you must use a full SQL Server installation, not the Windows İç Veritabanı installation provided by WSUS.) You can also have all the WSUS servers use a DFS share to store their content. See [Appendix C: Configure WSUS for Network Load Balancing](https://technet.microsoft.com/ad30cc5d-ceaa-41a0-9e22-7b1ca15e2852) for more information about configuring WSUS and SQL Server for network load balancing.
 
-![](images/Dd939820.c5b8a565-1d8f-40ba-b63c-6259d27692e7(WS.10).gif)
+![](/security-updates/images/Dd939820.c5b8a565-1d8f-40ba-b63c-6259d27692e7(WS.10).gif)
 
 Support for roaming clients
 ---------------------------
 
 If you have many mobile users who log on to your network from different sites, you may want to use the following configuration to allow them to update their computers from the closest WSUS server. In this configuration, shown in the "Roaming Clients Using Different WSUS Servers" illustration below, there is one WSUS server per region, and each region is a DNS subnet. All clients are pointed to the same WSUS server name, which resolves in each subnet to the nearest WSUS server. See [Appendix D: Configure WSUS for Roaming Clients](https://technet.microsoft.com/7944571d-5149-4f69-814e-d0daeaef2f7f) for more information about how to configure DNS to support roaming clients.
 
-![](images/Dd939820.fabc9790-e6b5-43d8-8c6b-eeaf41ff8980(WS.10).gif)
+![](/security-updates/images/Dd939820.fabc9790-e6b5-43d8-8c6b-eeaf41ff8980(WS.10).gif)

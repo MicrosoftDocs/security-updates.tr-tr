@@ -28,7 +28,7 @@ Varsayılan olarak WSUS 3.0 SP2, güncelleştirmeleri almak için Microsoft Upda
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939815.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -70,7 +70,7 @@ Adım 3 aşağıdaki yordamları içerir:
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939815.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -118,7 +118,7 @@ Aşağıdaki iki yordamda yapılandırma için WSUS Yönetimi ek bileşenini kul
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939815.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

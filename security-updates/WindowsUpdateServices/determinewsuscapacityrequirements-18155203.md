@@ -20,7 +20,7 @@ Hardware and database software requirements are driven by the number of client c
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Cc708483.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Cc708483.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -126,7 +126,7 @@ Hardware and database software requirements are driven by the number of client c
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Cc708483.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Cc708483.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -145,7 +145,7 @@ Hardware and database software requirements are driven by the number of client c
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Cc708483.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Cc708483.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

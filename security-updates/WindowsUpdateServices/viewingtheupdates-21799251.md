@@ -86,7 +86,7 @@ On the **Updates** page, you can do the following:
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939874.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939874.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

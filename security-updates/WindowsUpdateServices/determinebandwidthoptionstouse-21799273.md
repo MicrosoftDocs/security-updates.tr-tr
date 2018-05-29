@@ -17,14 +17,14 @@ Deferring the download of updates
 
 WSUS enables you to download update metadata before downloading the update itself. With deferred download, updates are downloaded only after the update has been approved, which saves bandwidth and WSUS server disk space. You can test the files prior to deploying them on your network, and client computers download the updates from the intranet. Microsoft recommends deferring the download of updates (the default WSUS configuration), since it makes optimal use of network bandwidth and disk space.
 
-![](images/Dd939908.0d256355-4cb8-4f22-9386-da71754ce94e(WS.10).gif)
+![](/security-updates/images/Dd939908.0d256355-4cb8-4f22-9386-da71754ce94e(WS.10).gif)
 
 If you have a chain of WSUS servers, it is recommended that you do not chain them too deeply, for the following reasons:
 
 -   In a chain of WSUS servers, WSUS automatically sets all downstream servers to use the deferred download option that is selected on the highest upstream server—in other words, the server that is directly connected to Microsoft Update. However, you may change this configuration (for example, to keep an upstream server doing full synchronization, while downstream servers defer their downloads).
 -   If you have deferred downloads enabled and a downstream server requests an update that has not been approved on the upstream server, the downstream server’s request triggers a download on the upstream server. The downstream server then downloads the content on a subsequent synchronization, as shown in the "Deferred Downloads Using Multiple WSUS Servers" illustration. If you have a deep hierarchy of WSUS servers using deferred downloads, there is greater potential for delay as content is requested, downloaded, and then passed down the chain.
 
-![](images/Dd939908.7858baf2-f6c3-4e87-ad8d-a06a20aa5dd8(WS.10).gif)
+![](/security-updates/images/Dd939908.7858baf2-f6c3-4e87-ad8d-a06a20aa5dd8(WS.10).gif)
 
 If you chose to store updates locally during the WSUS setup process, deferred downloads are enabled by default. You can change this option manually. See [Advanced Synchronization Options](https://technet.microsoft.com/e29686d0-f4ef-4d04-9d88-ac4891b76a4d) for step-by-step procedures.
 
@@ -48,7 +48,7 @@ When you distribute updates this way, there is an initial investment in bandwidt
 
 The upper part of the "Express Installation Files Feature" illustration shows an update being distributed with express installation files; the lower part of the illustration shows the same update being distributed without using express installation files. Notice that with express installation files enabled, you incur an initial download three times the size of the update. However, this cost is mitigated by the reduced amount of bandwidth required to update client computers on the corporate network. With express installation files disabled, your initial download of updates is smaller, but the full size of the download must then be distributed to each of the clients on your corporate network.
 
-![](images/Dd939908.77edc56e-9ae3-4827-a99d-625a11339dc9(WS.10).gif)
+![](/security-updates/images/Dd939908.77edc56e-9ae3-4827-a99d-625a11339dc9(WS.10).gif)
 
 The file sizes in the "Express Installation Files Feature" illustration are for illustrative purposes only. Each update and express installation file varies in size, depending on what files need to be updated. Further, the size of each file actually distributed to clients by using express installation files varies depending upon the state of the computer being updated.
 
@@ -59,7 +59,7 @@ The file sizes in the "Express Installation Files Feature" illustration are for 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939908.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939908.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>

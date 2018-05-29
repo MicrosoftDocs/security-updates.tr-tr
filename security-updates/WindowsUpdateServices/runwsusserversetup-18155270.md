@@ -13,11 +13,11 @@ After reviewing the previous topics, you are ready to install WSUS. You must log
 
 If you want to do an unattended installation, see [Appendix A: Unattended Installation](https://technet.microsoft.com/3e8fcb38-d5a9-4285-baa2-23323a384cb1) later in this guide.
 
-| ![](images/Cc720538.Important(WS.10).gif)Önemli                                                                                                                                                                                                              |
+| ![](/security-updates/images/Cc720538.Important(WS.10).gif)Önemli                                                                                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Be sure to read the WSUS Release Notes. Release notes often contain important late-breaking information about the release. Look for the WSUS Release Notes in the following location:*WSUSInstallationDrive*:\\Program Files\\Microsoft Windows Server Update Services\\Documentation\\En |
 
-| ![](images/Cc720538.note(WS.10).gif)Not                                                                                                                                           |
+| ![](/security-updates/images/Cc720538.note(WS.10).gif)Not                                                                                                                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The latest version of WSUSSetup.exe is available on the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=47374) for Windows Server Update Services at http://go.microsoft.com/fwlink/?LinkId=47374. |
 
@@ -34,7 +34,7 @@ If you want to do an unattended installation, see [Appendix A: Unattended Instal
 
     For more information, see [Determine Where to Store Updates](https://technet.microsoft.com/3102c059-d7a4-49d8-8de8-299e730bb109) earlier in this guide.
 
-    ![](images/Cc720538.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
+    ![](/security-updates/images/Cc720538.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
 
 5.  On the **Database Options** page, you select the software used to manage the WSUS database. By default, WSUS offers to install WMSDE to computers running Windows Server 2003. You can specify where WSUS installs WMSDE. To accept the default setting, click **Install SQL Server desktop engine (Windows) on this computer**. If you cannot use WMSDE, click **Use an existing database server on this computer**, and select the instance name from the drop-down list.
 
@@ -42,7 +42,7 @@ If you want to do an unattended installation, see [Appendix A: Unattended Instal
 
     For more information, see [Choose the Database Used for WSUS](https://technet.microsoft.com/86b1e90d-307d-4b35-88a1-84baccd1ff63) earlier in this guide.
 
-    ![](images/Cc720538.bc0b73ad-b338-437c-a3c7-0299e819840d(WS.10).gif)
+    ![](/security-updates/images/Cc720538.bc0b73ad-b338-437c-a3c7-0299e819840d(WS.10).gif)
 
 6.  On the **Web Site Selection** page, you specify the Web site that WSUS will use. Note two important URLS: the URL to point client computers to WSUS and the URL for the WSUS console where you configure WSUS.
 
@@ -50,7 +50,7 @@ If you want to do an unattended installation, see [Appendix A: Unattended Instal
 
     For more information, see [Install and Configure IIS](https://technet.microsoft.com/6b2e1035-5b82-45f4-9f51-6cc0ca32fd60) earlier in this guide.
 
-    ![](images/Cc720538.64ed7643-a050-4f54-bf9f-04cf7931adc0(WS.10).gif)
+    ![](/security-updates/images/Cc720538.64ed7643-a050-4f54-bf9f-04cf7931adc0(WS.10).gif)
 
 7.  On the **Mirror Update Settings** page, you specify the management role for this WSUS server. If you want a central management topology, enter the name of the upstream WSUS server. If this is the first WSUS server on your network or you want a distributed management topology, skip this screen.
 
@@ -58,11 +58,11 @@ If you want to do an unattended installation, see [Appendix A: Unattended Instal
 
     For more information about management roles, see [Choose a Management Style](https://technet.microsoft.com/c18ab8e3-b76d-46a8-84e6-b46adb778098) earlier in this guide.
 
-    ![](images/Cc720538.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
+    ![](/security-updates/images/Cc720538.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
 
 8.  On the **Ready to Install Windows Server Update Services** page, click **Next**.
 
-    ![](images/Cc720538.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
+    ![](/security-updates/images/Cc720538.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
 
 9.  If the final page of the wizard confirms that the WSUS installation was successfully completed, click **Finish**.
 

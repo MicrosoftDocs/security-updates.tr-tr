@@ -31,11 +31,11 @@ Hak Hesabı Sertifikalarını Dışlama
     -   Hesap sertifikasını kullanıcı adına göre dışlamak için, dışlanacak hak hesabı sertifikasının **Kullanıcı adı**'nı tıklatın, dışlanacak kullanıcının adını yazın (*kullanıcı\_adı*@*etki\_alanı\_adı.com* biçiminde) ve sonra **Ekle**'yi tıklatın. Bu seçeneği Active Directory kullanıcı hesapları olmayan iç kullanıcıların hesap sertifikalarını dışlamak için kullanın.
     -   Hesap sertifikasını ortak anahtarına göre dışlamak için, dışlanacak hak hesabı sertifikasının **Ortak anahtar dizesi** bölümünü tıklatın, uygun hak hesabı sertifikası ortak anahtar dizesini yazın ve sonra **Ekle**'yi tıklatın. Bu seçeneği Active Directory kullanıcı hesapları olmayan dış kullanıcıların hesap sertifikalarını dışlamak için kullanın.
 
-    | ![](images/Cc747785.note(WS.10).gif)Not                                                                                                                                                                                                                             |
+    | ![](/security-updates/images/Cc747785.note(WS.10).gif)Not                                                                                                                                                                                                                             |
     |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Hesap sertifikasını dışlama listesinden silmek için, listedeki dışlanan hak hesap sertifikasını tıklatın ve sonra **Seçilen ortak anahtarları dışlama listesinden sil**'i tıklatın. O özel hesap sertifikasına sahip kullanıcı artık bu sunucudan RMS korumalı içerik için lisans alabilecektir. |
 
-    | ![](images/Cc747785.note(WS.10).gif)Not                           |
+    | ![](/security-updates/images/Cc747785.note(WS.10).gif)Not                           |
     |------------------------------------------------------------------------------------------------|
     | Hak hesabı sertifikalarını dışlamayı devre dışı bırakmak için **Devre dışı bırak**'ı tıklatın. |
 

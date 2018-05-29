@@ -13,11 +13,11 @@ After reviewing the previous topics, you are ready to install WSUS. You must log
 
 If you want to perform an unattended installation, see [Appendix A: Unattended Installations](https://technet.microsoft.com/89f11fc7-95b2-4ec4-b313-832b00fa315e) later in this guide.
 
-| ![](images/Cc720440.Important(WS.10).gif)Önemli                                                                                                                                                                                                                         |
+| ![](/security-updates/images/Cc720440.Important(WS.10).gif)Önemli                                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Be sure to read the WSUS Release Notes. Release notes often contain important late-breaking information about the release. Look for the WSUS Release Notes in the following location: &lt;*WSUSInstallationDrive*&gt;:\\Program Files\\Microsoft Windows Server Update Services\\Documentation\\En\\ |
 
-| ![](images/Cc720440.note(WS.10).gif)Not                                                                                                                                        |
+| ![](/security-updates/images/Cc720440.note(WS.10).gif)Not                                                                                                                                        |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The latest version of WSUS setup is available on the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=74472) for Windows Server Update Services at http://go.microsoft.com/fwlink/?LinkId=74472. |
 
@@ -68,7 +68,7 @@ Installing WSUS
 
 4.  Read the terms of the license agreement carefully. Click **I accept the terms of the License agreement**, and then click **Next**.
 
-    ![](images/Cc720440.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
+    ![](/security-updates/images/Cc720440.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
 
 5.  On the **Select Update Source** page, you can specify where client computers get updates. If you select the **Store updates locally** check box, updates are stored on WSUS, and you can select a location in the file system where updates should be stored. If you do not store updates locally, client computers connect to Microsoft Update to get approved updates.
 
@@ -76,13 +76,13 @@ Installing WSUS
 
     For more information, see [Determine Where to Store WSUS Updates](https://technet.microsoft.com/aa4d106e-830e-4074-8675-bc52b2ada094) earlier in this guide.
 
-    ![](images/Cc720440.c8bac396-ca39-4491-8b0c-742a0e470535(WS.10).gif)
+    ![](/security-updates/images/Cc720440.c8bac396-ca39-4491-8b0c-742a0e470535(WS.10).gif)
 
 6.  On the **Database Options** page, you select the software used to manage the WSUS database. By default, WSUS offers to install Windows İç Veritabanı. To accept the default setting, click **Install Microsoft SQL Server 2005 Embedded Edition (Windows) on this computer**. If you cannot use Windows İç Veritabanı, click **Using an existing database server on this computer**, and select the instance name from the drop-down list. The instance name should appear as &lt;*serverName*&gt;\\&lt;*instanceName*&gt;, where *serverName* is the name of the server and *instanceName* is the name of the SQL instance. Make your selection, and then click **Next**.
 
     For more information, see [Choose the Database Used for WSUS 3.0](https://technet.microsoft.com/6f51cae4-4b1e-4a4b-81ef-cc92dd3644fd) earlier in this guide.
 
-    ![](images/Cc720440.36c6af0c-a61e-4151-ae50-c754a106cb1b(WS.10).gif)
+    ![](/security-updates/images/Cc720440.36c6af0c-a61e-4151-ae50-c754a106cb1b(WS.10).gif)
 
 7.  On the **Web Site Selection** page, you specify the Web site that WSUS will use to point client computers to WSUS. If you wish to use the default IIS Web site on port 80, select the first option. If you already have a Web site on port 80, you can create an alternate site on port 8530 by selecting the second option. Make your selection, and then click **Next**.
 

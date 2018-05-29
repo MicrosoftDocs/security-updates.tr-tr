@@ -45,7 +45,7 @@ Microsoft bir iptal listesi yayımladığında bu dosyayı aşağıdaki konumlar
 
 2.  Microsoft iptal listesi paketini karşıdan yükleyin ve Grup İlkesi veya Systems Management Server (SMS) gibi bir yöntem kullanarak kuruluşunuzdaki tüm istemci bilgisayarlara dağıtın. Bunun yerine, Microsoft iptal listesindeki girişleri kuruluş iptal listesine kopyalayıp, yalnızca bu kuruluş iptal listesini dağıtabilirsiniz.
 
-| ![](images/Cc747702.Caution(WS.10).gif)Dikkat                                                                                                                                                                                                                                                                        |
+| ![](/security-updates/images/Cc747702.Caution(WS.10).gif)Dikkat                                                                                                                                                                                                                                                                        |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Microsoft, RMS'nin yayınladığı tüm sertifikaların ve lisansların güven zincirinde bir asıl öğedir. Bu nedenle, kuruluş iptal listesini gerektiren hak ilkesi şablonuna göre kullanım lisansı alınan tüm bağlantı isteklerinde Microsoft'un yayınladığı iptal listesi etkili olur. Ayrıca, Microsoft iptal listesi istemci bilgisayara kaydedilir. |
 

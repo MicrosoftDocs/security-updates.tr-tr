@@ -11,7 +11,7 @@ Microsoft Windows Server Update Services 3.0 SP1 Operations Guide
 
 This guide describes the major tasks involved in administering and troubleshooting Windows Server Update Services.
 
-| ![](images/Cc708504.note(WS.10).gif)Not                                                                                                     |
+| ![](/security-updates/images/Cc708504.note(WS.10).gif)Not                                                                                                     |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A downloadable copy of this document is available at the [Download Center](http://go.microsoft.com/fwlink/?linkid=86697) (http://go.microsoft.com/fwlink/?LinkId=86697). |
 

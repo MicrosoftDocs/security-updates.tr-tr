@@ -13,7 +13,7 @@ If you use WSUS to update Microsoft Office on your network computers, consider t
 
 -   You must use an original baseline source for Microsoft Office Administrative Install Points (AIP) to use WSUS to update Office on client computers. If you are applying updates to the AIP, you cannot use WSUS. The two methods of applying updates are mutually exclusive. If you have applied an update to an AIP and want to roll back the AIP to an original baseline source, use the instructions found at the Microsoft Support Web site at [http://go.microsoft.com/fwlink/?LinkId=63962](http://go.microsoft.com/fwlink/?linkid=63962).
 
-| ![](images/Cc720493.Important(WS.10).gif)Önemli                                      |
+| ![](/security-updates/images/Cc720493.Important(WS.10).gif)Önemli                                      |
 |-------------------------------------------------------------------------------------------------------------------|
 | Administrative Install Points are relevant only to Office XP and Office 2003. They are not used with Office 2007. |
 

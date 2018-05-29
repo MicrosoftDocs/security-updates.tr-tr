@@ -19,7 +19,7 @@ Günlük veritabanı çok fazla büyürse, istediğiniz an bu veritabanını far
     -   LoggingDatabaseServer ilkesinin değerini yeni veritabanı sunucusunun adını yansıtacak şekilde değiştirin.
     -   LoggingDatabaseName ilkesinin değerini yeni veritabanının adını yansıtacak şekilde değiştirin.
 
-    | ![](images/Cc720238.note(WS.10).gif)Not                                                                                                                                                           |
+    | ![](/security-updates/images/Cc720238.note(WS.10).gif)Not                                                                                                                                                           |
     |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | SQL Server Enterprise Manager, db\_variant alanlarla çalışmadığından, bu görev için kullanılamaz. Bunun yerine, SQL Server'la birlikte verilen Query Analyzer'ı veya başka bir veritabanı düzenleme aracını kullanabilirsiniz. |
 

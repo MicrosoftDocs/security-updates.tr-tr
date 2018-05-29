@@ -30,7 +30,7 @@ Use the **Update Files** section to determine whether update files will be store
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939910.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939910.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -88,7 +88,7 @@ Use the **Languages** section to select the language of the updates to synchroni
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939910.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939910.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

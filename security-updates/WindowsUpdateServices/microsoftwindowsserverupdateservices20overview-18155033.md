@@ -11,7 +11,7 @@ Microsoft Windows Server Update Services 2.0 Overview
 
 Microsoft® Windows™ Server Update Services (WSUS) enables information technology administrators to deploy the latest Microsoft product updates to Microsoft Windows Server 2000, Windows Server 2003, and Windows XP operating systems. By using WSUS, administrators can fully manage the distribution of updates that are released through Microsoft Update to computers in their network.
 
-| ![](images/Cc720490.note(WS.10).gif)Not                                                                                                                |
+| ![](/security-updates/images/Cc720490.note(WS.10).gif)Not                                                                                                                |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A downloadable copy of this document is available on the Microsoft Download Center at [http://go.microsoft.com/fwlink/?LinkId=58285](http://go.microsoft.com/fwlink/?linkid=58285). |
 

@@ -18,7 +18,7 @@ Yapılandırma veritabanı geçişine başlamadan önce, aşağıdaki bilgilere 
 -   Bu veritabanını kullanan RMS kümesi içindeki sunucuları sağlamak için önceden kullanılan hesap adı ve parolası.
 -   RMS özel anahtarını saklamak için yazılım tabanlı bir şifreleme hizmeti sağlayıcısı (CSP) kullanılıyorsa, sağlama sırasında önceden belirtilmiş olan RMS özel anahtar parolası. RMS özel anahtar parolasını saklamak için bir donanım güvenlik modülü (HSM) kullanılıyorsa, bu adım gerekli değildir.
 
-| ![](images/Cc747607.note(WS.10).gif)Not                                                                                                               |
+| ![](/security-updates/images/Cc747607.note(WS.10).gif)Not                                                                                                               |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Yapılandırma veritabanını geçirme yeni bir sunucu lisans sertifikası veya yeni bir sunucu özel anahtarı gerektirmez. Çünkü RMS özgün yapılandırma veritabanındaki ayarları saklar. |
 
@@ -29,7 +29,7 @@ Yapılandırma veritabanını geçirmek için aşağıdaki adımları kullanın:
 -   Yeni veritabanı sunucusunun adını yansıtmak için RMS yapılandırma veritabanını güncelleştirin.
 -   Yeni veritabanı sunucu adını kullanmaları için RMS kümesinde bulunan her sunucudaki web.config dosyasını ve kayıt defterini güncelleştirin
 
-| ![](images/Cc747607.Important(WS.10).gif)Önemli                                                          |
+| ![](/security-updates/images/Cc747607.Important(WS.10).gif)Önemli                                                          |
 |---------------------------------------------------------------------------------------------------------------------------------------|
 | Bu konu RMS veritabanlarını barındıracak olan yeni veritabanı sunucusuna, RMS veritabanlarının önceden kopyalanmış olduğunu varsayar. |
 
@@ -130,7 +130,7 @@ RMS kümesindeki her sunucuda web.config dosyalarını güncelleştirmek için:
 
 Yeni veritabanı sunucu adını kullanmaları için RMS kümesinde bulunan her sunucudaki kayıt defterini güncelleştirin
 
-| ![](images/Cc747607.Caution(WS.10).gif)Dikkat                                                                                        |
+| ![](/security-updates/images/Cc747607.Caution(WS.10).gif)Dikkat                                                                                        |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kayıt defterinin yanlış düzenlenmesi sisteminize zarar verebilir. Kayıt defterinde değişiklik yapmadan önce, bilgisayarınızdaki önemli verileri yedeklemelisiniz. |
 

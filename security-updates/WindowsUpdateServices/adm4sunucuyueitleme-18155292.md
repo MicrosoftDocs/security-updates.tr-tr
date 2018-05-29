@@ -13,7 +13,7 @@ Ağ bağlantısını yapılandırdıktan sonra güncelleştirmeleri alabilirsini
 
 Eşitleme, WSUS sunucusunun Microsoft Update sitesiyle iletişim kurmasını içerir. İletişim kurulduktan sonra WSUS, son eşitlemeden sonra kullanıma sunulan yeni güncelleştirmeler olup olmadığını belirler. WSUS sunucusunu ilk kez eşitlediğinizden tüm güncelleştirmeler kullanılabilir durumdadır ve yükleme için onayınıza hazırdır.
 
-| ![](images/Cc708523.note(WS.10).gif)Not                                                                                                                                                                                                                       |
+| ![](/security-updates/images/Cc708523.note(WS.10).gif)Not                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu inceleme, varsayılan ayarları kullanarak eşitlemeyi açıklar, ancak WSUS, eşitleme sırasında bant genişliğini en aza indirmenizi sağlayan seçenekler içerir. Daha fazla bilgi için “Microsoft Server Windows Update Services'ı Dağıtma” teknik incelemesine bakın (Belge İngilizce'dir). |
 

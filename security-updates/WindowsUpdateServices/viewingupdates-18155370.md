@@ -41,6 +41,6 @@ On the **Updates** page, you can do the following:
     -   The **Status** tab displays download, approval, and installation status for the update by computer group. You can further expand computer groups to see update status by computer.
     -   The **Revisions** tab displays revision information about the update, including general properties about the revision and approval status.
 
-| ![](images/Cc708613.note(WS.10).gif)Not                                                                                             |
+| ![](/security-updates/images/Cc708613.note(WS.10).gif)Not                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | You can perform this procedure on only one update at a time. If you select multiple updates, the first update selected will be displayed in the properties pane. |

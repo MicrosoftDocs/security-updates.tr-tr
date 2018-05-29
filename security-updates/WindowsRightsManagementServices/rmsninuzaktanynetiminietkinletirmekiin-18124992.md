@@ -24,7 +24,7 @@ RMS'nin Uzaktan Yönetimini Etkinleştirme
 
 4.  **\_wmcs** klasörünü sağ tıklatın ve **Özellikler**'i tıklatın. **Dizin Güvenliği** sekmesinde, **Güvenli iletişim** altında, **Düzenle**'yi tıklatın, **Güvenli kanal kullanılmasını iste**'yi ve sonra **Tamam**'ı tıklatın. Bu, Güvenli Yuva Katmanı (SSL) korumasını RMS Web hizmetlerine uygular. IIS'yi kullanarak Web sitelerini yönetme hakkında daha fazla bilgi için, IIS Yardımı'na başvurun.
 
-    | ![](images/Cc720181.Important(WS.10).gif)Önemli                                                                                                                                                                                                               |
+    | ![](/security-updates/images/Cc720181.Important(WS.10).gif)Önemli                                                                                                                                                                                                               |
     |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Daha fazla güvenlik sağlamak ve RMS yönetimi Web sayfalarına uzaktan HTTP erişimini etkinleştirmek için, RMS Web hizmetlerini SSL ile güvenli hale getirebilirsiniz. RMS Web hizmetleri için SSL'yi etkinleştirmek istiyorsanız geçerli bir SSL Web sunucusu sertifikası alın ve yükleyin. |
 

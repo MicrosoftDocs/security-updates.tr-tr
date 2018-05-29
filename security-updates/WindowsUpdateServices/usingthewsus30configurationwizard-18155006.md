@@ -28,7 +28,7 @@ The Configuration Wizard allows you to configure the following areas:
 -   [Choose Update Classifications](#bkmk_classifications)
 -   [Configure the Synchronization Schedule](#bkmk_syncschedule)
 
-| ![](images/Cc720475.note(WS.10).gif)Not                            |
+| ![](/security-updates/images/Cc720475.note(WS.10).gif)Not                            |
 |-------------------------------------------------------------------------------------------------|
 | You will need to configure the upstream server and proxy server before configuring the updates. |
 
@@ -60,7 +60,7 @@ Specify the proxy server
 
 3.  At this point you are finished with proxy server configuration. Click **Next** to go to the **Connect to Upstream Server** page.
 
-| ![](images/Cc720475.Important(WS.10).gif)Önemli   |
+| ![](/security-updates/images/Cc720475.Important(WS.10).gif)Önemli   |
 |--------------------------------------------------------------------------------|
 | The proxy server should be configured to accept both HTTP and HTTPS resources. |
 
@@ -75,7 +75,7 @@ Connect to the upstream server
 
 3.  After the connection has completed successfully, click **Next**. If you have chosen to store updates locally, you will go to the **Choose Languages** page, or you can select a different page from the left pane.
 
-| ![](images/Cc720475.note(WS.10).gif)Not                                                                                                                                                                                                            |
+| ![](/security-updates/images/Cc720475.note(WS.10).gif)Not                                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If the connection to your upstream WSUS server (either Microsoft Update or an intranet WSUS server) fails, you will see a message at the bottom of the screen. Typically it will say something like "An HTTP error occurred." For more information, click the **Details** link. |
 
@@ -99,7 +99,7 @@ If you are configuring a downstream server, use the following procedure.
 
 2.  If the upstream server will download update files in all languages, and you want the downstream server to do the same, select **Download updates in all languages supported by the upstream server**. This setting will cause the upstream server to download updates in all languages, including languages that were not originally set up for the upstream server.
 
-| ![](images/Cc720475.Important(WS.10).gif)Önemli                                                                                                                                                       |
+| ![](/security-updates/images/Cc720475.Important(WS.10).gif)Önemli                                                                                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Selecting the **Download updates in all languages** option on a download server will modify the upstream server's behavior to download update files in all languages, no matter how the upstream server was originally configured. |
 

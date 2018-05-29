@@ -11,7 +11,7 @@ Step 2 Import and Export: Copying Updates from File System
 
 Copy updates from the file system of the export server to the file system of the import server. These procedures use the Windows Backup or Restore Wizard, but you can use any utility you like. The object is to copy updates from the file system on the export server to the files system of the import server.
 
-| ![](images/Cc708579.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                              |
+| ![](/security-updates/images/Cc708579.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                              |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The initial settings for access control lists differ between Windows 2000 Server and Windows Server 2003. If you are copying content from Windows 2000 Server to Windows Server 2003, you have to manually add the Network Service group to the access control list for the folder where updates are stored. Give the Network Service group Full Control. |
 

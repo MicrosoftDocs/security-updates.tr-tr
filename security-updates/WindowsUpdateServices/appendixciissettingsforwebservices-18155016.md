@@ -149,7 +149,7 @@ You can use adsutil to find the paths for different Web services on your compute
 
 **W3SVC/***WebSiteID***/ROOT/SimpleAuthWebService**
 
-| ![](images/Cc720489.note(WS.10).gif)Not                                                                                              |
+| ![](/security-updates/images/Cc720489.note(WS.10).gif)Not                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If you have installed WSUS on the default Web site, *WebSiteID* will be 1, but if you have installed it on another Web site, *WebSiteID* will be a random number. |
 

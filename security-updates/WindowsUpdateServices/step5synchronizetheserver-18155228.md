@@ -13,7 +13,7 @@ After you configure the network connection, you can obtain updates. By default, 
 
 Synchronization involves the WSUS server contacting Microsoft Update. After making contact, WSUS determines if any new updates have been made available since the last time you synchronized. Because this is the first time you are synchronizing the WSUS server, all of the updates are available and are ready for your approval for installation.
 
-| ![](images/Cc708463.note(WS.10).gif)Not                                                                                                                                                                                       |
+| ![](/security-updates/images/Cc708463.note(WS.10).gif)Not                                                                                                                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | This paper describes synchronizing using the default settings, but WSUS includes options that enable you to minimize bandwidth use during synchronization. For more information, see the “Deploying Microsoft Server Windows Update Services” white paper. |
 

@@ -21,6 +21,6 @@ http://*sunucu\_adı*/\_wmcs/Certification
 
 http://*sunucu\_adı*/\_wmcs/Certification/Certification.asmx
 
-| ![](images/Cc720224.note(WS.10).gif)Not                           |
+| ![](/security-updates/images/Cc720224.note(WS.10).gif)Not                           |
 |------------------------------------------------------------------------------------------------|
 | RMS sunucunuzda SSL'yi etkinleştirdiyseniz, bu URL'ler https:// bağlantı protokolünü kullanır. |

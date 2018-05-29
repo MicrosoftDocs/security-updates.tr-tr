@@ -16,7 +16,7 @@ Importing hotfixes from the Microsoft Update catalog site
 
 In order to import hotfixes into WSUS, you must access the Microsoft Update catalog site from a WSUS computer.
 
-| ![](images/Cc708583.note(WS.10).gif)Not                                                                                                                                                                         |
+| ![](/security-updates/images/Cc708583.note(WS.10).gif)Not                                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Any computer that has the WSUS administrative console installed, whether or not it is a WSUS server, can be used to import hotfixes from the catalog site. You must be logged on to the computer as an administrator to import the hotfixes. |
 

@@ -25,7 +25,7 @@ You must download and expand the MSDE archive to a folder on your WSUS server. T
 
 3.  In the **Installation Folder** box, type a path, and then click **Finish**. For example, type **C:\\MSDE2000**. The MSDE archive copies MSDE installation files to the installation folder you specify.
 
-    ![](images/Cc720508.60cab3b6-6b99-4cb2-a323-c5c4971379e9(WS.10).gif)
+    ![](/security-updates/images/Cc720508.60cab3b6-6b99-4cb2-a323-c5c4971379e9(WS.10).gif)
 
 Step 2: Install MSDE
 --------------------
@@ -48,7 +48,7 @@ Use a command prompt and command-line options to run MSDE Setup, set the sa pass
 
 3.  Scroll down the list of services, and verify that a service named MSSQL$WSUS exists.
 
-    ![](images/Cc720508.9363f165-1d85-49c6-a314-ebb77f794cf5(WS.10).gif)
+    ![](/security-updates/images/Cc720508.9363f165-1d85-49c6-a314-ebb77f794cf5(WS.10).gif)
 
 Step 3: Update MSDE
 -------------------
@@ -66,14 +66,14 @@ To read bulletin MS03-031, go to the [Microsoft Help and Support](http://go.micr
 
 4.  On the **Instance to Update** page, use the **Instance** box to select the WSUS instance, and then click **Next**.
 
-    ![](images/Cc720508.7f6a05b7-9eac-4679-a205-18af68b24566(WS.10).gif)
+    ![](/security-updates/images/Cc720508.7f6a05b7-9eac-4679-a205-18af68b24566(WS.10).gif)
 
 5.  On the **Authentication Mode** page, select **Windows Authentication**, and then click **Next**.
 
-    ![](images/Cc720508.1d48da9c-16ba-42a2-83d0-03abdfc7f71f(WS.10).gif)
+    ![](/security-updates/images/Cc720508.1d48da9c-16ba-42a2-83d0-03abdfc7f71f(WS.10).gif)
 
 6.  On the **Ready to Install** page, click **Install**.
 
-    ![](images/Cc720508.13e7760b-09b3-4e07-b06c-9a7bdbd7929f(WS.10).gif)
+    ![](/security-updates/images/Cc720508.13e7760b-09b3-4e07-b06c-9a7bdbd7929f(WS.10).gif)
 
 7.  On the **Hotfix Complete** page, click **Finish**.

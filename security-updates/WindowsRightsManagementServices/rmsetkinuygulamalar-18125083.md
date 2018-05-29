@@ -21,7 +21,7 @@ E-posta ve Web sayfalarındaki RMS korumalı içeriği kullanmak için başka bi
 
 Internet Explorer için Hak Yönetimi Eklentisi'ni [Microsoft Web sitesiden](http://go.microsoft.com/fwlink/?linkid=14450) (http://go.microsoft.com/fwlink/?LinkId=14450) yükleyebilirsiniz.
 
-| ![](images/Cc720231.note(WS.10).gif)Not                                                                                                                      |
+| ![](/security-updates/images/Cc720231.note(WS.10).gif)Not                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Internet Explorer için Hak Yönetimi Eklentisi'ni Windows XP Service Pack 2 ile kullanıyorsanız, geliştirilmiş güvenlik yapılandırması bazı uygulama uyumluluk sorunlarına neden olabilir. |
 

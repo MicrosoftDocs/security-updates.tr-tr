@@ -11,7 +11,7 @@ Issues with the Database
 
 If you have problems with the SQL Server database or Windows İç Veritabanı, make sure that the WSUS database in question is in the correct SQL instance before starting to troubleshoot SQL issues.
 
-| ![](images/Cc708592.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                       |
+| ![](/security-updates/images/Cc708592.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | You will need to use the **sqlcmd** utility, which can be downloaded from [Feature Pack for Microsoft SQL Server 2005](http://go.microsoft.com/fwlink/?linkid=81081) (http://go.microsoft.com/fwlink/?LinkId=81081). For more information about the **sqlcmd** utility, see [sqlcmd Utility](http://go.microsoft.com/fwlink/?linkid=81183) (http://go.microsoft.com/fwlink/?LinkId=81183). |
 

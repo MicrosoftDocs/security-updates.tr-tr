@@ -79,6 +79,6 @@ On the **Updates** page, you can do the following:
     6.  The languages supported by the update
     7.  The update ID
 
-| ![](images/Cc708436.note(WS.10).gif)Not                                                                                                    |
+| ![](/security-updates/images/Cc708436.note(WS.10).gif)Not                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | You can perform this procedure on only one update at a time. If you select multiple updates, the first update in the list will be displayed in the **Properties** pane. |

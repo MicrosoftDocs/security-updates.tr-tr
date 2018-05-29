@@ -13,11 +13,11 @@ Bu yordamı uygulamak için, eriştiğiniz bilgisayarda Administrators grubunun 
 
 RMS'yi yüklediğiniz bilgisayar, bir etki alanında üye sunucu veya bir etki alanı denetleyicisi olmalıdır. RMS'yi bir çalışma grubundaki bağımsız çalışan bir sunucuya dağıtamazsınız.
 
-| ![](images/Cc747689.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ![](/security-updates/images/Cc747689.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | İlk kök sertifika sunucusunun hem yüklenmesini hem de hazırlanmasını tamamlayıncaya kadar RMS'yi başka herhangi bir sunucuda hazırlamayın. Yönergeler için bkz: [İlk Kök Sertifika Sunucusunu Sağlamak için](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2)", [Lisans Sunucusu Sağlamak için](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e)" veya "[Kümeye Sunucu Eklemek için](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733)". |
 
-| ![](images/Cc747689.Important(WS.10).gif)Önemli                                                                                                                                                                                                |
+| ![](/security-updates/images/Cc747689.Important(WS.10).gif)Önemli                                                                                                                                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RMS SP1, etkin olarak RMS'nin daha önceki sürümünü çalıştıran bir sunucuya yüklenebilir. Bununla birlikte, RMS'nin yetkisini aldıysanız, yeni bir RMS SP1 örneği yüklemeyi denemeden önce Program Ekle veya Kaldır kullanılarak RMS'nin tamamen kaldırılmış olması gerekir. |
 
@@ -38,7 +38,7 @@ RMS Service Pack 1 Yükleme
 
 6.  **Yükleme Tamamlandı** iletişim kutusu göründüğünde, **Kapat**'ı tıklatın.
 
-    | ![](images/Cc747689.note(WS.10).gif)Not                                                        |
+    | ![](/security-updates/images/Cc747689.note(WS.10).gif)Not                                                        |
     |-----------------------------------------------------------------------------------------------------------------------------|
     | "Uygulama yeniden başlıyor" hata iletisi görünürse, Microsoft Internet Explorer'daki **Genel Yönetim** sayfasını yenileyin. |
 

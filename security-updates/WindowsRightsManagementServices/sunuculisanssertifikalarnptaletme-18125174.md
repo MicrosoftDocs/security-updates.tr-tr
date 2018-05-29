@@ -54,6 +54,6 @@ Kök sertifika sunucu kümesinin sunucu lisans sertifikası iptal edildikten son
 
 Her iki senaryoda da (Microsoft'uniptal etmesi veya üçüncü tarafın iptal etmesi), iptal listesi, kullanım lisansının güven zincirindeki bir yetkilinin özel anahtarıyla imzalandığından, tüm bağlantı istekleri için geçerli olur. Bu nedenle, RMS yüklemesinin iptal edilen sunucu lisans sertifikasını kullanarak verdiği lisansları kapsayan tüm bağlama istekleri başarısız olur.
 
-| ![](images/Cc747578.note(WS.10).gif)Not                                      |
+| ![](/security-updates/images/Cc747578.note(WS.10).gif)Not                                      |
 |-----------------------------------------------------------------------------------------------------------|
 | Microsoft, sunucu lisans sahibi sertifikasını yalnızca mahkeme kararı gerektirdiği zaman iptal edecektir. |

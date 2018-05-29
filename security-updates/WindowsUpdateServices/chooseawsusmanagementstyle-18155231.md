@@ -16,7 +16,7 @@ Centralized management
 
 Centrally managed WSUS servers utilize replica servers. Replica servers are not administered separately, and are used only to distribute approvals, groups, and updates. The approvals and targeting groups you create on the master server are replicated throughout the entire organization, as shown in the "WSUS Centralized Management (Replica Servers)" illustration below. Remember that computer group membership is not distributed throughout the replica group, only the computer groups themselves. In other words, you always have to load client computers into computer groups.
 
-![](images/Cc708500.083de7cf-2c9b-4f0e-8e6c-5f5dc3d8217b(WS.10).gif)
+![](/security-updates/images/Cc708500.083de7cf-2c9b-4f0e-8e6c-5f5dc3d8217b(WS.10).gif)
 
 It is possible that not all the sites in your organization require the same computer groups. The important thing is to create enough computer groups on the administered server to satisfy the needs of the rest of the organization. Computers at different sites can be moved into a group appropriate for the site. Meanwhile, computer groups inappropriate for a particular site simply remain empty. All update approvals, like computer groups, must be created on the master server. For step-by-step instructions, see [Create Replica Servers](https://technet.microsoft.com/9c90a11c-3b98-43bb-b04c-9713dcf5ccf7) later in this guide.
 
@@ -27,4 +27,4 @@ Distributed management
 
 Distributed management offers you full control over approvals and computer groups for the WSUS server, as shown in the "WSUS Distributed Management" illustration below. With the distributed management model, there is usually an administrator at each site who decides which update languages are needed, creates computer groups, assigns computers to groups, tests and approves updates, and ensures that the correct updates are installed on the right computer groups. Distributed management is the default installation option for all WSUS installations.
 
-![](images/Cc708500.0275a78f-d343-4144-92ac-ba298def3bfd(WS.10).gif)
+![](/security-updates/images/Cc708500.0275a78f-d343-4144-92ac-ba298def3bfd(WS.10).gif)

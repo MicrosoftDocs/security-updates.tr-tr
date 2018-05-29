@@ -31,7 +31,7 @@ Updates are made available by product. For each product, updates are differentia
 -   A *product* is a specific edition of an operating system or application (for example Windows Server 2003, Datacenter Edition). A product family is the base operating system or application from which the products are derived. An example of a product family is Microsoft Windows, of which Windows Server 2003, Datacenter Edition, is a member.
 -   The update *classification* represents the type of update. For any given product or product family, updates could be available among multiple classifications (for example, Windows XP family critical updates and security updates). For definitions of update classifications, see [Description of the standard terminology that is used to describe Microsoft software updates](http://support.microsoft.com/?kbid=824684).
 
-| ![](images/Cc708465.note(WS.10).gif)Not |
+| ![](/security-updates/images/Cc708465.note(WS.10).gif)Not |
 |----------------------------------------------------------------------|
 | WSUS only supports updating products by computer, not by user.       |
 

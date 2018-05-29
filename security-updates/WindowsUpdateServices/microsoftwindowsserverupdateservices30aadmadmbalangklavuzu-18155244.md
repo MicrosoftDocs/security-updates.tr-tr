@@ -18,6 +18,6 @@ Microsoft Windows Server Update Services (WSUS) 3.0, ağınızda güncelleştirm
 
 WSUS 3.0'ın özellikler bakımından zengin bir güncelleştirme yönetimi çözümü olmasına karşın, bu kılavuz yukarıdaki görevleri yerine getirmek için tek bir yol sunar. Bir görevi farklı yollarla gerçekleştirme seçenekleri olduğunda, alternatif yollar belirtilir.
 
-| ![](images/Cc708519.note(WS.10).gif)Not                                                                                 |
+| ![](/security-updates/images/Cc708519.note(WS.10).gif)Not                                                                                 |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu belgenin bir kopyasını karşıdan yüklemek için, bkz: [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190). |

@@ -11,7 +11,7 @@ Step 4: Synchronize Your Server
 
 After you configure the network connection, you must synchronize the server. When you synchronize, the server contacts Microsoft Update and determines whether any new updates have been made available since the last time you synchronized. Because this is the first time you are synchronizing, all available updates appear for you to approve for installation.
 
-| ![](images/Cc708552.note(WS.10).gif)Not                                                                                                                                                                                                                                                                        |
+| ![](/security-updates/images/Cc708552.note(WS.10).gif)Not                                                                                                                                                                                                                                                                        |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | This paper describes synchronization using some bandwidth optimizations during synchronization. For more information about further optimizing bandwidth, see “Deploying Microsoft Server Windows Update Services” at the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=41171) (http://go.microsoft.com/fwlink/?linkid=41171). |
 
@@ -29,7 +29,7 @@ Consider changing the default language options for updates. By default, WSUS is 
 
 2.  Under **Tasks**, click **Synchronize now**.
 
-| ![](images/Cc708552.note(WS.10).gif)Not                                                                                                     |
+| ![](/security-updates/images/Cc708552.note(WS.10).gif)Not                                                                                                     |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The time required for synchronization depends on a number of things, including Internet connection speed and the number of products and update classifications selected. |
 
@@ -47,6 +47,6 @@ By default, WSUS offers Critical and Security Updates for all Windows products t
 
 3.  Select **Windows Small Business Server**. Additionally, to update all components that are integrated with Windows SBS, you must select those specific products. For example, select Exchange Server 2003, SQL Server™, and Office 2003 (to update the Outlook component).
 
-| ![](images/Cc708552.note(WS.10).gif)Not                                         |
+| ![](/security-updates/images/Cc708552.note(WS.10).gif)Not                                         |
 |--------------------------------------------------------------------------------------------------------------|
 | If you add products like SQL Server, Exchange, or Office, you must synchronize the server at least one time. |

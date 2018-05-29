@@ -19,6 +19,6 @@ Aşağıdakilerden birini yapın:
 
 Yapılandırma veritabanındaki hak ilkesi şablonu verilerini geri yüklemeniz gerekiyorsa, yapılandırma veritabanının yedek kopyasındaki DRMS\_RightsTemplate adındaki tablodan GUID ve TemplateData bilgilerini ayıklayabilir veya basitçe verileri metin dosyasından alabilirsiniz. Bu görevleri yerine getirme hakkında daha fazla bilgi için SQL Server belgelerine bakın.
 
-| ![](images/Cc747625.note(WS.10).gif)Not                            |
+| ![](/security-updates/images/Cc747625.note(WS.10).gif)Not                            |
 |-------------------------------------------------------------------------------------------------|
 | Hak ilkesi şablonlarını yedeklemek üzere bir plan yapmak için SQL Server yöneticinize başvurun. |

@@ -18,7 +18,7 @@ Troubleshooting client not reporting issues
 
 Some clients have been affected by a known issue with Windows Server 2003 http.sys and IIS. In some cases this transient issue will prevent clients from checking in, because they receive incorrect responses from the server after a number of attempts. Further information about the issue can be found at [FIX: IIS 6.0 may send an "HTTP 100 Continue" response in the middle of the response stream when you send a POST request](http://go.microsoft.com/fwlink/?linkid=80715) (http://go.microsoft.com/fwlink/?LinkId=80715).
 
-| ![](images/Cc708627.note(WS.10).gif)Not                                                                                                                                                                                                              |
+| ![](/security-updates/images/Cc708627.note(WS.10).gif)Not                                                                                                                                                                                                              |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Failure of clients to contact the server is not related to compression. Administrators should not disable IIS compression, because allowing noncompressed data can increase network traffic and server load, while reducing the number of clients that can be served effectively. |
 
@@ -37,7 +37,7 @@ Ensure that the client connection to the WSUS server is working properly.
 
 5.  If the WSUS server is functioning properly, you should see a **File Download** window asking you whether to open or save the file. Close the window.
 
-| ![](images/Cc708627.note(WS.10).gif)Not                                                                                                                                                                                     |
+| ![](/security-updates/images/Cc708627.note(WS.10).gif)Not                                                                                                                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If you do not see the **File Download** window, make sure that the client self-update tree has been configured properly. For more information, see [Issues with Client Self-Update](https://technet.microsoft.com/0cfbb910-fa13-4d9d-9d53-24e85c8835d2). |
 

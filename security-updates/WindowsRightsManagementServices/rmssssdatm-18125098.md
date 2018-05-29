@@ -77,7 +77,7 @@ RMS yüklemesini düzgün bir şekilde geri almak için aşağıdaki yordamı uy
 
 6.  RMS istemcileri Windows XP ve Windows 2000 çalıştırıyorsa, istemci bilgisayarlardan RMS istemcisini kaldırın.
 
-| ![](images/Cc720274.Important(WS.10).gif)Önemli                                                                                                |
+| ![](/security-updates/images/Cc720274.Important(WS.10).gif)Önemli                                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu yordam tamamlandıktan sonra, telif haklı içeriği açamazsınız. Değerli verileri korumak için RMS kullanıldıysa, RMS yüklemesini geri almadan önce RMS'nin yetkisini alın. |
 

@@ -11,7 +11,7 @@ Deploying Microsoft Windows Server Update Services 2.0
 
 This guide describes how to deploy Microsoft® Windows Server™ Update Services (WSUS). You will find a comprehensive description of how WSUS functions, as well as descriptions of WSUS scalability and bandwidth management features. This guide also offers step-by-step procedures for installation and configuration of the WSUS server. You will read how to update and configure Automatic Updates on client workstations and servers that will be updated by WSUS. Also included are steps for migrating from Microsoft Software Update Services (SUS) to WSUS, as well as steps for setting up a WSUS server on an isolated segment of your network and manually importing updates.
 
-| ![](images/Cc708532.note(WS.10).gif)Not                                                                               |
+| ![](/security-updates/images/Cc708532.note(WS.10).gif)Not                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|
 | A downloadable copy of this document is available at [http://go.microsoft.com/fwlink/?LinkId=49069](http://go.microsoft.com/fwlink/?linkid=49069). |
 

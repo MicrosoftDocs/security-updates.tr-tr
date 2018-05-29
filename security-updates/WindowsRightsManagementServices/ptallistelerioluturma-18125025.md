@@ -11,7 +11,7 @@ ms:mtpsurl: 'https://technet.microsoft.com/tr-tr/library/Cc720208(v=WS.10)'
 
 İptal işlemini uygulama, Genişletilebilir Haklar Biçimlendirme Dili (XrML) kullanan XML belgesi olan bir iptal listesi dağıtmanızı gerektirir ve haklarla korunan içeriğe artık erişimi olmaması gereken sorumluların listesini verir. RMS ile birlikte verilen İptal Listesi İmzalama aracı (RLsigner.exe) kullanılarak zaman damgası vurulmuş ve uygun bir biçimde imzalanmış iptal listeleri oluşturmanız gerekir.
 
-| ![](images/Cc720208.Important(WS.10).gif)Önemli                                                       |
+| ![](/security-updates/images/Cc720208.Important(WS.10).gif)Önemli                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------|
 | RLsigner.exe kullanarak iptal listesini imzalamak için, iptal listesi dosyasını bir unicode dosyası olarak kaydetmeniz gereklidir. |
 
@@ -31,7 +31,7 @@ BODY öğesi dört alt öğe içerir:
 
 Örnek bir iptal liste dosyası aşağıda gösterilmiştir.
 
-| ![](images/Cc720208.note(WS.10).gif)Not                                                    |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Not                                                    |
 |-------------------------------------------------------------------------------------------------------------------------|
 |ISSUEDTIME, PUBLICKEY ve SIGNATURE öğeleri RLsigner.exe tarafından ekleneceği veya üzerine yazılacağı için atlanabilir.|
 
@@ -61,7 +61,7 @@ BODY öğesi dört alt öğe içerir:
 </XrML>
 ```
         
-| ![](images/Cc720208.Caution(WS.10).gif)Dikkat                                             |
+| ![](/security-updates/images/Cc720208.Caution(WS.10).gif)Dikkat                                             |
 |------------------------------------------------------------------------------------------------------------------------|
 | İptal listesinde URL'yi belirtirken, RMS SP1 veya RMS SP2 içinde artık UNC yolu desteklenmez. Bir URL kullanmalısınız. |
 
@@ -169,7 +169,7 @@ AAn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2
       </REVOKE>
 ```
 
-| ![](images/Cc720208.note(WS.10).gif)Not                                                                                                                                                            |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Not                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bir kimlik türü belirtirken, genel benzersiz tanımlayıcı (GUID) ve kapatma etiketi arasında satırbaşı işareti olmadığından emin olun. Yanlışlıkla bir satırbaşı işareti eklenmişse, RMS istemcisi iptal listesini ayrıştıramaz. |
 
@@ -184,7 +184,7 @@ AAn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2
       </REVOKE>
 ```
 
-| ![](images/Cc720208.note(WS.10).gif)Not                                                                                                                                                            |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Not                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bir kimlik türü belirtirken, genel benzersiz tanımlayıcı (GUID) ve kapatma etiketi arasında satırbaşı işareti olmadığından emin olun. Yanlışlıkla bir satırbaşı işareti eklenmişse, RMS istemcisi iptal listesini ayrıştıramaz. |
 
@@ -200,7 +200,7 @@ AAn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2
       </REVOKE>
 ```
 
-| ![](images/Cc720208.note(WS.10).gif)Not                                                                                                                                               |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Not                                                                                                                                               |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bir kimlik türü belirtirken, Windows hesabı SID'si ve kapatma etiketi arasında satırbaşı işareti olmadığından emin olun. Yanlışlıkla bir satırbaşı işareti eklenmişse, RMS istemcisi iptal listesini ayrıştıramaz. |
 
@@ -216,7 +216,7 @@ AAn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2
       </REVOKE>
 ```
 
-| ![](images/Cc720208.note(WS.10).gif)Not                                                                                                                                                               |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Not                                                                                                                                                               |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bir kimlik türü belirtirken, asıl öğe benzersiz tanımlayıcı (PUID) ve kapatma etiketi arasında satırbaşı işareti olmadığından emin olun. Yanlışlıkla bir satırbaşı işareti eklenmişse, RMS istemcisi iptal listesini ayrıştıramaz. |
 
@@ -247,7 +247,7 @@ AAn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2
 
 4.  İptal listesi dosyasına bir imza eklemek için RLsigner.exe aracını kullanın. Bu araç, RMS içinde bulunmaktadır. Varsayılan olarak, %systemdrive%\\Program Files\\Windows Rights Management Services\\Tools dizinindedir.
 
-| ![](images/Cc720208.note(WS.10).gif)Not |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Not |
 |----------------------------------------------------------------------|
 | RLsigner.exe boşluk içeren dosya isimlerini desteklemez.             |
 
@@ -257,7 +257,7 @@ RLsigner.exe kullanımı
 
 RLsigner.exe'yi çalıştırdığınız zaman, ilk önce anahtar dosyasında verilen özel anahtarı kullanarak bir imza oluşturur. Bunun ardından, sağladığınız iptal listesi dosyasına göre bir çıkış dosyası oluşturur.
 
-| ![](images/Cc720208.Important(WS.10).gif)Önemli                        |
+| ![](/security-updates/images/Cc720208.Important(WS.10).gif)Önemli                        |
 |-----------------------------------------------------------------------------------------------------|
 | İptal listesi dosyası RLsigner.exe ile kullanmak için unicode dosyası olarak kaydedilmiş olmalıdır. |
 
@@ -301,7 +301,7 @@ Komutun giriş parametrelerini tamamlamak için aşağıdaki bilgileri kullanın
 </tbody>
 </table>
   
-| ![](images/Cc720208.note(WS.10).gif)Not |  
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Not |  
 |----------------------------------------------------------------------|  
 | RLsigner.exe boşluk içeren dosya isimlerini desteklemez.             |
   

@@ -23,6 +23,6 @@ WSUS is the next version of Software Update Services (SUS). It builds on the fea
 -   Data migration and import/export capabilities.
 -   Extensibility through the application programming interface (API).
 
-| ![](images/Cc708440.note(WS.10).gif)Not                                                                                                                    |
+| ![](/security-updates/images/Cc708440.note(WS.10).gif)Not                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | For more information about WSUS features, see [Features of Windows Server Update Services](https://technet.microsoft.com/001d0ed9-6484-48db-b92d-d1c48dbb4efd), later in this document. |

@@ -264,7 +264,7 @@ When you run this command, WSUSutil.exe does the following:
   
 The destination folder where update files are moved to must be on an NTFS partition. The content move tool will not try to copy update files if they already exist in the destination folder. WSUSutil.exe sets the same permissions on the destination folder that were set on the original folder.
   
-| ![](images/Cc720466.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                             |  
+| ![](/security-updates/images/Cc720466.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                             |  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | You can use **xcopy**, the Backup utility, or other non-WSUS specific methods to copy update files from the old location into the new one. If you copy the files by using a method other than WSUSutil.exe, you still need to run WSUSutil.exe to perform the second part of the move. In this case you would use the **skipcopy** parameter when running WSUSutil.exe. See "Syntax" below for more information. |
   
@@ -348,7 +348,7 @@ With regular use, it is possible that the 2 GB will be reached quickly, as updat
   
 Unneeded revisions are revisions to software or drivers updates that have not been deployed to a computer group in at least one month; they are also the latest revisions to expired driver updates that have not been deployed to a computer group for at least one month. The one-month time period in both of these cases can be changed, indirectly. It automatically gets reduced by 7 to 15 days if you reduce the size of a database that is larger than 1 GB by less than 25 percent in the process of running this command.
   
-| ![](images/Cc720466.note(WS.10).gif)Not                                                                                                                                                                                              |  
+| ![](/security-updates/images/Cc720466.note(WS.10).gif)Not                                                                                                                                                                                              |  
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | For more information about the databases you can use with WSUS, see the "Choose the Database Used for WSUS" topic in [Deploying Microsoft Windows Update Services](http://go.microsoft.com/fwlink/?linkid=41777) at http://go.microsoft.com/fwlink/?LinkID=41777. |
   
@@ -358,7 +358,7 @@ At the command line *%drive%*\\Program Files\\Update Services\\Tools&gt;, type:
   
 **wsusutil deleteunneededrevisions**
   
-| ![](images/Cc720466.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                                          |  
+| ![](/security-updates/images/Cc720466.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                                          |  
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Before running this command, you must stop the World Wide Web publishing service in IIS. You must restart it only after you have finished running this command. To stop or start the IIS service, open IIS, navigate to and then right-click the Web site where WSUS is is installed (by default this is the Default Web Site), and then click **Stop** or **Start**. |
   

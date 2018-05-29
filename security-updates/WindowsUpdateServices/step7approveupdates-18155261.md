@@ -29,7 +29,7 @@ Step 7 contains the following procedures:
 
 5.  Click **OK**.
 
-| ![](images/Cc708485.note(WS.10).gif)Not                                                                                                                                                                                                                                                                           |
+| ![](/security-updates/images/Cc708485.note(WS.10).gif)Not                                                                                                                                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | There are many options associated with approving updates, such as setting deadlines and uninstalling updates. These are discussed in “Microsoft Windows Server Update Services Operations Guide,” which is available at the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=41171) (http://go.microsoft.com/fwlink/?linkid=41171). |
 

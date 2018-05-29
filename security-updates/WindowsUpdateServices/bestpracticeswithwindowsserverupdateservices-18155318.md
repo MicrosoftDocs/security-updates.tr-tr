@@ -16,7 +16,7 @@ Use Group Policy to Update Multiple Computers
 
 If you have set up Active Directory in your network, you can configure one or multiple computers simultaneously, by including them in a Group Policy object (GPO), and then configuring that GPO with WSUS settings. Microsoft recommends that you create a new Group Policy object (GPO) that contains only WSUS settings. Link this WSUS GPO to an Active Directory container appropriate for your environment. In a simple environment, you might link a single WSUS GPO to the domain. In a more complex environment, you might link multiple WSUS GPOs to several organizational units (OUs), which will enable you to apply different WSUS policy settings to different types of computers.
 
-| ![](images/Cc708536.Important(WS.10).gif)Önemli                            |
+| ![](/security-updates/images/Cc708536.Important(WS.10).gif)Önemli                            |
 |---------------------------------------------------------------------------------------------------------|
 | Microsoft recommends that you do not edit the **Default Domain** or **Default Domain Controller** GPOs. |
 

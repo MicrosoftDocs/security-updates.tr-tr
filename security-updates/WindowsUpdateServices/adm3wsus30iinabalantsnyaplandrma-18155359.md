@@ -21,7 +21,7 @@ Yapılandırma işlemine başlamadan önce, aşağıdaki soruların yanıtların
 
 Varsayılan olarak WSUS, güncelleştirmeleri almak için Microsoft Update'i kullanmak üzere yapılandırılmıştır. Ağınızda proxy sunucu varsa, WSUS'yi proxy sunucuyu kullanmak üzere yapılandırabilirsiniz. WSUS ve Internet arasında kurumsal güvenlik duvarı varsa, WSUS'nin güncelleştirmeleri alabildiğinden emin olmak için güvenlik duvarını yapılandırmanız gerekebilir.
 
-| ![](images/Cc708602.note(WS.10).gif)Not                                                                                                                       |
+| ![](/security-updates/images/Cc708602.note(WS.10).gif)Not                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Microsoft Update'ten güncelleştirmeleri yüklemek için Internet bağlantınızın olması gerekir; bununla birlikte WSUS, Internet'e bağlı olmayan ağlara güncelleştirmeleri alma olanağı sunar. |
 
@@ -48,7 +48,7 @@ Varsayılan olarak WSUS, güncelleştirmeleri almak için Microsoft Update'i kul
     -   http://wustat.windows.com
     -   http://ntservicepack.microsoft.com
 
-| ![](images/Cc708602.note(WS.10).gif)Not                                                                                                                                                                                         |
+| ![](/security-updates/images/Cc708602.note(WS.10).gif)Not                                                                                                                                                                                         |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Güvenlik duvarını yapılandırmayla ilgili bu yönergeler, WSUS ile Internet arasında yer alan kurumsal güvenlik duvarı içindir. WSUS kendi ağ trafiğinin tümünü başlattığından, WSUS sunucusu üzerinde Windows Güvenlik Duvarı'nı yapılandırmaya gerek yoktur. |
 
@@ -81,7 +81,7 @@ Aşağıdaki iki yordamda yapılandırma için WSUS Yönetimi ek bileşenini kul
 **WSUS Yönetimi konsolunu başlatmak için**
 -   WSUS Yönetimi konsolunu başlatmak için, **Başlat**'ı tıklatın, **Tüm Programlar**'ın üzerine gidin, **Yönetimsel Araçlar**'ın üzerine gidin ve sonra **Microsoft Windows Server Update Services 3.0**'ı tıklatın.
 
-| ![](images/Cc708602.note(WS.10).gif)Not                                                                                                                                                                                                                      |
+| ![](/security-updates/images/Cc708602.note(WS.10).gif)Not                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WSUS konsolunun tüm özelliklerini kullanabilmeniz için, WSUS'nin yüklendiği sunucuda WSUS Administrators WSUS'nin yüklendiği sunucuda ya da yerel Administrators üyesi olmanız gerekir. Ancak, WSUS Reporters güvenlik grubunun üyeleri yönetim konsolunda salt okuma erişimine sahiptir. |
 

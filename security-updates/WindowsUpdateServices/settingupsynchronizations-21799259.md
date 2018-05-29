@@ -18,7 +18,7 @@ During synchronization, your WSUS server downloads updates (update metadata and 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939861.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939861.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -57,7 +57,7 @@ If your WSUS server is running in replica mode, you will not be able to perform 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939861.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939861.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -96,7 +96,7 @@ You can configure your WSUS server to use a proxy server during synchronization 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939861.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939861.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

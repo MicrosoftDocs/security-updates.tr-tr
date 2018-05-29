@@ -15,6 +15,6 @@ Windows Server Update Services (WSUS) is the next iteration of Software Update S
 
 It is simple to introduce WSUS into your production environment. You can install WSUS and SUS on the same computer and both will function. You can also have SUS and WSUS environments running simultaneously on your network. However, you can never synchronize a SUS server with a WSUS server or vice versa. Beyond the migration, the two update solutions are completely isolated from one another. This enables you to test WSUS in your production environment while relying on SUS to update client computers. When WSUS testing is complete and you are comfortable with the new solution, you can decommission SUS.
 
-| ![](images/Cc708553.note(WS.10).gif)Not                                                                               |
+| ![](/security-updates/images/Cc708553.note(WS.10).gif)Not                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|
 | A downloadable copy of this document is available at [http://go.microsoft.com/fwlink/?LinkId=49070](http://go.microsoft.com/fwlink/?linkid=49070). |

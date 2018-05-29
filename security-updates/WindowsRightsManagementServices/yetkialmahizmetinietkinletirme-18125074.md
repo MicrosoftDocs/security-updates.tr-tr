@@ -11,7 +11,7 @@ Yetki Alma Hizmetini Etkinleştirme
 
 RMS sisteminin yetkisini alma işlemi, tüm yayımlanan bilgileri korumak için kullanılan özel anahtarı gerektirir. Bu özel anahtar yapılandırma veritabanında depolanır, Veri Koruma API'si (DPAPI) tarafından şifrelenir ve sağlama sırasında girilmiş olan şifreyi temel alır. RMS özel anahtarı bir donanım güvenlik modülünde (HSM) depolanırsa, özel anahtar, yapılandırma veritabanı yerine HSM'de depolanır.
 
-| ![](images/Cc720261.Caution(WS.10).gif)Dikkat                                                                                                                |
+| ![](/security-updates/images/Cc720261.Caution(WS.10).gif)Dikkat                                                                                                                |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RMS sisteminin yetkisini almadan önce, özel anahtar parolanızı bildiğinizden emin olun. Bu parolayı bilmiyorsanız, RMS sunucusunun yetkisini almadan önce özel anahtarı sıfırlamalısınız. |
 

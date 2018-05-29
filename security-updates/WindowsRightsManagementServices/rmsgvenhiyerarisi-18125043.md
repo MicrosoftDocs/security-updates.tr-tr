@@ -17,7 +17,7 @@ RMS için güven kökü veya "güven çapası" bir Microsoft anahtar çiftidir. 
 
 Aşağıdaki diyagramda bir kuruluştaki güven hiyerarşisi gösterilmektedir. Güven zinciri ana sertifikaları veren Microsoft hizmetlerine kadar gider.
 
-![](images/Cc720232.6c169175-94fb-4ec0-93bc-12748aae3ac4(WS.10).gif)
+![](/security-updates/images/Cc720232.6c169175-94fb-4ec0-93bc-12748aae3ac4(WS.10).gif)
 1.  Her istemci bilgisayara Microsoft kök ortak anahtarını içeren benzersiz bir kasa verilir.
 2.  RMS bir lisans isteği aldığında, güven hiyerarşisindeki yolu güvenin köküne kadar izleyerek sorumluları doğrular.
 3.  RMS lisansta adı geçen güvenilen varlığın kimliğini doğrular.

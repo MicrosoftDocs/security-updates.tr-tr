@@ -18,7 +18,7 @@ After designing the WSUS deployment, you are ready to install the WSUS server co
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939817.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939817.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

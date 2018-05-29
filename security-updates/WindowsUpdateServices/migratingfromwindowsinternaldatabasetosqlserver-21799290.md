@@ -37,7 +37,7 @@ The topic presents the following scenarios:
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939918.Warning(WS.10).gif" />Uyarı</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939918.Warning(WS.10).gif" />Uyarı</th>
 </tr>
 </thead>
 <tbody>
@@ -97,7 +97,7 @@ Use the following steps to migrate the WSUS database from a Windows İç Veritab
     </colgroup>
     <thead>
     <tr class="header">
-    <th style="border:1px solid black;" ><img src="images/Dd939918.note(WS.10).gif" />Not</th>
+    <th style="border:1px solid black;" ><img src="/security-updates/images/Dd939918.note(WS.10).gif" />Not</th>
     </tr>
     </thead>
     <tbody>
@@ -159,7 +159,7 @@ Back end server starting configuration:
         </colgroup>
         <thead>
         <tr class="header">
-        <th style="border:1px solid black;" ><img src="images/Dd939918.note(WS.10).gif" />Not</th>
+        <th style="border:1px solid black;" ><img src="/security-updates/images/Dd939918.note(WS.10).gif" />Not</th>
         </tr>
         </thead>
         <tbody>
@@ -185,7 +185,7 @@ Back end server starting configuration:
     </colgroup>
     <thead>
     <tr class="header">
-    <th style="border:1px solid black;" ><img src="images/Dd939918.note(WS.10).gif" />Not</th>
+    <th style="border:1px solid black;" ><img src="/security-updates/images/Dd939918.note(WS.10).gif" />Not</th>
     </tr>
     </thead>
     <tbody>

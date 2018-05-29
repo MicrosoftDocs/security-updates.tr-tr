@@ -25,7 +25,7 @@ You can store update files locally on the WSUS server. This saves bandwidth on y
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939920.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939920.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -42,7 +42,7 @@ Remote storage
 
 If you want, you can store update files remotely on Microsoft servers. WSUS enables you to use Microsoft Update for the distribution of approved updates throughout your organization. This is particularly useful if most of the client computers connect to the WSUS server over a slow WAN connection but have high-bandwidth connections to the Internet, or if there are only a small number of client computers.
 
-![](images/Dd939920.9f6269a7-ae94-426d-be4d-7238d4fe0e78(WS.10).gif)
+![](/security-updates/images/Dd939920.9f6269a7-ae94-426d-be4d-7238d4fe0e78(WS.10).gif)
 
 In this scenario WSUS is configured so that client computers download updates from Microsoft Update. When you synchronize the WSUS server with Microsoft Update, you get only the update metadata describing the updates. The files that install updates on client computers are not stored on the WSUS server.
 

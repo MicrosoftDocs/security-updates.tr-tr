@@ -16,6 +16,6 @@ A description of the benefits of creating a replica group is available in "Centr
 
 2.  Install WSUS on a computer at a remote site. Follow the steps in [Run WSUS Server Setup](https://technet.microsoft.com/63c82e0c-f8b0-451d-b32b-2275385920df) earlier in this guide. When you get to the **Mirror Update Settings** page during WSUS setup, enter the name of the WSUS server from step 1.
 
-    ![](images/Cc708505.06c72fa9-af6a-4856-ab9c-c92f28e39067(WS.10).gif)
+    ![](/security-updates/images/Cc708505.06c72fa9-af6a-4856-ab9c-c92f28e39067(WS.10).gif)
 
 3.  Repeat step 2 as necessary to add additional WSUS servers to the replica group.

@@ -11,7 +11,7 @@ Active Directory Hizmet Bulmayı Geçersiz Kılma
 
 RMS hizmetleri ve istemcileri hizmet konumlarını ilk olarak yerel kayıt defterine bakara bulurlar. Kayıt defterinde belirli anahtarların değeri yoksa, RMS hizmetleri ve istemcileri Active Directory'de hizmet bağlantı noktası (SCP) arar. Sunucu veya istemci kayıt defterine belirli anahtarlar yazarsanız, varsayılan Active Directory bulma ayarını geçersiz kılabileceğiniz anlamına gelir.
 
-| ![](images/Cc747614.note(WS.10).gif)Not                                                                                                            |
+| ![](/security-updates/images/Cc747614.note(WS.10).gif)Not                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RMS kök kümeniz yapılandırılmışsa ve bu yüzden SCP Active Directory'de yayımlanmayacaksa, RMS istemcilerinizin doğru konuma yönlendirmek için bu anahtarları kullanabilirsiniz. |
 
@@ -76,7 +76,7 @@ Yayımlama için İstemci Tarafı Hizmet Bulmayı Geçersiz Kılma
   
 Kullanıcılarınız kendi bilgisayarlarından içerik yayımlıyorlarsa, kuruluşunuzda kullanılan topolojiye göre yayımlama için kullanılan sunucu konumlarını geçersiz kılmak isteyebilirsiniz. Yayımlama için kullanılan sunucuların konumları normalde Active Directory kullanılarak bulunur. İstemci bilgisayarlara uygun kayıt defteri anahtarlarını ekleyerek, istemciler bu yöntemleri atlar ve bunun yerine kayıt defteri girdi değerinde belirttiğiniz URL adreslerini kullanır.
   
-| ![](images/Cc747614.note(WS.10).gif)Not                                                                                                                                  |  
+| ![](/security-updates/images/Cc747614.note(WS.10).gif)Not                                                                                                                                  |  
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | İstemcinin bu bölümlerde listelenenleri geçersiz kılacakları ayrı girdiler olarak değil anahtar olarak oluşturulmalıdır. Bu anahtarların değeri her anahtarın varsayılan girdisinde oluşturulmalıdır. |
   
@@ -133,7 +133,7 @@ Aşağıdaki tablo hizmet bulmayı geçersiz kılmak için RMS istemcisine ekley
   
 Bu kayıt defteri anahtarlarının uygulanmasını, kuruluşunuzdaki tüm istemcilerin doğru yayımlama sunucularının kullandığından emin olmak için Systems Management Server veya Grup İlkesi aracılığıyla yapmanızı öneririz.
   
-| ![](images/Cc747614.Caution(WS.10).gif)Dikkat                                                                                                             |  
+| ![](/security-updates/images/Cc747614.Caution(WS.10).gif)Dikkat                                                                                                             |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Kayıt defterinin hatalı düzenlenmesi, sisteminize ciddi bir hasar verebilir. Kayıt defterinizde değişiklik yapmadan önce, bilgisayarınızdaki önemli verilerin tümünü yedeklemelisiniz. |
   

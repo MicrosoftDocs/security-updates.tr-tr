@@ -15,13 +15,13 @@ In a simple environment, link the GPO with the WSUS settings to the domain. In m
 
 After you set up a client computer, it will take a few minutes before it appears on the **Computers** page in the WSUS console. For client computers configured with an Active Directory-based GPO, it will take about 20 minutes after Group Policy refreshes (that is, applies any new settings to the client computer). By default, Group Policy refreshes in the background every 90 minutes, with a random offset of 0 to 30 minutes. If you want to refresh Group Policy sooner, you can go to a command prompt on the client computer and type: **gpupdate /force**.
 
-| ![](images/Cc720539.note(WS.10).gif)Not                                                                          |
+| ![](/security-updates/images/Cc720539.note(WS.10).gif)Not                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|
 | On client computers running Windows 2000, you can type the following at a command prompt: **secedit /refreshpolicy machine\_policy enforce**. |
 
 The following is a list of the Group Policy options available for configuring WSUS-related items in the environment.
 
-| ![](images/Cc720539.note(WS.10).gif)Not                                                                                                                                       |
+| ![](/security-updates/images/Cc720539.note(WS.10).gif)Not                                                                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | In Windows 2000, Group Policy Object Editor is known as Group Policy Editor. Although the name changed, it is the same tool for editing Group Policy objects. It is also commonly referred to as *gpedit*. |
 
@@ -32,7 +32,7 @@ Before you can set any Group Policy options for WSUS, you must ensure that the l
 
 If the computer you are using to configure Group Policy has the latest version of Wuau.adm, you do not need to load the file to configure settings. The new version of Wuau.adm is available on Windows XP with Service Pack 2. Administrative templates files are stored by default in the *%windir%*\\Inf directory.
 
-| ![](images/Cc720539.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                         |
+| ![](/security-updates/images/Cc720539.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | You can find the correct version of Wuau.adm on any computer having the WSUS-compatible Automatic Updates installed. You can use the old version of Wuau.adm to initially point Automatic Updates to the WSUS server in order to self-update. After the Automatic Updates self-updates, the new Wuau.adm file appears in the *%windir%*\\Inf folder. |
 
@@ -223,7 +223,7 @@ If the status is set to **Disabled** or **Not Configured**, Automatic Updates wi
 
 3.  Click **OK**.
 
-| ![](images/Cc720539.note(WS.10).gif)Not                                                                                                                                                                                    |
+| ![](/security-updates/images/Cc720539.note(WS.10).gif)Not                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | This policy setting does not allow non-administrative Terminal Services users to restart the remote computer where they are logged in. This is because, by default, non-administrative Terminal Services users do not have computer restart privileges. |
 

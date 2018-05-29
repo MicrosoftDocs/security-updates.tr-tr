@@ -15,7 +15,7 @@ The **Synchronization Options** page is the central access point in the WSUS con
 
 After you synchronize updates to your WSUS server, you must then approve them before the WSUS server can perform any action for them. The exceptions to this are updates classified as **Critical Updates** and **Security Updates**, which are automatically approved for detection. For more information, see "Approving updates for detection in [Approving Updates](https://technet.microsoft.com/7276f84d-429e-4a39-8ef8-be3bff47b45e).
 
-| ![](images/Cc708517.note(WS.10).gif)Not                                                                                    |
+| ![](/security-updates/images/Cc708517.note(WS.10).gif)Not                                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Because WSUS initiates all its network traffic, there is no need to configure Windows Firewall on a WSUS server connected directly to Microsoft update. |
 
@@ -41,7 +41,7 @@ If your WSUS server is running in replica mode, you will not be able to perform 
 
 6.  Under **Tasks**, click **Save settings**, and then click **OK**.
 
-| ![](images/Cc708517.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                                                             |
+| ![](/security-updates/images/Cc708517.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   If you want to stop synchronizing updates for one or more specific products or product families, clear the appropriate check boxes in the **Add/Remove Products** dialog box, and then click **OK**. Your WSUS server will stop synchronizing new updates for the products you have cleared. However, updates that were synchronized for those products before you cleared them will remain on your WSUS server and will be available on the **Updates** page. |
 

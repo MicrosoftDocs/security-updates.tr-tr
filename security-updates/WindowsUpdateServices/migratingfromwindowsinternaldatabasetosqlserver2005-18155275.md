@@ -56,7 +56,7 @@ Use the following steps to migrate the WSUS database from a Windows İç Veritab
     -   Right-click **Update Services**, and then click **Start**.
 5.  Verify that the database migration has been successful by opening the WSUS administrative console (click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0)**.
 
-| ![](images/Cc708558.note(WS.10).gif)Not    |
+| ![](/security-updates/images/Cc708558.note(WS.10).gif)Not    |
 |-------------------------------------------------------------------------|
 | You might have to restart the server for these settings to take effect. |
 
@@ -116,7 +116,7 @@ In this step, you edit the registry to point WSUS to the destination SQL instanc
 -   Find the following key: **HKLM\\SOFTWARE\\Microsoft\\UpdateServices\\Server\\Setup\\SqlServerName**
 -   In the **Value** data box, type **\[BEName\]\\\[InstanceName\]**, and then click **OK**. If the instance name is the default instance, then simply type **\[BEName\]**.
 
-| ![](images/Cc708558.note(WS.10).gif)Not |
+| ![](/security-updates/images/Cc708558.note(WS.10).gif)Not |
 |----------------------------------------------------------------------|
 | When typing \[BEName\], do not add the domain name before the name.  |
 
@@ -130,7 +130,7 @@ In this step, you edit the registry to point WSUS to the destination SQL instanc
 
 Open the WSUS administrative console (click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0)**.
 
-| ![](images/Cc708558.note(WS.10).gif)Not     |
+| ![](/security-updates/images/Cc708558.note(WS.10).gif)Not     |
 |--------------------------------------------------------------------------|
 | You might need to restart FE in order for these settings to take effect. |
 

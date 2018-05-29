@@ -27,7 +27,7 @@ The Server Cleanup Wizard is integrated into the WSUS 3.0 UI, and can be used to
     -   The superseded update has not been explicitly deployed to a computer group for ninety days or more
     -   The superseding update must be approved for install to a computer group
 
-| ![](images/Cc708578.Important(WS.10).gif)Önemli                                                                                                                                                                                  |
+| ![](/security-updates/images/Cc708578.Important(WS.10).gif)Önemli                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If you choose to remove unneeded content with the Server Cleanup Wizard, all the private update files that you have downloaded from the Catalog Site will be removed as well. You will need to re-import these files after running the Server Cleanup Wizard. |
 

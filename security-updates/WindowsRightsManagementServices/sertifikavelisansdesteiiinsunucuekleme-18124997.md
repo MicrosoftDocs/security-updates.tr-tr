@@ -37,7 +37,7 @@ Sertifika ve lisans kümelerine sunucu ekleme, sunucunun sağlama işlemini tama
 -   Ayrı bir lisans sunucusu sağlıyorsanız yapılandırma veritabanını, RMS hizmet hesabını, küme URL'sini ve özel anahtar koruma bilgilerini, bir kök sertifika sunucusu için belirttiğiniz şekilde belirtin. Bununla birlikte, bir sunucu lisans sertifikası iptal ilkesi belirtmezsiniz; bu ilke kök sertifika sunucusu tarafından denetlenir.
 -   Sunucuyu küme üyesi olarak sağlıyorsanız, sağlama işlemi sırasında belirtmeniz gereken bilgiler yalnızca RMS hizmet hesabı, yapılandırma veritabanı ve özel anahtar koruması için paroladır (veya varolan kümeyle aynı CSP'yi ve özel anahtarı kullanın). Kümedeki tüm sunucular aynı sunucu lisans sertifikası ve sunucu anahtar çiftini paylaşır.
 
-| ![](images/Cc720189.Important(WS.10).gif)Önemli                                                           |
+| ![](/security-updates/images/Cc720189.Important(WS.10).gif)Önemli                                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------|
 | RMS kurulumunu ilk sunucuda, yükleme ve sağlama işlemini içerecek şekilde tamamlamadan önce diğer sunuculara RMS yüklemeye başlamayın. |
 

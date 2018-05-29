@@ -13,6 +13,6 @@ RMS, sağlama sırasında sunucu için RMS özel anahtarı oluşturur. RMS özel
 
 İçeriği korumak için sunucu kullanılıyorsa, tüm içerik sahiplerine bilgi verilmeli ve RMS sunucusu yeni özel anahtarla birlikte kullanılarak içerik yeniden yayımlanmalıdır. Kuşkulu özel anahtar ile korunan içeriğin yeterince korunduğu düşünülemeyeceği tüm kopyaları yok edilmelidir.
 
-| ![](images/Cc747765.Important(WS.10).gif)Önemli                                                                                                                                                                          |
+| ![](/security-updates/images/Cc747765.Important(WS.10).gif)Önemli                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Yeni bir özel anahtar almak için, sunucu, Microsoft Kayıt Hizmetine kaydettirilip kaydettirilmediğinden bağımsız olarak sağlama işlemini yinelemelidir. RMS sunucusunu tekrar kaydettirmeyi denediyseniz bir önceki RMS özel anahtarı kullanılacaktır |

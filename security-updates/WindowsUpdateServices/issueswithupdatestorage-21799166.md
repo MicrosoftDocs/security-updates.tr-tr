@@ -27,7 +27,7 @@ To have WSUS resynchronize the updates in local storage with the updates in the 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939816.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939816.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -91,7 +91,7 @@ where NewContentPath is the new content directory, and MoveLog is the path and f
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939816.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939816.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -127,7 +127,7 @@ Before you move the SQL Server installation to another drive, you should make su
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939816.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939816.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

@@ -11,7 +11,7 @@ Temel RMS Topolojisi Planlama
 
 Temel RMS topolojisi, kök sertifika kümesi olarak hizmet veren bir veya daha çok fiziksel sunucudan oluşur. Bu küme kuruluşta sertifika, lisans ve yayımlama için kullanılır. Dağıtım çok küçük bir dağıtım değilse, normal olarak tek bir URL arkasında birden çok fiziksel sunucu yapılandırılır. Bu küme, kök sertifika sunucusunu oluşturmak üzere ilk sunucu sağlanıp sonra da tahmin ettiğiniz etkinliği desteklemek için gereken kök sertifika sunucusu sayısına erişinceye kadar kümeye sunucu ekleyerek oluşturulur. Aşağıdaki şekilde bu topoloji gösterilmektedir.
 
-![](images/Cc747755.a3332719-4d25-4694-a89a-7c31fd97ca3b(WS.10).gif)
+![](/security-updates/images/Cc747755.a3332719-4d25-4694-a89a-7c31fd97ca3b(WS.10).gif)
 
 Bir kümeye sunucu eklediğinizde aynı yapılandırma ve günlük veritabanlarını paylaşırlar (bunlar SQL Server veritabanlarıdır). SQL Server kök sertifika sunucusunda veya ayrı bir sunucuda bulunabilir.
 

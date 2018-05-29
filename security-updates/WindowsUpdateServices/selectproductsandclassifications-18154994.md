@@ -22,6 +22,6 @@ After you specify the proxy server, you are ready to select the products you wan
 
 5.  In the **Add/Remove Classifications** box, under **Classifications**, select the update classifications for the updates you want your WSUS server to download, and then click **OK**.
 
-| ![](images/Cc720453.note(WS.10).gif)Not                                                 |
+| ![](/security-updates/images/Cc720453.note(WS.10).gif)Not                                                 |
 |----------------------------------------------------------------------------------------------------------------------|
 | You may have to do an initial synchronization to get some products to appear in the list of product classifications. |

@@ -67,11 +67,11 @@ Bağlantı noktası 80 üzerinde çalışan iki veya daha fazla Web sitesi (örn
 
 WSUS 3.0 SP1'i yüklerken, başarılı bir yükleme gerçekleştirebilmek için önce virüsten koruma programlarını devre dışı bırakmanız gerekebilir. Virüsten koruma programını devre dışı bıraktıktan sonra, WSUS'u yüklemeden bilgisayarı yeniden başlatın. Bilgisayarın yeniden başlatılması, yükleme işleminin dosyalara erişmesi gerektiğinde dosyaların kilitlenmesini önler. Yükleme tamamlandıktan sonra, virüsten koruma programınızı yeniden etkinleştirdiğinizden emin olun. Virüsten koruma programınızı ve sürümü devre dışı bırakıp yeniden etkinleştirmek için gerekli adımları öğrenmek üzere virüsten koruma programı satıcınızın Web sitesini ziyaret edin.
 
-| ![](images/Cc708525.Caution(WS.10).gif)Dikkat                                                                                                                                                                                                                                                                          |
+| ![](/security-updates/images/Cc708525.Caution(WS.10).gif)Dikkat                                                                                                                                                                                                                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu geçici çözüm, bilgisayarınızı veya ağınızı kötü amaçlı kullanıcıların veya virüs gibi kötü amaçlı yazılımların saldırılarına karşı daha açık hale getirebilir. Bu geçici çözümü önermiyoruz, ancak karar size ait olmak üzere geçici çözümü uygulayabilmeniz için bu bilgileri sağlıyoruz. Bu geçici çözümü kullanmak sizin sorumluluğunuzdadır. |
 
-| ![](images/Cc708525.note(WS.10).gif)Not                                                                                                                                                                                                                                                      |
+| ![](/security-updates/images/Cc708525.note(WS.10).gif)Not                                                                                                                                                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Virüsten koruma programı, bilgisayarınızı virüslere karşı korumaya yardımcı olmak amacıyla tasarlanmıştır. Virüsten koruma programınız devre dışı kaldığında, güvenmediğiniz kaynaklardan gelen dosyaları yüklememeli veya açmamalı, güvenmediğiniz Web sitelerini ziyaret etmemeli ya da e-posta eklerini açmamalısınız. |
 
@@ -177,7 +177,7 @@ WSUS 3.0 SP1 kurulumunu çalıştırmadan önce, WSUS 3.0 SP1 sunucusunun gereks
 </tbody>
 </table>
   
-| ![](images/Cc708525.note(WS.10).gif)Not                                                                                                                                                                                                                                                                         |  
+| ![](/security-updates/images/Cc708525.note(WS.10).gif)Not                                                                                                                                                                                                                                                                         |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | WSUS 2.0 önceden yüklenmişse ve SQL Server 2000 kullanıyorsa, SQL Server Desktop Engine 2000 veya SQL Server 2005 SP1 öncesi (veya Windows Server 2008 üzerinde SQL Server 2005 SP2) herhangi bir SQL Server veritabanı kullanıyorsa, WSUS 3.0 SP1 yükleme programı Windows® İç Veritabanı uygulamasını yükler ve veritabanını buna geçirir. |
   
@@ -190,7 +190,7 @@ Aşağıda Windows Server Update Services'ı yüklemek için gereken en az disk 
 -   Veritabanı dosyalarının depolanacağı birim için 2 GB  
 -   İçeriğin depolanacağı bölüm için 20 GB
   
-| ![](images/Cc708525.Important(WS.10).gif)Önemli                                  |  
+| ![](/security-updates/images/Cc708525.Important(WS.10).gif)Önemli                                  |  
 |---------------------------------------------------------------------------------------------------------------|  
 | WSUS 3.0 SP1, sıkıştırılmış sürücülere yüklenemez. Seçtiğiniz sürücünün sıkıştırılmış olmamasına dikkat edin. |
   
@@ -350,7 +350,7 @@ Bu tabloda WSUS 3.0 SP1 için komut satırı özellikleri gösterilmiştir.
 ```  
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
-| ![](images/Cc708525.Important(WS.10).gif)Önemli                                                                                                    |  
+| ![](/security-updates/images/Cc708525.Important(WS.10).gif)Önemli                                                                                                    |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | WSUS 3.0 SP1'i sessiz modda (/q) yüklerseniz ve makinede tüm önkoşullar yüklü değilse, yükleme işlemi WSUSPreReqCheck.xml adlı bir dosya oluşturur ve %TEMP% dizinine kaydeder. |
   

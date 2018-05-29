@@ -23,6 +23,6 @@ http://*sunucu\_adı*/\_wmcs/Certification/Activation.asmx
 
 Kuruluş ağının dışında çalışan istemciler, etkinleştirme hizmetini konumlandırmak için hizmet bulma amacıyla UDDI'yi kullanır. Daha fazla bilgi için, bu konuda daha önce yer alan "[Microsoft Tarafından Barındırılan Hizmetleri Yayımlama](https://technet.microsoft.com/7ee8cb4d-1b46-48be-8a4c-5ff6a458231a)" bölümüne bakın.
 
-| ![](images/Cc747697.note(WS.10).gif)Not                           |
+| ![](/security-updates/images/Cc747697.note(WS.10).gif)Not                           |
 |------------------------------------------------------------------------------------------------|
 | RMS sunucunuzda SSL'yi etkinleştirdiyseniz, bu URL'ler https:// bağlantı protokolünü kullanır. |

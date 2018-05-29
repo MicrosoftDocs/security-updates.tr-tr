@@ -13,7 +13,7 @@ Bu bölüm Microsoft® Windows® Rights Management Services (RMS) Service Pack 
 
 RMS SP2'yi varolan RMS SP1 yüklemenizi kaldırmadan yükleyebilirsiniz. RMS SP2 kurulum programı RMS SP1'in yüklü olduğunu algılar ve gerektiği gibi ek özellikleri ve ayarları ekler.
 
-| ![](images/Cc720225.note(WS.10).gif)Not                                                                                                                                                                                                           |
+| ![](/security-updates/images/Cc720225.note(WS.10).gif)Not                                                                                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hizmet paketi içermeyen RMS sunucusundan RMS SP2'ye yükseltme desteklenmez. RMS sunucusunu hizmet paketi olmadan kullanıyorsanız, RMS SP2'ye yükseltmeden önce RMS SP1'e yükseltmeniz gerekir. RMS istemcisi, RMS istemcisinin herhangi bir önceki sürümünden yükseltilebilir. |
 

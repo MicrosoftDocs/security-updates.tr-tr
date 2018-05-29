@@ -74,7 +74,7 @@ If you intend to map SUS approvals to a WSUS computer group, first create the gr
 
     **wsusutil.exe migratesus /approvals sus1 /log local\_migration.log**
 
-| ![](images/Cc708618.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                      |
+| ![](/security-updates/images/Cc708618.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If there are additional SUS servers in your environment and you want to consolidate them on this WSUS server, finish this procedure and testing, and then see the "Step 2 Remote Server Migration: Migrate Content and Approvals" section in [Remote Server Migration](https://technet.microsoft.com/30e04407-0d2a-4e28-983e-b2a82e5fa411) for instruction on migrating approvals from a remote computer. |
 
@@ -109,6 +109,6 @@ If you prefer to leave your updating solution on a port other than port 80, you 
 
 4.  In the **WSUS Administration Properties** dialog box, change the value in **TCP port** from **8530** to **80**.
 
-| ![](images/Cc708618.note(WS.10).gif)Not                                                                                                                                                                           |
+| ![](/security-updates/images/Cc708618.note(WS.10).gif)Not                                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If you change the port number after installing WSUS, you have to create a new shortcut on your **Start** menu with the new URL to access the WSUS console from the **Start** menu. See Help and Support for instruction on creating shortcuts. |

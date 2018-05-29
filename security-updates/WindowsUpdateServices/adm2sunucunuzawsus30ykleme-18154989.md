@@ -22,11 +22,11 @@ Aşağıdaki yordam varsayılan WSUS yükleme seçeneklerini kullanır; bunlara 
 
 4.  **Lisans Sözleşmesi** sayfasında, lisans sözleşmesinin koşullarını dikkatlice okuyun, **Lisans sözleşmesinin koşullarını kabul ediyorum**'u tıklatın ve sonra **İleri**'yi tıklatın.
 
-    ![](images/Cc720469.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
+    ![](/security-updates/images/Cc720469.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
 
 5.  Yükleme sihirbazının **Güncelleştirme Kaynağı Seç** sayfasında, istemcilerin güncelleştirmeleri nereden alacağını belirtebilirsiniz. **Güncelleştirmeleri yerel olarak depola** onay kutusunu seçerseniz, güncelleştirmeler WSUS 3.0 sunucusunda depolanır ve dosya sisteminde güncelleştirmelerin depolanacağı konumu seçersiniz. Güncelleştirmeleri yerel olarak depolamazsanız, onaylanmış güncelleştirmeleri almak için istemci bilgisayarlar Microsoft Update'e bağlanır. Varsayılan seçenekleri koruyun ve **İleri**'yi tıklatın.
 
-    ![](images/Cc720469.c8bac396-ca39-4491-8b0c-742a0e470535(WS.10).gif)
+    ![](/security-updates/images/Cc720469.c8bac396-ca39-4491-8b0c-742a0e470535(WS.10).gif)
 
 6.  **Veritabanı Seçenekleri** sayfasında, WSUS 3.0 veritabanını yönetmek için kullanılan yazılımı seçin. Varsayılan olarak, yükleme yaptığınız bilgisayar Windows Server 2003 çalıştırıyorsa, WSUS Kurulumu Windows İç Veritabanı yükleme seçeneği sunar.
 
@@ -34,7 +34,7 @@ Aşağıdaki yordam varsayılan WSUS yükleme seçeneklerini kullanır; bunlara 
 
 8.  **SQL Server Örneğine Bağlanılıyor** sayfasında, WSUS belirtilen SQL Server örneğine bağlanmaya çalışır. Başarıyla bağlandığında, devam etmek için **İleri**'yi tıklatın.
 
-    ![](images/Cc720469.36c6af0c-a61e-4151-ae50-c754a106cb1b(WS.10).gif)
+    ![](/security-updates/images/Cc720469.36c6af0c-a61e-4151-ae50-c754a106cb1b(WS.10).gif)
 
 9.  **Web Sitesi Seçimi** sayfasında WSUS 3.0'ın kullanacağı Web sitesini belirtin. 80 numaralı bağlantı noktasındaki varsayılan IIS Web sitesini kullanmak istiyorsanız ilk seçeneği seçin. 80 numaralı bağlantı noktasında zaten bir Web siteniz varsa, ikinci seçeneği seçerek 8530 numaralı bağlantı noktasında alternatif bir site oluşturabilirsiniz. Varsayılan seçeneği koruyun ve **İleri**'yi tıklatın.
 

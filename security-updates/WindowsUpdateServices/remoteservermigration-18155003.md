@@ -13,7 +13,7 @@ The remote server migration procedure is a four-step process, with an optional s
 
 Remote server migration is helpful if you were using multiple SUS servers to approve content for different types of client computers. This scenario features the ability to map migrated SUS approvals and updates to computer groups on the WSUS server, as depicted in the following illustration.
 
-![](images/Cc720480.9cee53da-ae9a-4991-b2ae-824f6279d4d1(WS.10).gif)
+![](/security-updates/images/Cc720480.9cee53da-ae9a-4991-b2ae-824f6279d4d1(WS.10).gif)
 Step 1 Remote Server Migration: Install and Configure WSUS
 ----------------------------------------------------------
 

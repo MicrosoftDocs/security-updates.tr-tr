@@ -11,7 +11,7 @@ Temel Altyapıyı Kurma
 
 Altyapınızı kurma şekliniz, RMS yüklemesi için sistem gereksinimlerinin yanı sıra altyapınızı kurmaya yönelik en iyi yöntemlere bağlıdır. RMS'yi desteklemek için gerekli olan temel sunucu tarafı ortamı bir etki alanı denetleyicisi, bir veritabanı sunucusu ve kök sertifika sunucusu olarak yapılandırılmış bir RMS sunucusundan oluşur. Aşağıdaki konularda altyapınızın bu bileşenlerinin kurulum yordamlarının yanı sıra bu bileşenleri dağıtmayla ilgili ek bilgiler de sağlanmaktadır.
 
-| ![](images/Cc720243.note(WS.10).gif)Not                                                                                                                                                                       |
+| ![](/security-updates/images/Cc720243.note(WS.10).gif)Not                                                                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RMS'yi dağıtma işlemi, RMS sunucusuyla kullanılacak istemci bilgisayarlarda RMS istemci yazılımının yüklü olmasını gerektirir. RMS istemcisini [Microsoft Web sitesinden](http://go.microsoft.com/fwlink/?linkid=18134) yükleyebilirsiniz. |
 

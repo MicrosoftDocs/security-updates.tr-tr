@@ -20,7 +20,7 @@ RMS günlük veritabanı, sorun gidermeye yönelik ve istatistik amaçlı ilgi �
 
 RMS özel anahtarlarını korumak için bir donanım güvenlik modülü kullanıyorsanız, donanım güvenlik modülü yapılandırmasını da yedeklemeniz gerekir. Donanım güvenlik modülü yapılandırmasının nasıl yedekleneceği ve geri yükleneceği hakkında daha fazla bilgi için donanım güvenlik modülü belgelerine bakın.
 
-| ![](images/Cc747745.note(WS.10).gif)Not                                                                                                                                                                                                                                            |
+| ![](/security-updates/images/Cc747745.note(WS.10).gif)Not                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RMS özel anahtarlarını şifrelemek için varsayılan yazılım tabanlı şifreleme hizmet sağlayıcısından (CSP) farklı bir yazılım tabanlı CSP'yi kullandıysanız, RMS ile birlikte kullanmadan önce kuruluş anahtar yönetimi uygulamalarının (yedekleme ve geri yükleme yordamları gibi) yerinde olduğundan emin olun. |
 

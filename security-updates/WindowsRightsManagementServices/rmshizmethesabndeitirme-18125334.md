@@ -13,10 +13,10 @@ Yükleme sırasında, RMS yerel bilgisayarda RMS Service Group'u oluşturur ve o
 
 İstediğiniz zaman RMS hizmet hesabını değiştirebilirsiniz. RMS hizmet hesabını değiştirdiğinizde, önceden belirtilen hesap otomatik olarak RMS Service Group'tan çıkarılır ve yeni hesap bu grubun bir üyesi haline getirilir.
 
-| ![](images/Cc747736.Important(WS.10).gif)Önemli                                                                                                                                                                                        |
+| ![](/security-updates/images/Cc747736.Important(WS.10).gif)Önemli                                                                                                                                                                                        |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Güvenlik nedeniyle RMS hizmet hesabı olarak kullanmak için özel bir kullanıcı hesabı oluşturmanız, bu hesabı yalnızca RMS hizmet hesabı olarak kullanmanız ve başka hiçbir amaç için kullanmamanız önerilir. Ayrıca, bu hesaba herhangi bir ek izin vermemelisiniz. |
 
-| ![](images/Cc747736.note(WS.10).gif)Not                                       |
+| ![](/security-updates/images/Cc747736.note(WS.10).gif)Not                                       |
 |------------------------------------------------------------------------------------------------------------|
 | RMS hizmet hesabı, Service Pack 1 kurulu RMS yüklemek için kullandığınız etki alanı hesabıyla aynı olamaz. |

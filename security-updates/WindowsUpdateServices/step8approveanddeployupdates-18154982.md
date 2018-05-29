@@ -25,7 +25,7 @@ Step 8 contains the following procedures:
 
 4.  In the **Group approval settings for the selected updates** list, click **Install** from the list in the **Approval** column for the Test group, and then click **OK**.
 
-| ![](images/Cc720457.note(WS.10).gif)Not                                                                                                                                              |
+| ![](/security-updates/images/Cc720457.note(WS.10).gif)Not                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | There are many options associated with approving updates, such as setting deadlines and uninstalling updates. These are discussed in the “Microsoft Windows Server Update Services Operations Guide” white paper. |
 

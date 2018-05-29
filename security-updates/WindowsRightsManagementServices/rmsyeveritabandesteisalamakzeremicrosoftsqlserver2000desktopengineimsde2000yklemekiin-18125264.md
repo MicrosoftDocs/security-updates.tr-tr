@@ -26,7 +26,7 @@ RMS'ye Veritabanı Desteği Sağlamak Üzere Microsoft SQL Server 2000 Desktop E
 
     **Setup.exe /i setup\\sqlrun10.msi INSTANCENAME=RMS DISABLEAGENTSTARTUP=1 SAPWD=***parola*
 
-    | ![](images/Cc747667.Important(WS.10).gif)Önemli                                                                                                                                                                                                             |
+    | ![](/security-updates/images/Cc747667.Important(WS.10).gif)Önemli                                                                                                                                                                                                             |
     |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | MSDE hizmetinin yüklendikten sonra çalıştırılması gerekir. Hizmeti **Denetim Masası**'ndaki **Hizmetler**'den çalıştırabilirsiniz. RMS çalışırken MSDE veritabanının her zaman kullanılabilir olduğundan emin olmak için hizmeti otomatik olarak başlamak için yapılandırmanız önerilir. |
 

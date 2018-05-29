@@ -96,7 +96,7 @@ This procedure migrates the WSUS database to a SQL Server 2000 instance running 
 11. In this step you will verify that the database migration has been successful by opening the WSUS console by using Internet Explorer.
 
     -   In Internet Explorer, in the **Address** box, type **http://\[ServerName\]/WSUSAdmin**.
-        | ![](images/Cc708529.note(WS.10).gif)Not    |
+        | ![](/security-updates/images/Cc708529.note(WS.10).gif)Not    |
         |-------------------------------------------------------------------------|
         | You might have to restart the server for these settings to take effect. |
 
@@ -163,7 +163,7 @@ This section contains two procedures. The first procedure installs WSUS on the b
 
     \[LocalContentCacheLocationValue\] is the path to the folder on Server 1 where update files are stored. For example, C:\\WSUS\\WSUSContent.
 
-    | ![](images/Cc708529.Important(WS.10).gif)Önemli       |
+    | ![](/security-updates/images/Cc708529.Important(WS.10).gif)Önemli       |
     |------------------------------------------------------------------------------------|
     | Do not use a network location or a UNC path. Do not add a trailing backslash (\\). |
 
@@ -254,7 +254,7 @@ In this section you will detach the WSUS database on Server 1 and on Server 2, a
 
 4.  Locate and then rename the existing susdb.mdf and susdb\_log.ldf files.
 
-    | ![](images/Cc708529.Important(WS.10).gif)Önemli                                                                      |
+    | ![](/security-updates/images/Cc708529.Important(WS.10).gif)Önemli                                                                      |
     |---------------------------------------------------------------------------------------------------------------------------------------------------|
     | Note where these files are stored in the file system. Later in this section, you will copy files of the same name from Server 1 to this location. |
 

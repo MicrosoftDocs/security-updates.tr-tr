@@ -32,7 +32,7 @@ If you have installed WSUS 2.0 on one computer and the SQL Server database on an
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939791.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939791.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

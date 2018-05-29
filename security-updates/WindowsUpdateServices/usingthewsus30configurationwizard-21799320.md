@@ -35,7 +35,7 @@ The Configuration Wizard allows you to configure the following areas:
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939915.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939915.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -82,7 +82,7 @@ Specify the proxy server
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939915.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939915.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -112,7 +112,7 @@ Connect to the upstream server
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939915.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939915.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -151,7 +151,7 @@ If you are configuring a downstream server, use the following procedure.
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939915.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939915.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>

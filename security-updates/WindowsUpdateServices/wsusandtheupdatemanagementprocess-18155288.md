@@ -13,7 +13,7 @@ This Microsoft recommended approach to the update management process consists of
 
 Following the figure are the goals of each phase and examples of how administrators can use WSUS features to ensure success during each of the four phases of the process. It is important to note that many of the features can be employed in more than one phase.
 
-![](images/Cc708520.dfdf34ec-7b30-4462-b807-e10a7347b771(WS.10).gif)
+![](/security-updates/images/Cc708520.dfdf34ec-7b30-4462-b807-e10a7347b771(WS.10).gif)
 1. Assess
 ---------
 

@@ -25,6 +25,6 @@ RMS, hak hesabı sertifikasının Windows kullanıcı kimlik doğrulamasını te
 
 RMS, hak hesabı sertifikasının Microsoft® .NET Passport'u temel aldığını algılarsa, yayımlama hizmetinin konumu RMS korumalı içerikte belirtilen .NET Passport hesabıdır.
 
-| ![](images/Cc747580.note(WS.10).gif)Not                           |
+| ![](/security-updates/images/Cc747580.note(WS.10).gif)Not                           |
 |------------------------------------------------------------------------------------------------|
 | RMS sunucunuzda SSL'yi etkinleştirdiyseniz, bu URL'ler https:// bağlantı protokolünü kullanır. |

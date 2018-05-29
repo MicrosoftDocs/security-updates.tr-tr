@@ -79,10 +79,10 @@ Aşağıdaki tabloda bellek içi önbellek davranışını denetleyen girdilerin
 </tbody>
 </table>
   
-| ![](images/Cc747586.Caution(WS.10).gif)Dikkat                                                                                                             |  
+| ![](/security-updates/images/Cc747586.Caution(WS.10).gif)Dikkat                                                                                                             |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Kayıt defterinde yanlış düzenlemeler yapmak sisteminize ciddi zararlar verebilir. Kayıt defterinde değişiklik yapmadan önce, bilgisayarınızdaki değerli verileri yedeklemeniz gerekir. |
   
-| ![](images/Cc747586.note(WS.10).gif)Not                                                                                                                                                                                                                                                           |  
+| ![](/security-updates/images/Cc747586.note(WS.10).gif)Not                                                                                                                                                                                                                                                           |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** ve **ContactMembersofGroupCacheExpireMinutes** kayıt defteri girdileri, veritabanı sunucunuzdaki dizin hizmetleri veritabanında depolanan yerel Active Directory önbelleği için önbellek sona erme süresini de denetler. |

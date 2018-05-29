@@ -51,7 +51,7 @@ WSUS'yi yönetmek üzere ilke ayarlarını görüntülemek için, wuau.adm adlı
 
 4.  **Tamam**'ı tıklatın.
 
-| ![](images/Cc720532.note(WS.10).gif)Not                                                                                     |
+| ![](/security-updates/images/Cc720532.note(WS.10).gif)Not                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Yerel yöneticinin ayarı seçmesine izin ver** ayarı yalnızca, Otomatik Güncelleştirmeler kendini WSUS ile uyumlu sürüme güncelleştirmişse görüntülenir. |
 
@@ -62,7 +62,7 @@ WSUS'yi yönetmek üzere ilke ayarlarını görüntülemek için, wuau.adm adlı
 
 3.  **Etkin**'i tıklatın ve **Güncelleştirmeleri algılamak için intranet güncelleştirme hizmetini ayarla** kutusunda ve **İntranet istatistik sunucusunu ayarla** kutusunda aynı WSUS sunucusunun HTTP URL'sini yazın. Örneğin, her iki kutuya da *http://sunucuadı* yazın ve sonra **Tamam**'ı tıklatın.
 
-| ![](images/Cc720532.note(WS.10).gif)Not                                                                                                                                                                                                                 |
+| ![](/security-updates/images/Cc720532.note(WS.10).gif)Not                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu bilgisayarı WSUS'yi işaret edecek şekilde ayarlamak için Yerel Grup İlkesi nesnesini kullanıyorsanız, bu ayar hemen etkin olur ve bu bilgisayar kısa bir süre sonra WSUS yönetici konsolunda görüntülenir. El ile bir algılama döngüsü başlatarak bu süreci hızlandırabilirsiniz. |
 

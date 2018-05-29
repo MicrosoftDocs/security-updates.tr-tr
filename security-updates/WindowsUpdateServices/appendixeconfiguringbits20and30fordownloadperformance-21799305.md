@@ -25,7 +25,7 @@ Versions of BITs use the computer's network card to measure network traffic. BIT
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939927.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939927.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -59,7 +59,7 @@ Versions of BITs use the computer's network card to measure network traffic. BIT
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939927.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939927.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -91,7 +91,7 @@ This feature of BITS can optimize the bandwidth used by WSUS in several ways.
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939927.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939927.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -125,7 +125,7 @@ For more information about peer caching and peer servers, see [Peer Caching](htt
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939927.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939927.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

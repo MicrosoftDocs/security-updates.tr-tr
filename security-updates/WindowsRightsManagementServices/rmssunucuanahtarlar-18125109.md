@@ -26,7 +26,7 @@ CSP'yi iki farklı şekilde kullanabilirsiniz:
     -veya-
 -   Sunucuya yüklediğiniz Microsoft ürünü olmayan bir yazılım CSP'si kullanabilirsiniz.
 
-| ![](images/Cc720280.note(WS.10).gif)Not                                                       |
+| ![](/security-updates/images/Cc720280.note(WS.10).gif)Not                                                       |
 |----------------------------------------------------------------------------------------------------------------------------|
 | Donanım güvenlik modülü kullanmak isterseniz, donanım güvenlik modüllerini destekleyen bir CSP'yi seçtiğinizden emin olun. |
 

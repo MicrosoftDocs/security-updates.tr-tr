@@ -141,6 +141,6 @@ The new API supports collecting hardware and software inventories from managed d
 
 The new API supports publishing applications and third-party updates, allowing the WSUS infrastructure to also distribute updates by other companies.
 
-| ![](images/Cc708601.note(WS.10).gif)Not                                                                                                                    |
+| ![](/security-updates/images/Cc708601.note(WS.10).gif)Not                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | For more information about WSUS features, see [Features of Windows Server Update Services](https://technet.microsoft.com/001d0ed9-6484-48db-b92d-d1c48dbb4efd), later in this document. |

@@ -25,7 +25,7 @@ Bu sürüm notları, Microsoft® Windows® Server Update Services (WSUS) 3.0 ür
 -   Windows Server® 2008 üzerinde WSUS 3.0
 -   Windows Small Business Server 2003 Üzerinde WSUS 3.0
 
-| ![](images/Cc708491.note(WS.10).gif)Not                                                                                                                                                                    |
+| ![](/security-updates/images/Cc708491.note(WS.10).gif)Not                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu belgenin karşıdan yüklenebilir bir kopyası [Microsoft Yükleme Merkezi'nde](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)) bulunabilir. |
 
@@ -78,11 +78,11 @@ Bağlantı noktası 80 üzerinde iki veya daha fazla Web sitesi (örneğin, Wind
 
 WSUS 3.0'ı yüklerken, yüklemeyi başarıyla gerçekleştirebilmeniz için virüsten koruma programlarını devre dışı bırakmanız gerekebilir. Virüsten koruma programını devre dışı bıraktıktan sonra, WSUS yüklemesini başlatmadan önce bilgisayarı yeniden başlatın. Bilgisayarın yeniden başlatılması, yükleme işleminin dosyalara erişmesi gerektiğinde dosyaların kilitli olmasını önler. Yükleme işlemini tamamladıktan sonra virüsten koruma programınızı yeniden etkinleştirdiğinizden emin olun. Virüsten koruma programınız ve sürümüyle ilgili tam devre dışı bırakma ve etkinleştirme adımlarını öğrenmek için virüsten koruma programınızın üreticisinin Web sitesini ziyaret edin.
 
-| ![](images/Cc708491.Caution(WS.10).gif)Dikkat                                                                                                                                                                                                                                                                                                              |
+| ![](/security-updates/images/Cc708491.Caution(WS.10).gif)Dikkat                                                                                                                                                                                                                                                                                                              |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu geçici çözüm, bilgisayarınızın veya ağınızın kötü niyetli kullanıcılar veya virüsler gibi kötü amaçlı yazılımlar tarafından gerçekleştirilecek saldırılara karşı daha savunmasız kalmasına neden olabilir. Bu geçici çözümü önermiyoruz, ancak gerekli olduğunu düşünürseniz kullanabilmeniz amacıyla bu bilgileri sağlıyoruz. Bu geçici çözümü kullanmak kendi sorumluluğunuzdadır. |
 
-| ![](images/Cc708491.note(WS.10).gif)Not                                                                                                                                                                                                                                                                |
+| ![](/security-updates/images/Cc708491.note(WS.10).gif)Not                                                                                                                                                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Virüsten koruma programları, virüslere karşı bilgisayarınızı korumanıza yardımcı olması için tasarlanmıştır. Virüsten koruma programınızın devre dışı bırakıldığı sırada güvenmediğiniz kaynaklardaki dosyaları karşıdan yüklememeli ve açmamalı, güvenmediğiniz Web sitelerini ziyaret etmemeli ve e-posta eklerini açmamalısınız. |
 
@@ -200,7 +200,7 @@ Bkz: Konu 1: IIS yüklenmiş olmalıdır.</td>
 </tbody>
 </table>
   
-| ![](images/Cc708491.note(WS.10).gif)Not                                                                                                                                                                                                                                   |  
+| ![](/security-updates/images/Cc708491.note(WS.10).gif)Not                                                                                                                                                                                                                                   |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | WSUS 2.0 önceden yüklenmişse ve SQL Server 2000, SQL Server Desktop Engine 2000 veya SQL Server 2005 SP1 (veya Windows Server 2008 üzerinde SQL Server 2005 SP2) herhangi bir SQL Server veritabanı kullanıyorsa, WSUS 3.0 yüklemeWindows® İç Veritabanı programı yükler ve veritabanını buna geçirir. |
   
@@ -213,7 +213,7 @@ Aşağıda Windows Server Update Services'ı yüklemek için gereken en az disk 
 -   Veritabanı dosyalarının depolanacağı birimde 2 GB  
 -   İçeriğin depolanacağı bölüm için 20 GB
   
-| ![](images/Cc708491.Important(WS.10).gif)Önemli                              |  
+| ![](/security-updates/images/Cc708491.Important(WS.10).gif)Önemli                              |  
 |-----------------------------------------------------------------------------------------------------------|  
 | WSUS 3.0, sıkıştırılmış sürücülere yüklenemez. Seçtiğiniz sürücünün sıkıştırılmış olmamasına dikkat edin. |
   
@@ -368,7 +368,7 @@ Bu tabloda WSUS 3.0 komut satırı özellikleri gösterilmiştir.
 ```  
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
-| ![](images/Cc708491.Important(WS.10).gif)Önemli                                                                                                        |  
+| ![](/security-updates/images/Cc708491.Important(WS.10).gif)Önemli                                                                                                        |  
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | WSUS 3.0'ı sessiz modda (/q) yüklerseniz ve makinede tüm önkoşullar yüklü değilse, yükleme işlemi WSUSPreReqCheck.xml adlı bir dosya oluşturur ve dosyayı %TEMP% dizinine kaydeder. |
   

@@ -20,7 +20,7 @@ If you want to do an unattended installation, see [Appendix A: Unattended Instal
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939811.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939811.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -111,11 +111,11 @@ The WSUS Setup Wizard is launched from Server Manager or from the WSUSSetup.exe 
 
 3.  On the License Agreement page, read the terms of the license agreement, click **I accept the terms of the License agreement**, and then click **Next**.
 
-    ![](images/Dd939811.3d8849c4-1c1e-448f-ab9b-3e022bee42b5(WS.10).gif)
+    ![](/security-updates/images/Dd939811.3d8849c4-1c1e-448f-ab9b-3e022bee42b5(WS.10).gif)
 
 4.  You can specify where clients get updates on the Select Update Source page of the installation wizard. By default, the **Store updates locally** check box is selected and updates will be stored on the WSUS server in the location that you specify. If you clear the **Store updates locally** check box, client computers obtain approved updates by connecting to Microsoft Update. Make your selection, and then click **Next**.
 
-    ![](images/Dd939811.1cdebb3e-4745-44fa-9a70-24484e090245(WS.10).gif)
+    ![](/security-updates/images/Dd939811.1cdebb3e-4745-44fa-9a70-24484e090245(WS.10).gif)
 
 5.  On the Database Options page, select the software that is used to manage the WSUS 3.0 database. By default, the installation wizard offers to install Windows Internal Database.
 
@@ -123,7 +123,7 @@ The WSUS Setup Wizard is launched from Server Manager or from the WSUSSetup.exe 
 
 6.  If you have opted to connect to a SQL Server, on the **Connecting to SQL Server Instance** page, WSUS will try to connect to the specified instance of SQL Server. When it has connected successfully, click **Next** to continue.
 
-    ![](images/Dd939811.48677189-5dc7-43cc-b1b4-cb2f9f437665(WS.10).gif)
+    ![](/security-updates/images/Dd939811.48677189-5dc7-43cc-b1b4-cb2f9f437665(WS.10).gif)
 
 7.  On the Web Site Selection page, specify the Web site that WSUS will use. If you want to use the default Web site on port 80, select **Use the existing IIS Default Web site**. If you already have a Web site on port 80, you can create an alternate site on port 8530 by selecting **Create a Windows Server Update Services 3.0 SP2 Web site**. Click **Next**.
 

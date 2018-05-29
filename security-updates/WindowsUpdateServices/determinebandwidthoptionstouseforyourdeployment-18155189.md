@@ -17,14 +17,14 @@ Deferring the Download of Updates
 
 WSUS offers you the ability to download update metadata at a different time from the update itself during synchronizations. In this configuration, approving an update triggers the download of all the files used to install that particular update on a computer. This saves bandwidth and WSUS server disk space, because only updates that you approve for installation are downloaded in full to the WSUS server. You can test the files prior to deploying them on your network, and your client computers download the updates from the intranet. Microsoft recommends deferring the download of updates, since it makes optimal use of network bandwidth.
 
-![](images/Cc708456.0d256355-4cb8-4f22-9386-da71754ce94e(WS.10).gif)
+![](/security-updates/images/Cc708456.0d256355-4cb8-4f22-9386-da71754ce94e(WS.10).gif)
 
 If you have a chain of WSUS servers, it is recommended that you do not chain them too deeply, for the following reasons:
 
 -   In a chain of WSUS servers, WSUS automatically sets all downstream servers to use the deferred download option that is selected on the server directly connected to Microsoft Update. You cannot change this configuration. The entire chain of WSUS servers must either defer the download of updates or download both metadata and updates during synchronizations.
 -   If you have deferred downloads enabled and a downstream server requests an update that has not been approved on the upstream server, the downstream server’s request triggers a download on the upstream server. The downstream server then downloads the content on a subsequent synchronization, as shown in the "Deferred Downloads Using Multiple WSUS Servers" illustration. If you have a deep hierarchy of WSUS servers using deferred downloads, there is greater potential for delay as content is requested, downloaded, and then passed down the chain.
 
-![](images/Cc708456.7858baf2-f6c3-4e87-ad8d-a06a20aa5dd8(WS.10).gif)
+![](/security-updates/images/Cc708456.7858baf2-f6c3-4e87-ad8d-a06a20aa5dd8(WS.10).gif)
 
 For bandwidth savings, deferring downloads is particularly useful in conjunction with a special approval setting that only detects whether client computers require an update. With this kind of approval, the WSUS server does not download the update and clients do not install the update. Instead, clients just determine if they need the update. If they do, they send an event to the WSUS server, which is recorded in a server report. If you see that your clients require updates that were approved for detection, you can then approve them for installation.
 
@@ -52,11 +52,11 @@ When you distribute updates by using this method, it requires an initial investm
 
 The upper part of the "Express Installation Files Feature" illustration depicts an update being distributed by using the express installation files feature; the lower part of the illustration depicts the same update being distributed without using the express installation files feature. Notice that with express installation files enabled, you incur an initial download three times the size of the update. However, this cost is mitigated by the reduced amount of bandwidth required to update client computers on the corporate network. With express installation files disabled, your initial download of updates is smaller, but whatever you download must then be distributed to each of the clients on your corporate network.
 
-![](images/Cc708456.77edc56e-9ae3-4827-a99d-625a11339dc9(WS.10).gif)
+![](/security-updates/images/Cc708456.77edc56e-9ae3-4827-a99d-625a11339dc9(WS.10).gif)
 
 The file sizes in the "Express Installation Files Feature" illustration are for illustrative purposes only. Each update and express installation file varies in size, depending on what files need to be updated. Further, the size of each file actually distributed to clients by using express installation files varies depending upon the state of the computer being updated.
 
-| ![](images/Cc708456.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                                                      |
+| ![](/security-updates/images/Cc708456.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Although there are some variables with express installation files, there are also some things you can count on. For example, express installation files are always bigger in size than the updates they are meant to distribute. As far as bandwidth goes, it is always less expensive to distribute updates using express installation files than to distribute updates without. |
 

@@ -15,6 +15,6 @@ WSUS enables you to create custom computer groups, which you can use to test upd
 
 In this example, the Test group contains a small number of computers representative of all the computers contained in the Accounting group. This creates a virtual test lab. The administrator can first approve updates for the Test group. If the testing goes well, the administrator can roll out the updates to the Accounting group.
 
-![](images/Cc708516.f74817dd-8d19-497f-b310-f12f0060daa2(WS.10).gif)
+![](/security-updates/images/Cc708516.f74817dd-8d19-497f-b310-f12f0060daa2(WS.10).gif)
 
 You can expand this basic scenario to fit testing needs for your organization. For example, you can create multiple test computer groups that resemble actual computer groups containing computers with different configurations.

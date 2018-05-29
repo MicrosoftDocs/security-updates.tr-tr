@@ -11,7 +11,7 @@ Step 6: Update and Configure Automatic Updates
 
 WSUS client computers require a compatible version of Automatic Updates. WSUS Setup automatically configures IIS to distribute the latest version of Automatic Updates to each client computer that contacts the WSUS server.
 
-| ![](images/Cc708567.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ![](/security-updates/images/Cc708567.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Although most versions of Automatic Updates can be pointed to the WSUS server and they will automatically self-update to the WSUS-compatible version, the version of Automatic Updates included with Windows XP without any service packs cannot update itself automatically. If you have Windows XP without any service packs in your environment, and you have never used Software Update Services (SUS), see the “Deploying Microsoft Windows Server Update Services” white paper for instruction. |
 
@@ -55,7 +55,7 @@ Perform the next three procedures on an Active Directory-based Group Policy obje
 
 4.  Click **OK**.
 
-| ![](images/Cc708567.note(WS.10).gif)Not                                                                          |
+| ![](/security-updates/images/Cc708567.note(WS.10).gif)Not                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|
 | The setting **Allow local admin to choose setting** only appears if Automatic Updates has updated itself to the version compatible with WSUS. |
 
@@ -68,13 +68,13 @@ Perform the next three procedures on an Active Directory-based Group Policy obje
 
 4.  Click **OK**.
 
-| ![](images/Cc708567.note(WS.10).gif)Not                                                                                                                                                                                                                 |
+| ![](/security-updates/images/Cc708567.note(WS.10).gif)Not                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If you are using the Local Group Policy object to point this computer to WSUS, this setting takes effect immediately and this computer should appear in the WSUS administrative console in about 20 minutes. You can speed this process up by manually initiating a detection cycle. |
 
 After you set up a client computer, it will take a few minutes before it appears on the **Computers** page in the WSUS console. For client computers configured with an Active Directory-based GPO, it will take about 20 minutes after Group Policy refreshes (that is, applies any new settings to the client computer). By default, Group Policy refreshes in the background every 90 minutes, with a random offset of 0 to 30 minutes. If you want to refresh Group Policy sooner, you can go to a command prompt on the client computer and type: **gpupdate /force**.
 
-| ![](images/Cc708567.note(WS.10).gif)Not                                                                  |
+| ![](/security-updates/images/Cc708567.note(WS.10).gif)Not                                                                  |
 |---------------------------------------------------------------------------------------------------------------------------------------|
 | On client computers running Windows 2000, you can go to a command prompt and type: **secedit /refreshpolicy machine\_policy enforce** |
 
