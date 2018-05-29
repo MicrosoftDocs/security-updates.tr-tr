@@ -20,7 +20,7 @@ RMS'yi Kaldırma
 
 1.  RMS'yi kaldırmak istediğiniz sunucuya oturum açın.
 
-    | ![](images/Cc747587.Important(WS.10).gif)Önemli                                                                                                                                                                                               |
+    | ![](/security-updates/images/Cc747587.Important(WS.10).gif)Önemli                                                                                                                                                                                               |
     |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | RMS'yi kök sertifika kümesindeki bir sunucudan kaldırıyorsanız, öncelikle **Genel Yönetim** sayfasına gidip **RMS'yi bu Web sitesinden kaldır**'ı tıklatarak hazırlığını kaldırmanız gerekir. RMS'yi kaldırmadan önce lisans sunucusunun hazırlığını kaldırmanız gerekmez. |
 

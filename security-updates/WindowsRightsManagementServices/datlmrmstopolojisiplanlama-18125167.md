@@ -15,7 +15,7 @@ Kök sertifika sunucuları gibi, lisans sunucuları da küme içinde dağıtıla
 
 RMS yüklemesini, kök yüklemesinden yalnızca sertifika hizmetlerini çalıştıracak ve tüm lisans hizmetini bir veya birkaç lisans sunucusu veya kümesinden çalıştıracak biçimde kurabilirsiniz, ancak bu standart yapılandırma değildir. Genellikle, performans ve artıklık gereksinimlerini karşılamak için ayrı lisans sunucuları dağıtmak yerine kök sertifika kümesindeki fiziksel sunucu sayısını artırırsınız (lisans için bölüm düzeyinde desteğe gereksiniminiz yoksa). Aşağıdaki şekilde bu dağıtım gösterilmektedir.
 
-![](images/Cc747657.01fa5a85-5711-41aa-932a-124049d34186(WS.10).gif)
+![](/security-updates/images/Cc747657.01fa5a85-5711-41aa-932a-124049d34186(WS.10).gif)
 
 Dağıtılmış topoloji oluşturmak, bu topoloji yapısı gereği daha karmaşık olduğundan kuruluşunuzun yönetim maliyetlerini artırabilir. Kuruluşunuzda birden çok küme ve orman varsa, RMS istemci bilgisayarlarının lisans isteklerini doğru RMS sunucusundan almalarını sağlamak için bu RMS istemci bilgisayarlarındaki kayıt defterinde değişiklik yapmanız gerekebilir. Ayrıca, etki alanları arasında güven sorunları yaşanabilir. Bu, RMS korumalı içeriğin kullanılmasını sağlamak için etki alanlarınızda ek yapılandırma yapmanızı gerektirir.
 

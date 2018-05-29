@@ -23,6 +23,6 @@ Lisans sunucusu alt kayıt hizmet isteğinde bulunduğunda, hizmet dosyası adı
 
 http://sunucu\_adı/\_wmcs/Certification/SubEnrollService.asmx
 
-| ![](images/Cc747641.note(WS.10).gif)Not                           |
+| ![](/security-updates/images/Cc747641.note(WS.10).gif)Not                           |
 |------------------------------------------------------------------------------------------------|
 | RMS sunucunuzda SSL'yi etkinleştirdiyseniz, bu URL'ler https:// bağlantı protokolünü kullanır. |

@@ -15,7 +15,7 @@ Pek çok kuruluş, istemci yazılımlarının kuruluşlarındaki dağıtımını
 
 Dağıtımınıza başlamadan önce, RMS istemcisini yüklemek üzere [http://go.microsoft.com/fwlink/?LinkId=67736](http://go.microsoft.com/fwlink/?linkid=67736) adresine bakın.
 
-| ![](images/Cc747749.Important(WS.10).gif)Önemli                          |
+| ![](/security-updates/images/Cc747749.Important(WS.10).gif)Önemli                          |
 |-------------------------------------------------------------------------------------------------------|
 | RMS istemcisi Windows Vista ile tümleşiktir. Bu nedenle, ayrı bir yükleme olarak yüklenmesi gerekmez. |
 
@@ -39,7 +39,7 @@ Bu komutu çalıştırmak, aşağıdaki dosyaların belirttiğiniz hedef dizine 
 -   RMClientBackCompat.msi
     RMS SP2 istemcisinin kullanılabilmesini sağlamak amacıyla, RMS istemcisinin önceki sürümüne bağımlı olan RMS etkin uygulamalarda (Microsoft Office Professional 2003 veya 2007 Microsoft Office Sistemi gibi) yeni SP2 istemcisini tanımlayan yükleme dosyasıdır. Bu program istemci bilgisayarlara, MSDrmClient.msi başarılı bir şekilde yüklendikten sonra yüklenmelidir.
 
-| ![](images/Cc747749.note(WS.10).gif)Not                                                                                                                                                                                                   |
+| ![](/security-updates/images/Cc747749.note(WS.10).gif)Not                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Uygulamayı seçtiğiniz yükleme yöntemine bağlı olmaksızın, her iki Windows Installer dosyasının da başarılı bir şekilde yüklendiğinden emin olun. MSDrmClient.msi dosyasının yüklenmesini engelleyen bir hata oluşursa, RMClientBackCompat.msi dosyası yüklenmemelidir. |
 
@@ -52,7 +52,7 @@ Windows Installer dosyalarını yüklemek üzere dosyaları ayıklamak isteğe b
 
 Bu komut, RMS istemcisinin katılımsız yüklemesini başlatır.
 
-| ![](images/Cc747749.note(WS.10).gif)Not                                                                                                       |
+| ![](/security-updates/images/Cc747749.note(WS.10).gif)Not                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu bir katılımsız yükleme olduğu için, yükleyici tamamlandığında size bildirmez. Katılımsız yüklemeler genelde bir toplu iş dosyasında veya komut dosyasında çalıştırılır. |
 
@@ -72,7 +72,7 @@ RMS İstemcisini SMS Kullanarak Dağıtma
 
     -   **Komut satırı** için aşağıdaki komutu yazın:
         `msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"`
-        | ![](images/Cc747749.note(WS.10).gif)Not                                                       |
+        | ![](/security-updates/images/Cc747749.note(WS.10).gif)Not                                                       |
         |----------------------------------------------------------------------------------------------------------------------------|
         | MSIDGHOG rasgele bir değerdir. &lt;Dosya\_adı&gt; yerine, bu paketin yükleneceği Windows Installer dosyasının adını yazın. |
 
@@ -140,7 +140,7 @@ Aşağıdaki yordam, Grup İlkesi tabanlı yazılım dağıtımı konusunda fazl
 
 11. RMClientBackCompat.msi dosyasını yükleyen bir GPO oluşturmak için 5 ile 10 arasındaki adımları yineleyin.
 
-| ![](images/Cc747749.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                       |
+| ![](/security-updates/images/Cc747749.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu adımlar, Grup İlkesi kullanımında deneyimi olmayan kullanıcılara yol göstermek amacıyla verilmiştir. Deneyimli bir Grup İlkesi yöneticisiyseniz, MSDrmClient.msi paketini dağıtmak için kendi işletim yordamlarınızı uygulayabilirsiniz. Buna ek olarak, bu adımlar Windows Server 2003 çalıştıran bir etki alanı denetleyicisine yönelik olduğundan, işlem ve terminoloji Windows 2000 etki alanından farklı olabilir. |
 
@@ -148,6 +148,6 @@ Aşağıdaki yordam, Grup İlkesi tabanlı yazılım dağıtımı konusunda fazl
 -----------------------------
 
         ```
-| ![](images/Cc747749.note(WS.10).gif)Not                                                   |
+| ![](/security-updates/images/Cc747749.note(WS.10).gif)Not                                                   |
 |------------------------------------------------------------------------------------------------------------------------|
 | RSM istemcisi işletim sisteminde yerleşik olarak bulunduğu için, bu komut dosyası Windows Vista ile birlikte çalışmaz. |

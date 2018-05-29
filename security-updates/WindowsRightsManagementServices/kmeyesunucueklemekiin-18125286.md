@@ -26,13 +26,13 @@ Kümeye Sunucu Ekleme
 
 2.  RMS sağlamak istediğiniz Web sitesinin yanındaki **Bu sunucuyu bir kümeye ekle** bağlantısını tıklatın. Varsayılan Web sitesini veya bu amaca yönelik olarak Internet Information Services'ta (IIS) oluşturduğunuz başka bir Web sitesini seçebilirsiniz.
 
-    | ![](images/Cc747690.Warning(WS.10).gif)Uyarý                                                                                                                                                                                                      |
+    | ![](/security-updates/images/Cc747690.Warning(WS.10).gif)Uyarý                                                                                                                                                                                                      |
     |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | RMS ile aynı sunucuda ek Web sitesi veya hizmeti çalıştırılması desteklenmez. Bu şekilde hareket edilmesi, RMS ile aynı hesap altında çalışan birden çok uygulamaya ve hizmete neden olabilir. Bu da, özel anahtarları garanti edilmeyen işlemlerle karşı karşıya bırakabilir. |
 
 3.  **RMS hizmet hesabı** alanına, etki\_alanı\_adı\\kullanıcı\_adı biçiminde hesap adını ve RMS'nin birçok normal işlem için altında çalışacağı RMS hizmet hesabının parolasını yazın. Bu bir etki alanı hesabı olmalıdır. Kümedeki tüm sunucular aynı RMS hizmet hesabı altında çalışmalıdır.
 
-    | ![](images/Cc747690.Important(WS.10).gif)Önemli                                                                                                                                                                                                |
+    | ![](/security-updates/images/Cc747690.Important(WS.10).gif)Önemli                                                                                                                                                                                                |
     |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Güvenlik nedeniyle, RMS hizmet hesabı olarak kullanmak için özel bir etki alanı kullanıcı hesabı oluşturmanız ve ona herhangi bir özel izin vermemeniz önerilir. RMS hizmet hesabı, Service Pack 1 kurulu RMS yüklemek için kullandığınız etki alanı hesabıyla aynı olamaz. |
 

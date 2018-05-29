@@ -136,6 +136,6 @@ Aşağıdaki tabloda Active Directory varsayılan bağlantı havuzu ayarlarını
 </tbody>
 </table>
   
-| ![](images/Cc747660.Caution(WS.10).gif)Dikkat                                                                                                             |  
+| ![](/security-updates/images/Cc747660.Caution(WS.10).gif)Dikkat                                                                                                             |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Kayıt defterinde yanlış düzenlemeler yapmak sisteminize ciddi zararlar verebilir. Kayıt defterinde değişiklik yapmadan önce, bilgisayarınızdaki değerli verileri yedeklemeniz gerekir. |

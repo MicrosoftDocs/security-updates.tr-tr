@@ -32,7 +32,7 @@ Kasa Sürümlerini Dışlama
 
 6.  **Gereken en düşük RM kasası sürümü** alanına, kopyaladığınız sürüm numarasını yapıştırın ve sonra **Güncelleştir**'i tıklatın.
 
-    | ![](images/Cc720270.note(WS.10).gif)Not         |
+    | ![](/security-updates/images/Cc720270.note(WS.10).gif)Not         |
     |------------------------------------------------------------------------------|
     | Kasa sürümüne göre dışlamayı kapatmak için, **Devre dışı bırak**'ı tıklatın. |
 

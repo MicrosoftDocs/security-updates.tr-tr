@@ -11,7 +11,7 @@ Adım 5: Otomatik Güncelleştirmeleri Güncelleştirme ve Yapılandırma
 
 WSUS istemci bilgisayarları Otomatik Güncelleştirmeler'in uyumlu bir sürümünü gerektirir. WSUS Kurulumu, WSUS sunucusuyla iletişime geçen her istemci bilgisayarına Otomatik Güncelleştirmeler'in en son sürümünü dağıtmak üzere IIS'yi otomatik olarak yapılandırır.
 
-| ![](images/Cc720533.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ![](/security-updates/images/Cc720533.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Otomatik Güncelleştirmeler'in birçok sürümü WSUS sunucusuna işaret edecek şekilde ayarlanabilir ve kendisini otomatik olarak WSUS uyumlu sürüme güncelleştirebilir, ancak hizmet paketi içermeyen bir Windows XP işletim sisteminde bulunan Otomatik Güncelleştirmeler sürümü kendisini otomatik olarak güncelleştiremez. Ortamınızda hizmet paketi içermeyen Windows XP kullanıyorsanız ve Software Update Services (SUS) uygulamasını hiç kullanmadıysanız, yönergeler için “Microsoft Windows Server Update Services'ı Dağıtma” teknik incelemesine bakın (Belge İngilizce'dir). |
 
@@ -55,7 +55,7 @@ Adım 5'te aşağıdaki yordamlar vardır:
 
 4.  **Tamam**'ı tıklatın.
 
-| ![](images/Cc720533.note(WS.10).gif)Not                                                                                       |
+| ![](/security-updates/images/Cc720533.note(WS.10).gif)Not                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Yerel yöneticinin ayarı seçmesine izin ver** ayarı yalnızca, Otomatik Güncelleştirmeler kendisini WSUS ile uyumlu sürüme güncelleştirmişse görüntülenir. |
 
@@ -68,7 +68,7 @@ Adım 5'te aşağıdaki yordamlar vardır:
 
 4.  **Tamam**'ı tıklatın.
 
-| ![](images/Cc720533.note(WS.10).gif)Not                                                                                                                                                                                                                     |
+| ![](/security-updates/images/Cc720533.note(WS.10).gif)Not                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu bilgisayarı WSUS'yi işaret edecek şekilde ayarlamak için Yerel Grup İlkesi nesnesini kullanıyorsanız, bu ayar hemen etkin olur ve bu bilgisayar yaklaşık 20 dakika içinde WSUS yönetici konsolunda görüntülenir. Algılama döngüsünü el ile başlatarak bu işlemi hızlandırabilirsiniz. |
 

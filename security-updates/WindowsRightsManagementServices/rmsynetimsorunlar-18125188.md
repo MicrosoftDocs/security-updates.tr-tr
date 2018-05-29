@@ -143,7 +143,7 @@ RMS hizmet hesabı parolanızın süresi dolarsa, hesabı süresi dolan parolayl
 
 RMS sunucusu donanımınız veya yazılımınızda hata oluşursa, yeni bir sunucu örneği sağlamak için, önceden yüklenmiş yapılandırma veritabanını kullanarak RMS sunucusunu geri yükleyebilirsiniz.
 
-| ![](images/Cc747605.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                  |
+| ![](/security-updates/images/Cc747605.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu yordam yalnızca RMS çalıştıran sunucuda hata olması durumunda kullanılabilir. Yapılandırma veritabanınızı çalıştıran sunucuda hata olursa, bu konuda daha önce söz edilen "Yapılandırma Veritabanını Geri Yükleme" bölümüne bakın. RMS sunucunuz aynı zamanda veritabanı sunucunuz olarak da işlev görüyorsa, yedek kopyadan tüm sunucuyu geri yüklemeniz gerekir. |
 
@@ -186,7 +186,7 @@ Varsayılan olarak, RMS gibi ASP sayfasında çalıştırılan bileşenler IUSR\
 
 Bu sorunu çözmek için, kayıt defteri düzenleyicisini kullanarak bu davranışı denetleyen kayıt defteri anahtarını değiştirebilirsiniz.
 
-| ![](images/Cc747605.Caution(WS.10).gif)Dikkat                                                                                                             |
+| ![](/security-updates/images/Cc747605.Caution(WS.10).gif)Dikkat                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kayıt defterinde yanlış düzenlemeler yapmak sisteminize ciddi zararlar verebilir. Kayıt defterinde değişiklik yapmadan önce, bilgisayarınızdaki değerli verileri yedeklemeniz gerekir. |
 
@@ -198,7 +198,7 @@ Ad: `RestrictGuestAccess`
 
 Tür: `REG_DWORD`
 
-| ![](images/Cc747605.note(WS.10).gif)Not       |
+| ![](/security-updates/images/Cc747605.note(WS.10).gif)Not       |
 |----------------------------------------------------------------------------|
 | Bu ayar, tüm Guest hesaplarının Uygulama Olay Günlüğü'ne yazmasını sağlar. |
 

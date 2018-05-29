@@ -17,7 +17,7 @@ Dağıtıma başlamadan önce, RMS planınızın aşağıdaki konuları içerdi�
 -   Basit veya dağıtılmış bir RMS topolojisi seçilmiştir.
 -   Active Directory, Windows 2000 Service Pack 3 (SP3) veya daha sonraki sürümünü çalıştıran etki alanı denetleyicilerine yüklenmiş ve tüm kullanıcıların e-posta özniteliği yapılandırılmış bir kişi nesnesi olması sağlanmıştır. Windows Server 2003, en yeni güncelleştirmelerle birlikte yüklenmiştir. Message Queuing, Internet Information Services ve ASP.NET sürüm 1.1 etkinleştirilmiştir.
 
-| ![](images/Cc720185.note(WS.10).gif)Not                                                                                                                                                       |
+| ![](/security-updates/images/Cc720185.note(WS.10).gif)Not                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RMS'yi 64 bit özellikli bir bilgisayara yüklemeyi planlıyorsanız, özel yapılandırma yönergeleri için bu belge grubunda bulunan "RMS Dağıtımını Planlama" bölümündeki "RMS için Yazılım Gereksinimleri" konusunu inceleyin. |
 

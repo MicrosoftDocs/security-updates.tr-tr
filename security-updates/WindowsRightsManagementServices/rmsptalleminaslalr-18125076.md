@@ -24,7 +24,7 @@ RMS istemcisi bağlanma isteğini işlerken aşağıdaki adımları izler:
 
 Aşağıdaki diyagram bağlanma işlemini ve iptalin bağlanma işleminde nasıl çalıştığını gösteriyor.
 
-![](images/Cc720263.81aa2d70-d261-49ad-b446-96a2eddba1a5(WS.10).gif)
+![](/security-updates/images/Cc720263.81aa2d70-d261-49ad-b446-96a2eddba1a5(WS.10).gif)
 
 İptal isteğe bağlıdır. RMS yöneticisi, kuruluşun bir veya daha fazla hak ilkesi şablonunda belirterek iptal isteğinde bulunabilir. İptal gerektiğinde, istenen iptal listesi kullanıcı bilgisayarında hazır, kayıtlı ve kullanım lisansında belirtilen yenileme aralığından daha yeni olmadıkça lisans bağlanamaz.
 

@@ -34,7 +34,7 @@ The Server Cleanup Wizard is integrated into the WSUS 3.0 UI, and can be used to
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939856.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939856.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>

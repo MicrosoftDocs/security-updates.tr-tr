@@ -32,7 +32,7 @@ Sunucu Lisans Sertifikasını Yenileme
 
 5.  **Kaydet**'i tıklatın. **Farklı kaydet** iletişim kutusu görünür.
 
-    | ![](images/Cc747636.note(WS.10).gif)Not                                                                                        |
+    | ![](/security-updates/images/Cc747636.note(WS.10).gif)Not                                                                                        |
     |-------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | **Karşıdan Dosya Yükleme** iletişim kutusunda **Aç**'ı tıklatmayın. **Aç**'ı tıklatırsanız bir hata mesajı görüntülenir ve kayıt istek dosyası kaydedilmez. |
 

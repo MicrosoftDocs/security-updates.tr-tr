@@ -28,7 +28,7 @@ WSUS'yi varsayılan seçeneklerle yüklemek için, aşağıdaki uygulamaların b
     Bir diğer yol ise, http://www.windowsupdate.com adresine gidip Kritik Güncelleştirmeler ve Hizmet Paketleri'ni aradıktan sonra Windows Server 2003 için Microsoft .NET Framework 1.1 Service Pack 1'i yüklemektir.
 -   Arka Plan Akıllı Aktarım Hizmeti (BITS) 2.0. Windows Server 2003 için BITS 2.0 şu anda Yükleme Merkezi sitesinde yoktur. Bu yazılımı elde etmek için http://go.microsoft.com/fwlink/?LinkId=47357 adresindeki, Windows Server Update Services Open Evaluation'a yönelik [Microsoft Web sitesine](http://go.microsoft.com/fwlink/?linkid=47357) bakın.
 
-| ![](images/Cc720547.note(WS.10).gif)Not                                                                                                                                                                             |
+| ![](/security-updates/images/Cc720547.note(WS.10).gif)Not                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WSUS'yi yüklemek için veritabanı yazılımı gerekir, ancak Windows Server 2003 üzerinde gerçekleştirilen varsayılan WSUS yüklemesi, Windows SQL Server™ 2000 Desktop Engine (WMSDE) veritabanı yazılımını da içerdiğinden burada listelenmemiştir. |
 

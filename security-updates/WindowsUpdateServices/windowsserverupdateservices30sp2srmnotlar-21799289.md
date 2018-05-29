@@ -62,7 +62,7 @@ Bu bölümde, WSUS 3.0 SP2 yüklemesi için yazılım ve donanım gereksinimle
         </colgroup>
         <thead>
         <tr class="header">
-        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Uyarı</th>
+        <th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Warning(WS.10).gif" />Uyarı</th>
         </tr>
         </thead>
         <tbody>
@@ -97,7 +97,7 @@ Bu bölümde, WSUS 3.0 SP2 yüklemesi için yazılım ve donanım gereksinimle
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -134,7 +134,7 @@ Aşağıdaki liste, temel sunucu yüklemesi için en düşük donanım gereksini
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -176,7 +176,7 @@ WSUS 3.0 SP2'yi yüklerken, yüklemeyi başarıyla gerçekleştirebilmeniz iç
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Dikkat</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Caution(WS.10).gif" />Dikkat</th>
 </tr>
 </thead>
 <tbody>
@@ -446,7 +446,7 @@ WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (bağlantı noktası 8530'u kullanarak sessi
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>

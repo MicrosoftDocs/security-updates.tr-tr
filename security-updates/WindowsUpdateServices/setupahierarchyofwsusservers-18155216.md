@@ -24,10 +24,10 @@ There is a discussion of the advantages and limitations of setting up WSUS serve
 
 6.  Click **OK.**
 
-| ![](images/Cc708495.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                                                                                     |
+| ![](/security-updates/images/Cc708495.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | When you configure a downstream server, you should make sure that the update languages it supports are a subset of the languages supported on its upstream server. If you choose a language on a downstream server that is not supported on an upstream server, you will not be able to get updates in that language. To remind you of this issue, a task will appear on the home page of the downstream server. |
 
-| ![](images/Cc708495.Important(WS.10).gif)Önemli                |
+| ![](/security-updates/images/Cc708495.Important(WS.10).gif)Önemli                |
 |---------------------------------------------------------------------------------------------|
 | Maximum number of downstream servers talking to upstream root server should not exceed.1000 |

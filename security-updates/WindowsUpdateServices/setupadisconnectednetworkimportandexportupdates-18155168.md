@@ -11,7 +11,7 @@ Set Up a Disconnected Network (Import and Export Updates)
 
 Managing WSUS on a disconnected network involves exporting updates and metadata from a WSUS server on a connected network and then importing all that information into the WSUS server on the disconnected network. There is a conceptual discussion of why this might be useful in the "Networks Disconnected from the Internet" section in [Choose a Type of Deployment](https://technet.microsoft.com/bc61fb16-13d4-4b3e-b547-fae6a0d5b7bc) earlier in this guide.
 
-| ![](images/Cc720512.note(WS.10).gif)Not                                                                          |
+| ![](/security-updates/images/Cc720512.note(WS.10).gif)Not                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|
 | You cannot import updates to a server that is being centrally managed. WSUS servers on disconnected networks are always autonomously managed. |
 

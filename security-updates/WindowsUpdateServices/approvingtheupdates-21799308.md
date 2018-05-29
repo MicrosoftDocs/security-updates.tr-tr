@@ -29,7 +29,7 @@ You can approve the installation of updates for all the computers in your WSUS n
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939929.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -48,7 +48,7 @@ You can approve the installation of updates for all the computers in your WSUS n
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939929.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -100,7 +100,7 @@ You can approve the installation of updates for all the computers in your WSUS n
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939929.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -152,7 +152,7 @@ You can approve an update for removal (that is, to uninstall an already-installe
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939929.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -206,7 +206,7 @@ You can create rules that your WSUS server will automatically apply during synch
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939929.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -230,7 +230,7 @@ The **Automatic Approvals** section of the **Options** pane contains a default o
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939929.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -256,7 +256,7 @@ The **Automatic Approvals** section of the **Options** pane contains a default o
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939929.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>

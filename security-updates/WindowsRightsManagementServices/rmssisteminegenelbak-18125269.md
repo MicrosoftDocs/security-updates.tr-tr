@@ -93,6 +93,6 @@ RMS, sistem için ortak güven kökü sağlamak amacıyla Microsoft tarafından 
 
 Aşağıdaki çizimde RMS sistemindeki farklı bileşenler ve bunların sistemdeki rolleri gösterilmektedir. Oklar, farklı bileşenler arasında geçirilen istekleri ve yanıtları gösterir.
 
-![](images/Cc747671.29138741-d45c-459b-8ead-b9bc3f708dd5(WS.10).gif)
+![](/security-updates/images/Cc747671.29138741-d45c-459b-8ead-b9bc3f708dd5(WS.10).gif)
 
 Her bir bileşen hakkında daha fazla bilgi için, bu konuda daha sonra yer alan "[RMS Yazılım Bileşenleri](https://technet.microsoft.com/e38a840e-f390-48fd-8354-50108a64f5ca)" bölümüne bakın.

@@ -26,7 +26,7 @@ RMS bu dosyaları oluşturduğunda, dosyaların DACL'leri yalnızca sistem işle
 
 Grubu oluşturduktan sonra, DACL'yi ServerCertification.asmx dosyası için değiştirerek, grubun bu hizmet için Okuma & Yürütme izinlerinin olmasını sağlayabilirsiniz. RMS Service Group'u da DACL'ye Okuma & Yürütme izinleriyle eklemelisiniz.
 
-| ![](images/Cc747593.note(WS.10).gif)Not                                                                   |
+| ![](/security-updates/images/Cc747593.note(WS.10).gif)Not                                                                   |
 |----------------------------------------------------------------------------------------------------------------------------------------|
 | Kümede birden çok RMS sunucusu varsa, ServerCertification.asmx dosyasındaki DACL'nin kümedeki her bir sunucuda değiştirilmesi gerekir. |
 
@@ -34,6 +34,6 @@ Microsoft Exchange Server 2007 için, her bir Exchange köprü sunucusunun Acti
 
 Office SharePoint Server 2007 için, Office SharePoint Server 2007 çalışan sunucunun Active Directory bilgisayar nesnesini sunucu hizmetleri grubuna eklemeniz gerekir. Office SharePoint Server 2007 sunucunuz Active Directory'deki varsayılan sunucuyu kullanacak biçimde yapılandırılırsa, RMS Service Group'u ve sunucu hizmetleri için oluşturulan grubu ServiceLocater.asmx dosyasına eklemeniz ve Okuma & Yürütme izinleri atamanız gerekir.
 
-| ![](images/Cc747593.Important(WS.10).gif)Önemli                                                                                                                                                            |
+| ![](/security-updates/images/Cc747593.Important(WS.10).gif)Önemli                                                                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ServerCertification.asmx ve ServiceLocater.asmx dosyalarında DACL değiştirildikten sonra Internet Information Services'ın (IIS) yeniden başlatılması gerekir. IIS'yi sıfırlamak için, komut isteminde **iisreset** komutunu çalıştırın. |

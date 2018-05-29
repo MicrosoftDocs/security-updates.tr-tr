@@ -11,7 +11,7 @@ RMS Kayıt Defteri Anahtarı Ayarları
 
 Kayıt defteri anahtarlarının ayarlarını, dağıtımınızın belirli özelliklerini sınamak için ve performans yönetimi amacıyla değiştirebilirsiniz.
 
-| ![](images/Cc747740.Caution(WS.10).gif)Dikkat                                                                                                             |
+| ![](/security-updates/images/Cc747740.Caution(WS.10).gif)Dikkat                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kayıt defterinde yanlış düzenlemeler yapmak sisteminize ciddi zararlar verebilir. Kayıt defterinde değişiklik yapmadan önce, bilgisayarınızdaki değerli verileri yedeklemeniz gerekir. |
 

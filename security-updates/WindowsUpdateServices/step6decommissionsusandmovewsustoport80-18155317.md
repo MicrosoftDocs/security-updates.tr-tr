@@ -33,6 +33,6 @@ If you prefer to leave your updating solution on a port other than port 80, you 
 
 4.  In the **WSUS Administration Properties** dialog box, change the value in **TCP port** from **8530** to **80**.
 
-| ![](images/Cc708606.note(WS.10).gif)Not                                                                                                                                                                           |
+| ![](/security-updates/images/Cc708606.note(WS.10).gif)Not                                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If you change the port number after installing WSUS, you have to create a new shortcut on your **Start** menu with the new URL to access the WSUS console from the **Start** menu. See Help and Support for instruction on creating shortcuts. |

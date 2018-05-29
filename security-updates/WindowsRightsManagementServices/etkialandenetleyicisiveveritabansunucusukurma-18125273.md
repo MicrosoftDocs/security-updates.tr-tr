@@ -13,7 +13,7 @@ Kök sertifika sunucusu veya lisans sunucusu yüklemeden önce, SQL Server 2000 
 
 Aşağıdaki yordamlar sunucu tarafında sınama amaçları için yalıtılmış bir ağdaki tek bir bilgisayara hem etki alanı denetleyicisini hem de veritabanı sunucusunu kurar.
 
-| ![](images/Cc747681.note(WS.10).gif)Not                                                                                                                                                                                                                                                         |
+| ![](/security-updates/images/Cc747681.note(WS.10).gif)Not                                                                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu örnekte, veritabanı sunucusu etki alanı denetleyicisinde çalışmaktadır. Üretim ortamında, diğer bileşenleri etki alanı denetleyicisinde barındırmanız genellikle önerilmez. Altyapının tamamını en az sayıda bilgisayara yükleyebilmek için bu örnekte Active Directory ve veritabanı sunucusu aynı bilgisayara yüklenir. |
 

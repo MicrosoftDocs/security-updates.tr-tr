@@ -54,11 +54,11 @@ Sonraki beş yordam, yapılandırma sihirbazını kullanarak güncelleştirmeler
 
 Yukarıdaki yapılandırma adımlarının tümünü tamamladıktan sonra, yapılandırma sihirbazında **Bitti** sayfasını seçin. **Windows Server Update Services Yönetim ek bileşenini başlat** onay kutusunu seçili bırakarak WSUS Yönetimi konsolunu başlatabilir ve **İlk eşitlemeyi başlat** onay kutusunu seçili bırakarak ilk eşitlemeyi başlatabilirsiniz.
 
-| ![](images/Cc708447.note(WS.10).gif)Not                                                                                    |
+| ![](/security-updates/images/Cc708447.note(WS.10).gif)Not                                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sunucu eşitleme yaparken yapılandırmada yaptığınız değişiklikleri kaydedemezsiniz. Değişikliklerinizi kaydetmek için eşitleme bitinceye kadar bekleyin. |
 
-![](images/Cc708447.3f774fd1-af87-47d8-8f50-a5d585687d70(WS.10).gif)
+![](/security-updates/images/Cc708447.3f774fd1-af87-47d8-8f50-a5d585687d70(WS.10).gif)
 
 Aşağıdaki yordamlarda, yukarıdaki yapılandırma adımlarının WSUS Yönetimi konsolunun **Seçenekler** sayfası kullanılarak nasıl gerçekleştirileceği anlatılmaktadır:
 
@@ -95,7 +95,7 @@ Ağ bağlantısını yapılandırdıktan sonra, WSUS sunucusunu eşitleyerek gü
 
 Eşitleme, WSUS sunucusunun Microsoft Update sitesiyle iletişim kurmasını içerir. İletişim kurulduktan sonra WSUS, son eşitlemeden sonra kullanıma sunulan yeni güncelleştirmeler olup olmadığını belirler. WSUS sunucusunu ilk kez eşitlediğinizden tüm güncelleştirmeler kullanılabilir durumdadır ve yükleme için onayınıza hazırdır. İlk eşitleme oldukça uzun sürebilir.
 
-| ![](images/Cc708447.note(WS.10).gif)Not                                                                                |
+| ![](/security-updates/images/Cc708447.note(WS.10).gif)Not                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu belgede, varsayılan ayarlarla eşitleme açıklanır; ancak WSUS, eşitleme sırasında bant genişliğini en aza indirmenizi sağlayan seçenekler içerir. |
 
@@ -104,7 +104,7 @@ Eşitleme, WSUS sunucusunun Microsoft Update sitesiyle iletişim kurmasını iç
 
 2.  Sağ tıklatın veya sağdaki **Eylemler** bölmesine gidin ve sonra **Şimdi eşitle**'yi tıklatın.
 
-| ![](images/Cc708447.note(WS.10).gif)Not                                                                                                                                  |
+| ![](/security-updates/images/Cc708447.note(WS.10).gif)Not                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Konsolun sağ tarafında **Eylemler** bölmesini görmüyorsanız, konsol araç çubuğunda **Görünüm**'ü tıklatın, **Özelleştir**'i tıklatın ve **Eylem bölmesi** onay kutusunun seçili olduğundan emin olun. |
 

@@ -67,11 +67,11 @@ WSUS Uygulama Arabirimi (API) çağrıları WSUS SP1 yükleyicisiyle çakışara
 
 WSUS SP1'i uygulayarak WSUS'u yükselttiğinizde, yükseltme işlemini başarıyla gerçekleştirmek veya hizmet paketini uygulamak için virüsten koruma programlarını devre dışı bırakmanız gerekebilir. Virüsten koruma programlarını devre dışı bıraktıktan sonra, Windows Server çalışan bilgisayarı yeniden başlatmadan yükseltmeyi veya hizmet paketini uygulamayın. Bu yordam, güncelleştirme işleminin erişmesi gereken dosyaların kilitlenmesini engeller. Yükleme tamamlandıktan sonra, virüsten koruma programınızı yeniden etkinleştirmeyi unutmayın. Virüsten koruma programınızı ve sürümünüzü devre dışı bırakma ve yeniden etkinleştirme adımları için, virüsten koruma programı satıcınızın Web sitesini ziyaret edin.
 
-| ![](images/Cc708486.Caution(WS.10).gif)Dikkat                                                                                                                                                                                                                                                                      |
+| ![](/security-updates/images/Cc708486.Caution(WS.10).gif)Dikkat                                                                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu geçici çözüm, ağınızdaki bilgisayarı kötü amaçlı kullanıcıların veya virüsler gibi kötü amaçlı yazılımların gerçekleştirdiği saldırılara karşı daha savunmasız bırakabilir. Bu geçici çözüm önerilmez, ancak geçici çözümü isterseniz kullanabilmeniz için bu bilgiler sağlanmaktadır. Bu geçici çözümü kullanmak kendi sorumluluğunuzdadır. |
 
-| ![](images/Cc708486.note(WS.10).gif)Not                                                                                                                                                                                                                                                        |
+| ![](/security-updates/images/Cc708486.note(WS.10).gif)Not                                                                                                                                                                                                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Virüsten koruma programı, bilgisayarınızın virüslerden korunmasına yardımcı olacak biçimde tasarlanmıştır. Virüsten koruma programınız devre dışı bırakıldığında, güvenmediğiniz kaynaklardan karşıdan dosya yüklememeli veya açmamalı, güvenmediğiniz Web sitelerini ziyaret etmemeli veya e-posta eklerini açmamalısınız. |
 
@@ -148,7 +148,7 @@ WSUS RTM'yi yükledikten sonra bilgisayar adını değiştirir ve sonra da WSUS 
 ASPNET ve WSUS Administrators gruplarını kaldırıp yeniden eklemek üzere aşağıdaki komut dosyasını kullanın. Daha sonra, yükseltmeyi yeniden çalıştırın.
 
         ```
-| ![](images/Cc708486.note(WS.10).gif)Not           |
+| ![](/security-updates/images/Cc708486.note(WS.10).gif)Not           |
 |--------------------------------------------------------------------------------|
 | Son satırdaki &lt;İçerikDizini&gt; yerine, asıl içerik deponuzun yolunu yazın. |
 
@@ -340,7 +340,7 @@ Bilinen Sorunlar
 
 Windows 2000 Server çalışan bir bilgisayarda Internet Information Services (IIS) çalıştırıyorsanız, Microsoft TechNet'teki IIS Lockdown Aracı sayfasından IIS Lockdown Wizard'ın en son sürümünü (URLScan içerir) yükleyin. Microsoft, IIS sunucularınızın güvenliğini sağlamak için bu aracı yüklemenizi önerir. IIS Lockdown Wizard, IIS'nin gerekli olmayan özelliklerini kapatarak güvenlik risklerini azaltır.
 
-| ![](images/Cc708486.note(WS.10).gif)Not                                                                                                                                  |
+| ![](/security-updates/images/Cc708486.note(WS.10).gif)Not                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WSUS Setup bu bileşenleri yüklemez. Bunları el ile yüklemelisiniz. Windows Server 2003 çalışan bilgisayarlara IIS Lockdown aracını yüklemeniz gerekmez, çünkü bu işlevsellik yerleşik olarak bulunur. |
 

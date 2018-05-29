@@ -34,7 +34,7 @@ Set up as many DNS host (A) resource records as there are planned WSUS servers.
 
 6.  Repeat this procedure for the rest of the planned WSUS servers.
 
-| ![](images/Cc708563.Important(WS.10).gif)Önemli |
+| ![](/security-updates/images/Cc708563.Important(WS.10).gif)Önemli |
 |------------------------------------------------------------------------------|
 | Make sure that each of the planned WSUS servers has the same host name.      |
 
@@ -48,7 +48,7 @@ Step 3: Set up the DNS server for netmask ordering and round robin
 
 3.  Click **OK**.
 
-| ![](images/Cc708563.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                    |
+| ![](/security-updates/images/Cc708563.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | With netmask ordering, you restrict name resolution to computers in the same subnet, if there are any. With round robin, if there are multiple name resolutions, the result that is returned will rotate through the list of available hosts. Therefore, if there is a subnet without a WSUS server, host name resolution for clients in that subnet will rotate through the list of WSUS servers in the other subnets. |
 

@@ -22,7 +22,7 @@ If the client self-update does not work automatically, use the following suggest
 
 Use the Automatic Updates user interface (UI) to differentiate between the SUS and WSUS clients. The following illustrations show the user interface of the SUS and WSUS clients.
 
-![](images/Cc708554.19d55cf9-544b-4fcf-8628-82c9e4bee345(WS.10).gif)![](images/Cc708554.eb4d8b30-b0f5-46ee-afec-e333e2e28f74(WS.10).gif)
+![](/security-updates/images/Cc708554.19d55cf9-544b-4fcf-8628-82c9e4bee345(WS.10).gif)![](/security-updates/images/Cc708554.eb4d8b30-b0f5-46ee-afec-e333e2e28f74(WS.10).gif)
 
 #### Verify that the client software in your organization can self-update
 

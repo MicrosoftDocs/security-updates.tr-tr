@@ -11,7 +11,7 @@ Synchronize the WSUS 3.0 Server
 
 After you select products and update classifications, you are ready to synchronize WSUS. The synchronization process involves downloading updates from Microsoft Update or another WSUS server. WSUS determines if any new updates have been made available since the last time you synchronized. If this is the first time you are synchronizing the WSUS server, all of the metadata for updates in the product categories and classifications that you have selected are synchronized to your WSUS server.
 
-| ![](images/Cc720476.note(WS.10).gif)Not                                                                                                                                                           |
+| ![](/security-updates/images/Cc720476.note(WS.10).gif)Not                                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The first synchronization on a WSUS server will generally take a long time. You will not be able to make changes to the server's update filters (products, classifications, languages) while the server is being synchronized. |
 

@@ -829,7 +829,7 @@ Enabled Operating System Services
   
 Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
-| ![](images/Cc708591.Caution(WS.10).gif)Dikkat                                                                                                                                                                                                       |  
+| ![](/security-updates/images/Cc708591.Caution(WS.10).gif)Dikkat                                                                                                                                                                                                       |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that you can solve problems that result from using Registry Editor incorrectly. Use Registry Editor at your own risk. |
   

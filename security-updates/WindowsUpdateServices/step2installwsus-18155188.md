@@ -13,7 +13,7 @@ After reviewing the installation requirements, you are ready to install WSUS. Yo
 
 The following procedure uses the default WSUS installation options for Windows SBS 2003 with SP1. These options include using Windows SQL Server 2000 Desktop Engine (WMSDE) as the WSUS database software, storing updates locally, and using the Internet Information Services (IIS) custom Web site on port 8530. You can find procedures for custom installation options, such as using different database software, in “Deploying Microsoft Windows Server Update Services” at the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=41171) (http://go.microsoft.com/fwlink/?linkid=41171).
 
-| ![](images/Cc720523.Important(WS.10).gif)Önemli                                                                                                                           |
+| ![](/security-updates/images/Cc720523.Important(WS.10).gif)Önemli                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If you plan to install WSUS on a server that has Windows Update Services Beta 1 or Beta 2 installed, you first need to uninstall the earlier version by using Add or Remove Programs in Control Panel. |
 
@@ -63,7 +63,7 @@ The following procedure uses the default WSUS installation options for Windows S
 
     Keep the default option to store updates locally, either choose a location to store updates or accept the default location, and then click **Next**.
 
-    ![](images/Cc720523.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
+    ![](/security-updates/images/Cc720523.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
 
 5.  On the **Database Options** page, keep the default options, and then click **Next**. Because you installed WMSDE in the previous procedure, changing the options on this page of the wizard has no effect.
 
@@ -71,20 +71,20 @@ The following procedure uses the default WSUS installation options for Windows S
 
     Keep the default option and click **Next**.
 
-    ![](images/Cc720523.4e8e358c-e930-46c3-89a1-eb5389a6ac13(WS.10).gif)
+    ![](/security-updates/images/Cc720523.4e8e358c-e930-46c3-89a1-eb5389a6ac13(WS.10).gif)
 
 7.  On the **Mirror Update Settings** page, keep the default option and click **Next**.
 
     If you want to use multiple WSUS servers in a central management topology, see “Deploying Microsoft Windows Server Update Services” at the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=41171) (http://go.microsoft.com/fwlink/?linkid=41171).
 
-    ![](images/Cc720523.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
+    ![](/security-updates/images/Cc720523.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
 
 8.  On the **Ready to Install Windows Server Update Services** page, review the selections, and then click **Next**.
 
-    ![](images/Cc720523.e53b6fed-24a8-49e6-8d3a-d8ebe562720c(WS.10).gif)
+    ![](/security-updates/images/Cc720523.e53b6fed-24a8-49e6-8d3a-d8ebe562720c(WS.10).gif)
 
 9.  If the final page of the wizard confirms that WSUS installation was successfully completed, click **Finish**.
 
-| ![](images/Cc720523.note(WS.10).gif)Not                                                                                  |
+| ![](/security-updates/images/Cc720523.note(WS.10).gif)Not                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | After you install WSUS, you can delete the C:\\WSUSFiles folder. However, do not delete the C:\\WSUS folder, which is created when WSUS is installed. |

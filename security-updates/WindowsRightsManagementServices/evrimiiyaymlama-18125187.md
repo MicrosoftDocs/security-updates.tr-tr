@@ -11,7 +11,7 @@ ms:mtpsurl: 'https://technet.microsoft.com/tr-tr/library/Cc747694(v=WS.10)'
 
 Aşağıdaki diyagram çevrimiçi yayımlama işlemini açıklamaktadır.
 
-![](images/Cc747694.897e47b6-fffe-4b11-bc9f-be58539b9f19(WS.10).gif)
+![](/security-updates/images/Cc747694.897e47b6-fffe-4b11-bc9f-be58539b9f19(WS.10).gif)
 
 Çevrimiçi yayımlama işlemi aşağıdaki adımları içerir:
 

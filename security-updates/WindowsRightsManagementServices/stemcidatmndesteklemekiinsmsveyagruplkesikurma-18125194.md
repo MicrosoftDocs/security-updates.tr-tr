@@ -13,7 +13,7 @@ RMS'yi dağıttığınızda, kullanıcıların içeriği koruyabilmesi ve RMS ko
 
 Bir uygulamanın RMS etkin olması için, RMS istemcisini kendi işlemleriyle tümleştirmesi gerekir. Windows Vista® öncesinde, RMS istemcisi Microsoft Yükleme Merkezi'nden karşıdan yüklenebilen ayrı bir Windows bileşeni olarak edinilebilir. Ancak, istemciyi kuruluşunuzdaki her bilgisayar için ayrıca karşıdan yüklemek istemiyorsanız, RMS istemcilerinin istemci bilgisayarlara dağıtılmasını otomatikleştirmek için Microsoft Systems Management Server'ı (SMS), Grup İlkesini veya komut dosyalarını kullanabilirsiniz.
 
-| ![](images/Cc747703.Important(WS.10).gif)Önemli                          |
+| ![](/security-updates/images/Cc747703.Important(WS.10).gif)Önemli                          |
 |-------------------------------------------------------------------------------------------------------|
 | RMS istemcisi Windows Vista ile tümleşiktir. Bu nedenle, ayrı bir yükleme olarak yüklenmesi gerekmez. |
 
@@ -26,7 +26,7 @@ RMS istemcisini dağıtmak için SMS'yi kullandığınızda, aşağıdakileri ya
 -   Paket tanımı ve kaynak için Windows Installer dosyalarını kullanın.
 -   Ağınızda paketlerin kullanılabilirliğini bildirin.
 
-| ![](images/Cc747703.note(WS.10).gif)Not                                                                                            |
+| ![](/security-updates/images/Cc747703.note(WS.10).gif)Not                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Yazılımı yükleyebilmek için yönetici hakları gerekir; kuruluşunuzun güvenlik ilkesi RMS istemci yazılımını bir sistem yöneticisinin yüklemesini gerektirebilir. |
 

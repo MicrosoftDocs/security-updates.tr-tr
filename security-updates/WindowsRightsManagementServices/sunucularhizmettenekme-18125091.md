@@ -22,12 +22,12 @@ Bir sunucuyu hizmetten çekmeden önce, başta yapılandırma veritabanı olmak 
 Veritabanlarını yedekledikten sonra sunucuyu kaldırabilirsiniz. Bir RMS sunucusunu kaldırma gereksinimleri, sunucunun rolüne ve RMS yüklemesinin topolojisine bağlıdır:
 
 -   **Kümeden bir sunucu kaldırma**. Hizmetten çekmek istediğiniz RMS sunucusu diğer RMS sunucularının hala etkin ve gerekli olduğu bir kümede bulunuyorsa, tek bir RMS sunucusunun kümeden kaldırılması kullanım dışı bırakmak istediğiniz sunucu üzerindeki RMS'yi ve hazırlığını kaldırmanızı, donanımı kümeden kaldırmanızı ve veritabanlarını arşivlemenizi gerektirir.
-    | ![](images/Cc747568.note(WS.10).gif)Not                                                                                    |
+    | ![](/security-updates/images/Cc747568.note(WS.10).gif)Not                                                                                    |
     |---------------------------------------------------------------------------------------------------------------------------------------------------------|
     | RMS'yi kaldırmadan önce yalnızca kök yükleme kümesindeki sunucuların hazırlığının kaldırılması gerekir. Bu işlem lisans sunucularında gerekli değildir. |
 
 -   **Tek başına çalışan bir sunucuyu hizmetten çekme**. Hizmetten çekmek istediğiniz RMS sunucusu yeni bir sunucuyla değiştireceğiniz bağımsız bir Windows RMS sunucusuysa (başka bir deyişle, çok sunuculu bir kümenin parçası değilse), aşağıdaki adımları uygulayın: Varolan RMS sunucusunun hazırlığını ve kendisini kaldırın, bu sunucuyu ağdan çıkarın ve hemen ardından RMS'yi değiştirilen sunucuya yükleyin ve hazırlayın. Yeni RMS sunucusunu hizmetten çekilen RMS sunucusuyla aynı URL ve yapılandırma veritabanını kullanacak şekilde yapılandırın. Değiştirilen sunucu yüklenip hazırlanıncaya kadar kullanıcıların hizmetten çekilen sunucu tarafından yayımlanan içeriği kullanamayacaklarını unutmayın.
-    | ![](images/Cc747568.Important(WS.10).gif)Önemli                                                                                                                                                                                 |
+    | ![](/security-updates/images/Cc747568.Important(WS.10).gif)Önemli                                                                                                                                                                                 |
     |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Değiştirdiğiniz RMS sunucusu bir donanım güvenlik modülü kullanıyorsa, RMS'yi yeni sunucu üzerine yükleyip hazırlamadan önce güvenlik uzayını yeni sunucuya aktarmanız gerekir. Yönergeler için donanım güvenlik modülüyle birlikte verilen belgelere bakın. |
 

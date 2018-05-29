@@ -37,7 +37,7 @@ The option to download and store express installation files is in covered in ste
 
 5.  In **Tasks**, click **Save settings**, and then click **OK**.
 
-| ![](images/Cc708480.note(WS.10).gif)Not                                                                                                                                                                   |
+| ![](/security-updates/images/Cc708480.note(WS.10).gif)Not                                                                                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If your WSUS server is running in replica mode, you will not be able to perform this task. For more information about replica mode, see [Running in Replica Mode](https://technet.microsoft.com/d143c886-30b6-4034-80a2-182171ac8f8b). |
 
@@ -71,6 +71,6 @@ You must create the new path for local WSUS update storage prior to using WSUSut
 
     where D:\\WSUS1 is the new path for local WSUS update storage, and D:\\move.log is the path to the log file.
 
-| ![](images/Cc708480.note(WS.10).gif)Not                                                                                                                                                                                                                            |
+| ![](/security-updates/images/Cc708480.note(WS.10).gif)Not                                                                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If you do not want to use WSUSutil.exe to change the location of local WSUS update storage, you can also use NTFS functionality to add a partition to the current location of local WSUS update storage. For more information about NTFS, go to Help and Support Center in Windows Server 2003. |

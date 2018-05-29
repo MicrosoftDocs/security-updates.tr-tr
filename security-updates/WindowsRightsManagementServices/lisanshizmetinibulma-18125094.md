@@ -23,6 +23,6 @@ http://*sunucu\_adı*/\_wmcs/Licensing/License.asmx
 
 Hizmet konumu yayımlama lisansını veren RMS sunucusu veya .NET Passport hesabıdır; URL, yayımlama lisansında bulunur.
 
-| ![](images/Cc720269.note(WS.10).gif)Not                           |
+| ![](/security-updates/images/Cc720269.note(WS.10).gif)Not                           |
 |------------------------------------------------------------------------------------------------|
 | RMS sunucunuzda SSL'yi etkinleştirdiyseniz, bu URL'ler https:// bağlantı protokolünü kullanır. |

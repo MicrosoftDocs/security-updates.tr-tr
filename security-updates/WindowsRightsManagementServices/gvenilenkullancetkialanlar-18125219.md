@@ -13,7 +13,7 @@ RMS, varsayılan olarak hak hesabı sertifikaları farklı bir etki alanı taraf
 
 RMS'yi, başka bir kullanıcı etki alanının sunucu lisans sertifikasını alıp bunu güvenilen kullanıcı etki alanları listesine ekleyerek, bu tür istekleri işleyecek şekilde yapılandırabilirsiniz. Bunu yaptığınız zaman, hesap sertifikaları güvenilen kullanıcı etki alanı tarafından verilmiş olan kullanıcılar, yüklemenize kullanım lisansı istekleri gönderebilir. Bu kullanım lisansları iç kullanıcılardan alınan istekler gibi işlem görür.
 
-| ![](images/Cc747618.note(WS.10).gif)Not                                                                    |
+| ![](/security-updates/images/Cc747618.note(WS.10).gif)Not                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------|
 | Kök sertifika kümesi, aynı yüklemedeki tüm RMS sunucularının güvenilen kullanıcı etki alanları listesine otomatik olarak yerleştirilir. |
 

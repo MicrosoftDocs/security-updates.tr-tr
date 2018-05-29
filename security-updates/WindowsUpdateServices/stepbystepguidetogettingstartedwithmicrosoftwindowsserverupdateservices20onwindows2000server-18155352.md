@@ -20,6 +20,6 @@ Although WSUS is a feature-rich update-management solution, this guide offers on
 
 In addition, there is a version of this guide written specifically for Windows Server 2003, which uses slightly different procedures than the ones described here. See “Step-by-Step Guide to Getting Started with Microsoft Windows Server Update Services.” The latest versions of these documents are available at <http://go.microsoft.com/fwlink/?linkid=41171>.
 
-| ![](images/Cc708568.note(WS.10).gif)Not                                                                               |
+| ![](/security-updates/images/Cc708568.note(WS.10).gif)Not                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|
 | A downloadable copy of this document is available at [http://go.microsoft.com/fwlink/?LinkId=49071](http://go.microsoft.com/fwlink/?linkid=49071). |

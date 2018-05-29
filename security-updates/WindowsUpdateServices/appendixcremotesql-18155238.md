@@ -71,15 +71,15 @@ For more information about hardware, hard disk, and software requirements, see [
 
     If you click **Store updates locally**, make a note of the string used to identify the location for local update storage. You must use the same string when setting up the back-end computer.
 
-    ![](images/Cc708510.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
+    ![](/security-updates/images/Cc708510.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
 
 5.  On the **Web Site Selection** page, you specify the Web site that WSUS uses. For more information, see [Install and Configure IIS](https://technet.microsoft.com/6b2e1035-5b82-45f4-9f51-6cc0ca32fd60) earlier in this guide. Note two important URLS: the URL to point client computers to WSUS and the URL for the WSUS console where you configure WSUS.
 
-    ![](images/Cc708510.6214dd53-fbca-44aa-b82c-5d67b89bb543(WS.10).gif)
+    ![](/security-updates/images/Cc708510.6214dd53-fbca-44aa-b82c-5d67b89bb543(WS.10).gif)
 
 6.  On the **Ready to Install Windows Server Update Services** page, click **Next**.
 
-    ![](images/Cc708510.72c3d66e-5107-4584-90fe-840f58152030(WS.10).gif)
+    ![](/security-updates/images/Cc708510.72c3d66e-5107-4584-90fe-840f58152030(WS.10).gif)
 
 7.  If the final page confirms that WSUS installation was successfully completed, click **Finish**.
 
@@ -116,13 +116,13 @@ Step 2 contains the following procedures:
 
 5.  On the **Connecting to SQL Server Instance** page, wait to be prompted with for a successful connection to the SQL server, and then click **Next**.
 
-    ![](images/Cc708510.b0a0363b-4100-4009-8f4d-25f13db62a84(WS.10).gif)
+    ![](/security-updates/images/Cc708510.b0a0363b-4100-4009-8f4d-25f13db62a84(WS.10).gif)
 
 6.  On the **Mirror Update Settings** page, you specify the management role for this WSUS server. If you want a central management topology, or if this is not the first WSUS server on your network, enter the name of the upstream WSUS server here. If this is the first WSUS server on your network or you want a distributed management topology, skip this screen.
 
     Make your selection, and then click **Next**. For more information about management roles, see [Choose a Management Style](https://technet.microsoft.com/c18ab8e3-b76d-46a8-84e6-b46adb778098).
 
-    ![](images/Cc708510.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
+    ![](/security-updates/images/Cc708510.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
 
 7.  On the **Ready to Install Windows Server Update Services** page, click **Next**.
 
@@ -162,7 +162,7 @@ If your back-end computer is running Windows Server 2003, use the following pro
 
 3.  In the details pane, double-click **WSUS Administrators**.
 
-    ![](images/Cc708510.e0023164-17df-421d-8c87-b3e1c79218ed(WS.10).gif)
+    ![](/security-updates/images/Cc708510.e0023164-17df-421d-8c87-b3e1c79218ed(WS.10).gif)
 
 4.  In the **WSUS Administrators Properties** dialog box, click **Add**.
 
@@ -170,11 +170,11 @@ If your back-end computer is running Windows Server 2003, use the following pro
 
 6.  In **Object Types**, click **Computers**, and then click **OK**.
 
-    ![](images/Cc708510.2d82afb8-fe76-4957-a9c3-4c20ab51122b(WS.10).gif)
+    ![](/security-updates/images/Cc708510.2d82afb8-fe76-4957-a9c3-4c20ab51122b(WS.10).gif)
 
 7.  In **Select Users, Computers, or Groups**, enter the name of the front-end computer, and then click **OK**.
 
-    ![](images/Cc708510.1f0cad85-b790-4c14-8640-3530f575ce45(WS.10).gif)
+    ![](/security-updates/images/Cc708510.1f0cad85-b790-4c14-8640-3530f575ce45(WS.10).gif)
 
 8.  In the **WSUS Administrators Properties** dialog box, click **OK**.
 
@@ -193,7 +193,7 @@ If your back-end computer is running Windows 2000 Server, use the following proc
 
 5.  In **Group Scope**, click **Global**.
 
-    ![](images/Cc708510.719fbcb0-addc-4b6a-9da2-9825e44d2490(WS.10).gif)
+    ![](/security-updates/images/Cc708510.719fbcb0-addc-4b6a-9da2-9825e44d2490(WS.10).gif)
 
 6.  In **Group Type**, click **Security**, and then click **OK**. A global security group is created.
 
@@ -222,7 +222,7 @@ If your back-end computer is running Windows 2000 Server, use the following proc
 
 5.  In **Select Users or Groups**, select your domain from the **Look in** drop-down list.
 
-    ![](images/Cc708510.e22abbc4-4b58-4cb1-b0c7-54133bd83861(WS.10).gif)
+    ![](/security-updates/images/Cc708510.e22abbc4-4b58-4cb1-b0c7-54133bd83861(WS.10).gif)
 
 6.  Double-click the global security group you created in the preceding procedure, and then click **OK**.
 

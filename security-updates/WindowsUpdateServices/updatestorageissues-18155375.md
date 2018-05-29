@@ -18,7 +18,7 @@ This can happen under different circumstances. For example, if updates are store
 
 To have WSUS verify which updates are stored on the disk, you must run the WSUSutil.exe using the **reset** command.
 
-| ![](images/Cc708624.note(WS.10).gif)Not                 |
+| ![](/security-updates/images/Cc708624.note(WS.10).gif)Not                 |
 |--------------------------------------------------------------------------------------|
 | Performing a reset causes the WSUS server to be unresponsive for up to five minutes. |
 

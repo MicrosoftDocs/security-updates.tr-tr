@@ -16,7 +16,7 @@ Aşağıdaki yordam, WSUS veritabanı yazılımı için Windows SQL Server 2000
 **Windows Server 2003'e WSUS'yi yüklemek için**
 1.  **WSUSSetup.exe** yükleyici dosyasını çift tıklatın.
 
-    | ![](images/Cc708622.note(WS.10).gif)Not                                                                                                                                                           |
+    | ![](/security-updates/images/Cc708622.note(WS.10).gif)Not                                                                                                                                                           |
     |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | WSUSSetup.exe dosyasının en son sürümü, http://go.microsoft.com/fwlink/?LinkId=47374 adresindeki Windows Server Update Services'a yönelik [Microsoft Web sitesinde](http://go.microsoft.com/fwlink/?linkid=47374) bulunabilir. |
 
@@ -28,7 +28,7 @@ Aşağıdaki yordam, WSUS veritabanı yazılımı için Windows SQL Server 2000
 
     Varsayılan seçenekleri koruyun ve **İleri**'yi tıklatın.
 
-    ![](images/Cc708622.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
+    ![](/security-updates/images/Cc708622.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
 
 5.  **Veritabanı Seçenekleri** sayfasında WSUS veritabanını yönetmek için kullanılan yazılımı seçersiniz. Varsayılan olarak, yükleme yaptığınız bilgisayar Windows Server 2003 çalıştırıyorsa, WSUS Kurulumu WMSDE'yi yükleme seçeneği sunar.
 
@@ -36,7 +36,7 @@ Aşağıdaki yordam, WSUS veritabanı yazılımı için Windows SQL Server 2000
 
     Varsayılan seçenekleri koruyun ve **İleri**'yi tıklatın.
 
-    ![](images/Cc708622.bc0b73ad-b338-437c-a3c7-0299e819840d(WS.10).gif)
+    ![](/security-updates/images/Cc708622.bc0b73ad-b338-437c-a3c7-0299e819840d(WS.10).gif)
 
 6.  **Web Sitesi Seçimi** sayfasında WSUS'nin kullanacağı Web sitesini belirtirsiniz. Bu sayfada aynı zamanda bu seçimi temel alan iki önemli URL de listelenir: güncelleştirmeleri almak için WSUS istemci bilgisayarlarına bildireceğiniz URL ve WSUS'yi yapılandıracağınız WSUS konsolunun URL'si.
 
@@ -44,7 +44,7 @@ Aşağıdaki yordam, WSUS veritabanı yazılımı için Windows SQL Server 2000
 
     Varsayılan seçeneği koruyun ve **İleri**'yi tıklatın.
 
-    ![](images/Cc708622.64ed7643-a050-4f54-bf9f-04cf7931adc0(WS.10).gif)
+    ![](/security-updates/images/Cc708622.64ed7643-a050-4f54-bf9f-04cf7931adc0(WS.10).gif)
 
 7.  **Güncelleştirme Ayarlarını Yansıt** sayfasında bu WSUS sunucusu için yönetim rolü belirtebilirsiniz. Bu, ağınızdaki ilk WSUS sunucusuysa veya dağıtılmış yönetim topolojisi istiyorsanız bu ekranı atlayın.
 
@@ -52,10 +52,10 @@ Aşağıdaki yordam, WSUS veritabanı yazılımı için Windows SQL Server 2000
 
     Varsayılan seçeneği koruyun ve **İleri**'yi tıklatın.
 
-    ![](images/Cc708622.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
+    ![](/security-updates/images/Cc708622.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
 
 8.  **Windows Server Update Services Yüklenmeye Hazır**sayfasında seçimlerinizi gözden geçirin ve **İleri**’yi tıklatın.
 
-    ![](images/Cc708622.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
+    ![](/security-updates/images/Cc708622.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
 
 9.  Sihirbazın son sayfasında WSUS yüklemesinin başarıyla tamamlandığı onaylanıyorsa **Son**'u tıklatın.

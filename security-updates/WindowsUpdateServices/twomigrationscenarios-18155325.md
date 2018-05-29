@@ -16,4 +16,4 @@ There are two basic SUS-to-WSUS migration scenarios:.
 
 Depending on your current SUS infrastructure and goals for WSUS, you might need to use both of these scenarios. For example, if you have two SUS servers and want to install WSUS on one and then consolidate the other, you would have to use steps from both migration procedures to achieve your goal. These processes are shown in the "Comparison of SUS to WSUS Migration Scenarios" illustration.
 
-![](images/Cc708539.3a6598e9-02fe-4f2b-84c5-2c8f1b0ce261(WS.10).gif)
+![](/security-updates/images/Cc708539.3a6598e9-02fe-4f2b-84c5-2c8f1b0ce261(WS.10).gif)

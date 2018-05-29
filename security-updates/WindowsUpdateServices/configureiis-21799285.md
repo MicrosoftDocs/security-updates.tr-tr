@@ -29,7 +29,7 @@ If the IIS service (W3SVC) is stopped during WSUS installation, WSUS Setup start
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939879.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939879.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -96,7 +96,7 @@ If you already have a Web site on the computer where you intend to install WSUS,
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939879.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939879.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -129,7 +129,7 @@ If you decide to use host headers, you should run the **configuressl** command a
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939879.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939879.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -161,7 +161,7 @@ If you decide to use host headers, you should run the **configuressl** command a
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939879.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939879.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

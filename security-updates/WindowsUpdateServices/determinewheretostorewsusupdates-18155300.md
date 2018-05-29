@@ -18,7 +18,7 @@ Local storage
 
 You can store update files locally on the WSUS server. This saves bandwidth on your Internet connection because client computers download updates directly from the WSUS server. This option requires enough disk space to store the updates you intend to download. There is a minimum requirement of 20 GB of hard disk space to store updates locally, but 30 GB is recommended. Local storage is the default option.
 
-| ![](images/Cc708543.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                          |
+| ![](/security-updates/images/Cc708543.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The 30 GB recommendation is only an estimate based on a number of variables, such as the number of updates released by Microsoft for any given product, how many products and update languages are selected, and whether standard update files or express updates are to be downloaded. Although 30 GB should work for most customers, your particular situation might require more than 30 GB of disk space. |
 
@@ -27,7 +27,7 @@ Remote storage
 
 If you want, you can store update files remotely on Microsoft servers. WSUS enables you to use Microsoft Update for the distribution of approved updates throughout your organization. This is particularly useful if most of the client computers connect to the WSUS server over a slow WAN connection but have high-bandwidth connections to the Internet, or if there are only a small number of client computers.
 
-![](images/Cc708543.9f6269a7-ae94-426d-be4d-7238d4fe0e78(WS.10).gif)
+![](/security-updates/images/Cc708543.9f6269a7-ae94-426d-be4d-7238d4fe0e78(WS.10).gif)
 
 In this scenario WSUS is configured so that client computers download updates from Microsoft Update. When you synchronize the WSUS server with Microsoft Update, you get only the update metadata describing the updates. The files that install updates on client computers are not stored on the WSUS server.
 

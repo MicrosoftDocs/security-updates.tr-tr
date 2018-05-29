@@ -36,7 +36,7 @@ Besides bandwidth, another consideration when choosing to download express insta
 
 5.  Click **OK**.
 
-| ![](images/Cc708492.note(WS.10).gif)Not                                                                                                                                                                            |
+| ![](/security-updates/images/Cc708492.note(WS.10).gif)Not                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If your WSUS server is running in replica mode, you will not be able to perform this task. For more information about replica mode, see [Running WSUS 3.0 in Replica Mode](https://technet.microsoft.com/9bd4a31c-64b9-48d5-a9e8-2f01e7febd6d). |
 
@@ -73,6 +73,6 @@ You must create the new path for local WSUS update storage before moving the con
 
     where **D:\\WSUS1** is the new path for local WSUS update storage, and **D:\\move.log** is the path to the log file.
 
-| ![](images/Cc708492.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                       |
+| ![](/security-updates/images/Cc708492.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If you do not want to use WSUSutil.exe to change the location of local WSUS update storage, you can also use NTFS functionality to add a partition to the current location of local WSUS update storage. For more information about NTFS, see [NTFS technical documentation](http://go.microsoft.com/fwlink/?linkid=79488) (http://go.microsoft.com/fwlink/?LinkId=79488). |

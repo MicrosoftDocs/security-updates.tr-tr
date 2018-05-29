@@ -11,7 +11,7 @@ Kullanım Lisansı Alma
 
 Bir kullanıcının RMS korumalı içeriği kullanabilmesi için RMS lisans hizmetinden kullanım lisansı alması gerekir. Aşağıdaki şekil kullanım lisansı isteme ve alma işlemini göstermektedir.
 
-![](images/Cc720194.37b8d28c-9749-4e81-bc6a-22692fefb8b6(WS.10).gif)
+![](/security-updates/images/Cc720194.37b8d28c-9749-4e81-bc6a-22692fefb8b6(WS.10).gif)
 
 Kullanım lisansı alma işlemi aşağıdaki adımları içerir:
 

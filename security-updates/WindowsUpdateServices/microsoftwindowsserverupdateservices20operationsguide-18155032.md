@@ -11,7 +11,7 @@ Microsoft Windows Server Update Services 2.0 Operations Guide
 
 This guide describes the major tasks involved in administering and troubleshooting Windows Server Update Services.
 
-| ![](images/Cc720483.note(WS.10).gif)Not                                                                              |
+| ![](/security-updates/images/Cc720483.note(WS.10).gif)Not                                                                              |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|
 | A downloadable copy of this document is available at [http://go.microsoft.com/fwlink/?LinkId=58310](http://go.microsoft.com/fwlink/?linkid=58310) |
 

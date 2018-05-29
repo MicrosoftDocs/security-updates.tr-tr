@@ -38,6 +38,6 @@ Güvenli Yuva Katmanı'nı (SSL) kullanarak uzaktan yönetimi etkinleştirdiysen
 
 Bu bölümdeki kalan konularda bu özelliklerin nasıl kullanılacağı açıklanmaktadır. Adım adım yönergeler için bu konuda daha sonra yer alan "[RMS - Nasıl yapılır?](https://technet.microsoft.com/82032075-f361-438f-a2c4-93ab29ae6cff)" bölümüne bakın.
 
-| ![](images/Cc720290.note(WS.10).gif)Not                                                                                                                                                                                                                     |
+| ![](/security-updates/images/Cc720290.note(WS.10).gif)Not                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RMS Yönetim Web sitesi bazı özelliklerin yapılandırılması için açılır pencereler kullanır. Web tarayıcınız ile birlikte açılır pencere engelleyicisi kullanıyorsanız, tarayıcı ayarlarınızı RMS Yönetim Web sitesinin açılır pencerelerine izin verecek şekilde yapılandırmanız gerekir. |

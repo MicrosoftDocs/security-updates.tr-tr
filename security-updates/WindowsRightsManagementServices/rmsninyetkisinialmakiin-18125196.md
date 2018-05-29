@@ -13,11 +13,11 @@ Bu yordamı uygulamak için, eriştiğiniz bilgisayarda Administrators grubunun 
 
 **Genel Yönetim** sayfasını açmak için, **Başlat**'ı tıklatın, **Tüm Programlar**'a gidin, **Windows RMS'**ye gidin ve sonra **Windows RMS Yönetimi**'ni tıklatın.
 
-| ![](images/Cc747665.Warning(WS.10).gif)Uyarý                                    |
+| ![](/security-updates/images/Cc747665.Warning(WS.10).gif)Uyarý                                    |
 |--------------------------------------------------------------------------------------------------------------|
 | Bir sunucunun yetkisini aldığınızda, standart RMS yapılandırmasına geri yüklenemez. Bu yordam geri alınamaz. |
 
-| ![](images/Cc747665.Warning(WS.10).gif)Uyarý                                                                                         |
+| ![](/security-updates/images/Cc747665.Warning(WS.10).gif)Uyarý                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RMS'nin yetkisini aldıktan sonra, başka bir RMS örneği yüklemeyi denemeden önce Program Ekle veya Kaldır kullanılarak RMS'nin tamamen kaldırılmış olması gerekir. |
 

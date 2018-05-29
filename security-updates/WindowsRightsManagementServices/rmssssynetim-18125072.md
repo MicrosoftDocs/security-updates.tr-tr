@@ -94,7 +94,7 @@ Web.config veya Machine.config dosyasını değiştirerek izleme uygulayabilirsi
 
 4.  Komut isteminden IISRESET komutunu çalıştırarak IIS'yi yeniden başlatın.
 
-| ![](images/Cc747547.Important(WS.10).gif)Önemli                                                                                                                                                                                                          |
+| ![](/security-updates/images/Cc747547.Important(WS.10).gif)Önemli                                                                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RMS sunucusunda izleme kullandığınızda, kullanım lisansı almada ve hak hesabı sertifikası vermede oluşan uzun süreli gecikmeler gibi performans sorunları görülebilir. İzlemeyi, yalnızca varolan sorunları tanılamanıza ve gidermenize yardımcı olacağı sınırlı durumlarda kullanın. |
 

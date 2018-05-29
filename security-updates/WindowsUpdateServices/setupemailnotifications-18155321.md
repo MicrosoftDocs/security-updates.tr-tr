@@ -34,7 +34,7 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
 
 11. Click **Apply** to save these settings.
 
-| ![](images/Cc708608.note(WS.10).gif)Not                                                                                                                                                                                                                                                           |
+| ![](/security-updates/images/Cc708608.note(WS.10).gif)Not                                                                                                                                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | If both the WSUS administrative console and the WSUS server have the same settings for Daylight Savings Time adjustments, notifications will appear at the correct time. If the adjustments for Daylight Savings Time are different, then notifications will be off by the difference in the Daylight Savings Time adjustment. |
 
@@ -53,7 +53,7 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
 
 7.  Enter the user name and password in the respective boxes.
 
-    | ![](images/Cc708608.note(WS.10).gif)Not                                       |
+    | ![](/security-updates/images/Cc708608.note(WS.10).gif)Not                                       |
     |------------------------------------------------------------------------------------------------------------|
     | You can change authentication credentials only on a WSUS server, not from a remote administration console. |
 

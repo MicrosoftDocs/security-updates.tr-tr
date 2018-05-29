@@ -11,7 +11,7 @@ Microsoft Windows Server Update Services 3.0 Overview
 
 Microsoft Windows Server Update Services 3.0 SP1 (WSUS 3.0 SP1) enables information technology administrators to deploy the latest Microsoft product updates to computers running Microsoft Windows Server 2003, Windows Server® 2008, Windows Vista®, Microsoft Windows XP with Service Pack 2, and Windows 2000 with Service Pack 4 operating systems. By using WSUS, administrators can fully manage the distribution of updates that are released through Microsoft Update to computers in their network.
 
-| ![](images/Cc708429.note(WS.10).gif)Not                                                                               |
+| ![](/security-updates/images/Cc708429.note(WS.10).gif)Not                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|
 | A downloadable copy of this document is available at [http://go.microsoft.com/fwlink/?LinkId=71191](http://go.microsoft.com/fwlink/?linkid=71191). |
 

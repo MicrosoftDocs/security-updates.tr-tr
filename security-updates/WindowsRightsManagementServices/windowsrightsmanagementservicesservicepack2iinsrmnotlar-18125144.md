@@ -50,7 +50,7 @@ RMS SP2'yi çalıştırmaya yönelik donanım gereksinimleri aşağıdaki tablod
 </tbody>
 </table>
   
-| ![](images/Cc747637.note(WS.10).gif)Not                                                |  
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Not                                                |  
 |---------------------------------------------------------------------------------------------------------------------|  
 | RMS SP2 sunucusu, 32-bit bilgisayarlar için tasarlanmıştır. 64-bit bilgisayara yüklenirse, öykünme modunda çalışır. |
   
@@ -101,7 +101,7 @@ RMS SP2 çalışan sunucular için yazılım gereksinimleri aşağıdaki tabloda
 </table>
  
 
-| ![](images/Cc747637.note(WS.10).gif)Not                                                                                                                         |
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Not                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RMS SP2'yi uzaktan yönetime olanak verecek şekilde yapılandırırsanız, RMS SP2 Yönetimi hizmetine bağlanacak bilgisayarın Internet Explorer 6.0 veya sonraki bir sürümünü kullanması gerekir. |
 
@@ -188,7 +188,7 @@ Aşağıdaki tabloda, RMS ile farklı etkinlikler gerçekleştirmek için gereke
 </tbody>
 </table>
   
-| ![](images/Cc747637.note(WS.10).gif)Not                                                                                                                                                                                             |  
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Not                                                                                                                                                                                             |  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Windows Server yapılandırması, Active Directory, Message Queuing, IIS ve dosya sistemleri hakkında daha fazla bilgi için, Windows Server 2003 TechCenter'a ([http://go.microsoft.com/fwlink/?LinkId=78135](http://go.microsoft.com/fwlink/?linkid=78135)) bakın. |
   
@@ -224,7 +224,7 @@ RMS'yi küme dağıtımında kullanıyorsanız, aşağıdaki tabloda listelenen 
 </tbody>
 </table>
   
-| ![](images/Cc747637.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                                                                                         |  
+| ![](/security-updates/images/Cc747637.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                                                                                         |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | DNS kaydı intranet için yapılmazsa, içeriden yapılan istemci lisans istekleri başarısız olur. DNS ayarlarını değiştiremiyorsanız, kümedeki her sunucunun ana bilgisayarlar tablosunu, küme URL'si kümenin sanal IP adresine eşlenecek şekilde değiştirebilirsiniz. DNS kaydı RMS sağlama işleminden önce yapılmalıdır. Hizmeti zaten sağladıysanız, sunucudan RMS'yi kaldırmalı ve sağlama işlemini yinelemelisiniz. |
   
@@ -232,7 +232,7 @@ RMS'yi küme dağıtımında kullanıyorsanız, aşağıdaki tabloda listelenen 
   
 Hizmet paketi olmayan RMS istemcisi, RMS SP1 veya RMS SP2, Microsoft Windows 2000, Windows XP ve Windows Server 2003 çalıştıran herhangi bir bilgisayara yüklenebilir. Önceki Windows işletim sistemleri bu sürüm tarafından desteklenmez.
   
-| ![](images/Cc747637.Caution(WS.10).gif)Dikkat                                                                |  
+| ![](/security-updates/images/Cc747637.Caution(WS.10).gif)Dikkat                                                                |  
 |-------------------------------------------------------------------------------------------------------------------------------------------|  
 | Hizmet paketi olmayan RMS istemcisi kullanıyorsanız istemci, RMS SP1 sunucusu veya daha sonrakilere karşı çevrimiçi yayımlama kullanamaz. |
   
@@ -265,7 +265,7 @@ Yeni orman güven genişletme protokolü, birden çok orman bulunan bir Active D
   
 RMS SP2 öncesinde, ormanlar arasında grup genişletmesi, .NET uzak çağrıları kullanılarak gerçekleştiriliyordu. Bu sürümde, ormanlar arasında grup genişletmesi protokolü, orman güveni grup genişletme kanalına yönelik SOAP/HTTP istekleri kullanılarak bir ASP.NET Web hizmetine dönüştürülmüştür.
   
-| ![](images/Cc747637.note(WS.10).gif)Not                                                                                                                                                         |  
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Not                                                                                                                                                         |  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Geri uyumluluk için, .NET uzak çağrıları RMS SP2'de hala desteklenmektedir. Ancak, ormanlar arasında grup genişletmesi özelliğinden tam olarak yararlanılabilmesi için, tüm RMS kümelerinde en azından RMS SP2 çalışmalıdır. |
   
@@ -273,7 +273,7 @@ RMS SP2 öncesinde, ormanlar arasında grup genişletmesi, .NET uzak çağrılar
   
 Yeni RMS grup genişletme kanalı, RMS SP2'de varsayılan olarak en güvenli ayarlarla yapılandırılarak yalnızca yerel RMS Service ve Administrators gruplarının erişimine izin verilir. Bir hesaba erişim izni vermek için, wwwroot\\\_wmcs\\GroupExpansion\\GroupExpansion.asmx adresinde bulunan grup genişletme kanalındaki erişim denetim listesini değiştirmelisiniz.
   
-| ![](images/Cc747637.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                                                                             |  
+| ![](/security-updates/images/Cc747637.Important(WS.10).gif)Önemli                                                                                                                                                                                                                                                                                                                             |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Her bir Active Directory ormanındaki RMS hizmet hesabının, kümede bulunan tüm RMS sunucularındaki grup genişletme kanallarına erişimi olduğunu doğrulayın. Hesapların erişimi yoksa, grup genişletmesi başarısız olur. Alternatif olarak, her bir ormanda aynı hesabı oluşturup hesaplara aynı parolayı atayabilirsiniz. Bu durumda, grup genişletme kanalına tek bir hesap eklemeniz yeterli olacaktır. |
   
@@ -321,7 +321,7 @@ RMS toplu iş uygulaması, AcquireLicense RMS kanalına tek bir istek yayımlaya
   
 RMS SP2 öncesi sürümlerde, RMS kümesi en fazla 1 toplu işi destekliyordu. En fazla boyut 1'den daha büyük bir sayıya ayarlandığında, küme bu sayıyı yok sayıyordu. RMS SP2 ile birlikte, en fazla toplu iş boyutu 100'e kadar artırılabilir.
   
-| ![](images/Cc747637.note(WS.10).gif)Not      |  
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Not      |  
 |---------------------------------------------------------------------------|  
 | Yalnızca AcquireLicense RMS kanalı toplu iş istekleri için destek içerir. |
   
@@ -346,7 +346,7 @@ RMS'nin önceki sürümlerinde, sysmessages tablosunda kullanılan bazı paramet
   
 RMS SP2'den önceki sürümlerde, SQL RAISERROR deyimleri yalnızca RMS kullanıcısı bir hata oluştuğu konusunda bilgilendirmek için kullanılıyordu. RAISERROR deyimi sysmessages tablosunu sorgulayarak, bu tabloda depolanan RMS hata iletilerini alır. RMS SP2, SQL hatalarını doldurmak için farklı bir teknik kullanır; bu nedenle, sysmessages tablosuna artık bağımlı değildir.
   
-| ![](images/Cc747637.note(WS.10).gif)Not                                                                                                                                                                                        |  
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Not                                                                                                                                                                                        |  
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | RMS SP1'den RMS SP2'ye yükseltiyorsanız, sysmessages tablosu artık hata iletileri için sorgulanmaz; ancak hata iletileri, sysmessages tablosunda saklanmaya devam eder. RMS SP2'nin temiz yüklemesi sysmessages tablosundaki yeni girdileri eklemeyecektir. |
   
@@ -387,7 +387,7 @@ Active Directory alt yapı düzeyleri Windows 2000 özgün işlev düzeyine yü
   
 Günlük dinleyici hizmetinin veritabanına ulaşamadığı durumlar olabilir (örneğin, veritabanı çalışır durumda değildir ya da ağ bağlantı sorunları olabilir). Bu durumda, iletiler bir Eski İleti Sırası'na gönderilir. Bu iletileri kurtarmanın (yani, günlük veritabanına göndermenin) tek yolu, RMS Yönetim Araç Seti ile birlikte gelen RMS Sıra Kurtarma aracını kullanmaktır. RMS Yönetim Araç Seti'ni karşıdan yüklemek için, bkz: [http://go.microsoft.com/fwlink/?LinkId=33841](http://go.microsoft.com/fwlink/?linkid=33841).
   
-| ![](images/Cc747637.note(WS.10).gif)Not                                                                                                                                                           |  
+| ![](/security-updates/images/Cc747637.note(WS.10).gif)Not                                                                                                                                                           |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Recover ve RecoverandPurge öğeleri LogRecoveryCmd'den kaldırılmıştır. Böylece, tüm iletilerin günlük veritabanına gönderilmeden önce Message Queuing hizmeti üzerinden yönlendirilmesi ve kimliklerinin doğrulanması sağlanır. |
   

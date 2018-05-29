@@ -43,6 +43,6 @@ Veritabanının kök sertifika sunucusu ile aynı bilgisayarda bulunduğu tek su
 </tbody>
 </table>
   
-| ![](images/Cc720178.note(WS.10).gif)Not                                                                                                                                                                                                                  |  
+| ![](/security-updates/images/Cc720178.note(WS.10).gif)Not                                                                                                                                                                                                                  |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | RMS sunucusuna oturum açmak için kullanılan hesap, Domain Admins gibi herhangi bir ek etki alanı grubuna üye olmayı gerektirmez. Ancak, hizmet bağlantı noktasını kaydetme ve güvenlik ilkelerini değiştirme gibi bazı yönetim görevleri ek ayrıcalıklara sahip bir hesap gerektirir. |

@@ -79,11 +79,11 @@ RMS sistemi, istemci bilgisayardaki XrML'ye kaydedilen, aşağıdaki sertifika v
     Dosya adı öneki: EUL
     Konum: %USERPROFILE%\\Local Settings\\Application Data\\Microsoft\\DRM
 
-| ![](images/Cc747725.note(WS.10).gif)Not                                                                                       |
+| ![](/security-updates/images/Cc747725.note(WS.10).gif)Not                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kullanıcı hesabında tek bir Makine Sertifikası, GIC dosyası ve CLC dosyası vardır, ancak erişilen içeriğin her bölümü için birden çok EUL dosyası bulunur. |
 
-| ![](images/Cc747725.note(WS.10).gif)Not                                       |
+| ![](/security-updates/images/Cc747725.note(WS.10).gif)Not                                       |
 |------------------------------------------------------------------------------------------------------------|
 | RMS istemci Windows Vista® ile tümleşikse, konumu şöyledir: %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. |
 

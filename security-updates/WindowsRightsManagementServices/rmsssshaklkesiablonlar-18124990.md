@@ -33,7 +33,7 @@ Evet. Rights Management Services SDK kullanılarak, gerekli şablonun uygulanmas
 
 Microsoft Office 2007 için **HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\12,0\\Common\\DRM\\AdminTemplatePath**.
 
-| ![](images/Cc720175.note(WS.10).gif)Not                                                                                                                      |
+| ![](/security-updates/images/Cc720175.note(WS.10).gif)Not                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Girdi istemcideki yerel bir klasörü gösteriyorsa, şablon dosyalarının istemciye kopyalanması gerekir. Girdi bir ağ paylaşımı klasörünü gösteriyorsa, kullanıcı çevrimdışıyken erişilemez. |
 

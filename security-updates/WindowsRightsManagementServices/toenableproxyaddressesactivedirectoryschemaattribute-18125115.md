@@ -13,7 +13,7 @@ RMS provides the proxy-addresses schema attribute for the discovery of additiona
 
 By default the values in the proxy-addresses schema attribute are not replicated to the Global Catalog. You must either adjust the settings on the proxy-addresses schema attribute manually or install Microsoft Exchange Server.
 
-| ![](images/Cc720282.Important(WS.10).gif)Önemli                                                                 |
+| ![](/security-updates/images/Cc720282.Important(WS.10).gif)Önemli                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------|
 | If you are using Microsoft Exchange Server, these steps are not required because Exchange Server enables this attribute during installation. |
 
@@ -21,7 +21,7 @@ If you are not using Microsoft Exchange Server in your environment but would lik
 
 This can be done by using the ADSI Edit tool. ADSI Edit is available with Windows Server 2003 Support Tools and allows an Active Directory administrator to modify all Active Directory schema attributes from a central console.
 
-| ![](images/Cc720282.note(WS.10).gif)Not                                                                                     |
+| ![](/security-updates/images/Cc720282.note(WS.10).gif)Not                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The following procedures assume that a user account named User1 is in a domain named cpandl.com. You should substitute these names for your environment. |
 
@@ -32,7 +32,7 @@ First, follow these steps to install ADSI Edit:
 
 2.  Insert the Windows Server 2003 product CD and navigate to Support\\Tools.
 
-    | ![](images/Cc720282.Caution(WS.10).gif)Dikkat                                                                |
+    | ![](/security-updates/images/Cc720282.Caution(WS.10).gif)Dikkat                                                                |
     |-------------------------------------------------------------------------------------------------------------------------------------------|
     | In a production environment, the Windows Server 2003 Support Tools should be installed on a client computer that is joined to the domain. |
 

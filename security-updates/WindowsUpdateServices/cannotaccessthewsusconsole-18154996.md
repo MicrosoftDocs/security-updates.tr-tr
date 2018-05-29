@@ -16,7 +16,7 @@ Grant users permissions for WSUS console access
 
 If users do not have appropriate permissions for the WSUS console, they receive an "access denied" message when trying to access the WSUS console. You must be a member of the Administrators group or the WSUS Administrators group on the server on which WSUS is installed in order to use the WSUS console.
 
-| ![](images/Cc720470.note(WS.10).gif)Not                                                   |
+| ![](/security-updates/images/Cc720470.note(WS.10).gif)Not                                                   |
 |------------------------------------------------------------------------------------------------------------------------|
 | If WSUS is installed on a domain controller, only a member of the Domain Administrator group can use the WSUS console. |
 

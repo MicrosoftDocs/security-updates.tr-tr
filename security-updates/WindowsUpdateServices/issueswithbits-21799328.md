@@ -34,7 +34,7 @@ Often it is possible to resolve BITS issues simply by stopping the service and r
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939934.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939934.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -223,7 +223,7 @@ To repair corrupted BITS service configuration, you can enter the BITS service c
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939934.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939934.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>

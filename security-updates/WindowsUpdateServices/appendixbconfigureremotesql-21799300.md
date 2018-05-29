@@ -24,7 +24,7 @@ Setting up WSUS for remote SQL is a three-step process:
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939912.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939912.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -66,14 +66,14 @@ Install a SQL Server 2005 database on the back-end computer and enable remote c
 
 2.  Choose **Surface Configuration for Services and Connections**.
 
-![](images/Dd939912.942b1598-3235-48ad-af0d-362ccac97584(WS.10).gif)**Enable Remote SQL Connections**
+![](/security-updates/images/Dd939912.942b1598-3235-48ad-af0d-362ccac97584(WS.10).gif)**Enable Remote SQL Connections**
 1.  In the left window, click the **Remote Connections** node.
 
 2.  Select **Local and remote connections** and then select **Using TCP/IP only**.
 
 3.  Click **OK** to save the settings.
 
-![](images/Dd939912.3b2cd04b-ab76-4b25-92d5-c96492f471c8(WS.10).gif)
+![](/security-updates/images/Dd939912.3b2cd04b-ab76-4b25-92d5-c96492f471c8(WS.10).gif)
 
 If you plan to run the SQL Server service remotely under a domain account, you will need to register a service principal name (SPN) for this server. For more information about adding an SPN, please see [How to make sure that you are using Kerberos authentication when you create a remote connection to an instance of SQL Server 2005](http://go.microsoft.com/fwlink/?linkid=85942) (http://go.microsoft.com/fwlink/?LinkId=85942).
 
@@ -84,7 +84,7 @@ If you plan to run the SQL Server service remotely under a domain account, you w
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939912.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939912.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -135,7 +135,7 @@ Run WSUS Setup from the command line, using the **SQLINSTANCE\_NAME=***servernam
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939912.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939912.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

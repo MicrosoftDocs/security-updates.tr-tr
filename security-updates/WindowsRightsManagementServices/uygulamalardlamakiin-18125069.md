@@ -32,7 +32,7 @@ Uygulamaları Dışlama veya Uygulamaları Dışlamayı Durdurma
 
     Uygulamayı (veya bileşeni) dışlama listesinden silmek için, dosya adını seçin ve sonra **Seçilen uygulamaları dışlama listesinden sil**'i tıklatın.
 
-    | ![](images/Cc720262.note(WS.10).gif)Not                                                                                                                                                                                                                                                                        |
+    | ![](/security-updates/images/Cc720262.note(WS.10).gif)Not                                                                                                                                                                                                                                                                        |
     |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | RMS, uygulama sürümünün 4 basamaklı, nokta ile ayrılmış biçimde olmasını gerektirir (\#.\#.\#.\# ). Bununla bazı, belirli uygulamalar, uygulama sürümünü 2 veya 3 basamaklı, nokta ile ayrılmış sayılarla belirtir. Bu durumda, sürüm numarasını RMS'nin gerektirdiği biçime uyarlamak için uygun olacak şekilde, .0 eklemeniz gerekebilir. |
 

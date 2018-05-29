@@ -25,7 +25,7 @@ Adım 7 aşağıdaki yordamları içerir:
 
 4.  **Seçili güncelleştirmelere yönelik grup onayı ayarları** listesinde Test grubunun **Onay** sütununda **Yükle**'yi ve ardından **Tamam**'ı tıklatın.
 
-| ![](images/Cc720504.note(WS.10).gif)Not                                                                                                                                                                                   |
+| ![](/security-updates/images/Cc720504.note(WS.10).gif)Not                                                                                                                                                                                   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ayar son tarihleri ve güncelleştirmeleri kaldırma gibi güncelleştirmeleri onaylamayla ilgili çeşitli seçenekler vardır. Bunlar, “Microsoft Windows Server Update Services İşletim Kılavuzu” teknik incelemesinde ele alınmıştır (Belge İngilizce'dir). |
 

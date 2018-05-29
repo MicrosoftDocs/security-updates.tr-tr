@@ -51,7 +51,7 @@ You must log on to the server you plan to install WSUS on by using an account th
 **To install WSUS on Windows 2000 Server**
 1.  Double-click the installer file **WSUSSetup.exe**.
 
-    | ![](images/Cc708470.note(WS.10).gif)Not                                                                              |
+    | ![](/security-updates/images/Cc708470.note(WS.10).gif)Not                                                                              |
     |---------------------------------------------------------------------------------------------------------------------------------------------------|
     | The latest version of WSUSSetup.exe is available at [http://go.microsoft.com/fwlink/?LinkId=47374](http://go.microsoft.com/fwlink/?linkid=47374). |
 
@@ -63,11 +63,11 @@ You must log on to the server you plan to install WSUS on by using an account th
 
     Keep the default options, and click **Next**.
 
-    ![](images/Cc708470.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
+    ![](/security-updates/images/Cc708470.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
 
 5.  On the **Database Options** page, click **Use an existing database server on this computer**, select the instance name from the **SQL instance name** box, and then click **Next**.
 
-    ![](images/Cc708470.b25efed5-5654-485f-b34d-14686bed0240(WS.10).gif)
+    ![](/security-updates/images/Cc708470.b25efed5-5654-485f-b34d-14686bed0240(WS.10).gif)
 
 6.  On the **Web Site Selection** page, you specify the Web site that WSUS will use. This page also lists two important URLs based on this selection: the URL to which you will point WSUS client computers to get updates, and the URL for the WSUS console where you will configure WSUS.
 
@@ -75,7 +75,7 @@ You must log on to the server you plan to install WSUS on by using an account th
 
     Keep the default option, and click **Next**.
 
-    ![](images/Cc708470.64ed7643-a050-4f54-bf9f-04cf7931adc0(WS.10).gif)
+    ![](/security-updates/images/Cc708470.64ed7643-a050-4f54-bf9f-04cf7931adc0(WS.10).gif)
 
 7.  On the **Mirror Update Settings** page, you can specify the management role for this WSUS server. If this is the first WSUS server on your network or you want a distributed management topology, skip this screen.
 
@@ -83,10 +83,10 @@ You must log on to the server you plan to install WSUS on by using an account th
 
     Keep the default option, and click **Next**.
 
-    ![](images/Cc708470.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
+    ![](/security-updates/images/Cc708470.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
 
 8.  On the **Ready to Install Windows Server Update Services** page, review the selections, and click **Next**.
 
-    ![](images/Cc708470.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
+    ![](/security-updates/images/Cc708470.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
 
 9.  If the final page of the wizard confirms that WSUS installation was successfully completed, click **Finish**.

@@ -26,7 +26,7 @@ Also, the default Web site on Windows SBS 2003 must be modified to enable WSUS 
 
 6.  Under **IP address and domain name restrictions**, click **Edit**, and then click **Granted Access**.
 
-| ![](images/Cc720520.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ![](/security-updates/images/Cc720520.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Most versions of Automatic Updates automatically self-update to the WSUS-compatible version when you point them to the WSUS server. But the version of Automatic Updates that is included with Windows XP without any service packs cannot automatically self-update. If you have Windows XP without any service packs in your environment and you have never used Windows Server Update Services (WSUS), you should install Windows XP Service Pack 2, which includes the version of Automatic Updates that is compatible with WSUS. If you cannot do this, see “Deploying Microsoft Windows Server Update Services” at the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=41171) (http://go.microsoft.com/fwlink/?linkid=41171) for other options. |
 
@@ -45,7 +45,7 @@ Step 5 contains the following procedures:
 **To create and link a GPO on the domain level, and then open the new GPO in Group Policy Object Editor**
 1.  In Server Management, expand **Advanced Management**, expand **Group Policy Management**, expand **Forest**, expand **Domains**, and then click your Windows SBS domain.
 
-    ![](images/Cc720520.37acee07-ac90-4b56-8845-4e8b43f76182(WS.10).gif)
+    ![](/security-updates/images/Cc720520.37acee07-ac90-4b56-8845-4e8b43f76182(WS.10).gif)
 
 2.  Right-click your Windows SBS domain, and then select **Create and Link a GPO Here**.
 
@@ -53,7 +53,7 @@ Step 5 contains the following procedures:
 
 4.  Right-click the new WSUS GPO, and then click **Edit**.
 
-    ![](images/Cc720520.74cfd58a-5eba-4a0d-b3e0-8947f6ac52e8(WS.10).gif)
+    ![](/security-updates/images/Cc720520.74cfd58a-5eba-4a0d-b3e0-8947f6ac52e8(WS.10).gif)
 
 The following policy setting configures Automatic Updates to install updates on a schedule. You must enable this policy setting.
 
@@ -88,7 +88,7 @@ The following policy setting prevents Automatic Updates from restarting the comp
 
 You have to wait for Group Policy to refresh for the settings to take effect. By default, Group Policy refreshes in the background every 90 minutes, with a random offset of 0 to 30 minutes. If you want to refresh Group Policy sooner, you can go to a command prompt on the client computer and type: **gpupdate /force**.
 
-| ![](images/Cc720520.note(WS.10).gif)Not                                                                      |
+| ![](/security-updates/images/Cc720520.note(WS.10).gif)Not                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------|
 | On client computers running Windows 2000, you can type the following at a command prompt:`secedit /refreshpolicy machine_policy /enforce` |
 
@@ -101,6 +101,6 @@ After Group Policy refreshes, it can take up to 20 minutes before client comput
 
 3.  At the command prompt, type **wuauclt.exe /detectnow**. This command-line option instructs Automatic Updates to contact the WSUS server immediately.
 
-| ![](images/Cc720520.note(WS.10).gif)Not                                                                                                                                                                                                          |
+| ![](/security-updates/images/Cc720520.note(WS.10).gif)Not                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Only the WSUS compatible client can use the /detectnow option. The WSUS compatible client comes with Windows 2000 Service Pack 4, Windows XP Service Pack 2, and Windows Server 2003 Service Pack 1. Otherwise, Automatic Updates self-updates to the WSUS compatible client. |

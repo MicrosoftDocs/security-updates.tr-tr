@@ -11,7 +11,7 @@ Setting Up Synchronizations
 
 During synchronization, your WSUS server downloads updates (update metadata and files) from an update source. It also downloads new product classifications and categories, if any. When your WSUS server synchronizes for the first time, it will download all of the updates you specified when you configured synchronization options. After the first synchronization, your WSUS server downloads only updates from the update source, as well as revisions in metadata for existing updates and expirations to updates.
 
-| ![](images/Cc708616.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                         |
+| ![](/security-updates/images/Cc708616.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The first time a WSUS server downloads updates may take a long time. If you are setting up multiple WSUS servers, you can speed up the process to a certain extent by downloading all the updates on one WSUS server and then copying the updates to the content directories of the other WSUS servers. Update metadata must be downloaded separately to each server during synchronization. |
 
@@ -35,7 +35,7 @@ If your WSUS server is running in replica mode, you will not be able to perform 
 
 4.  In the **Classifications** tab, select the check boxes of the update classifications you want your WSUS server to synchronize, and then click **OK**.
 
-| ![](images/Cc708616.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ![](/security-updates/images/Cc708616.note(WS.10).gif)Not                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | You can remove products or classifications in the same way. Your WSUS server will stop synchronizing new updates for the products you have cleared. However, updates that were synchronized for those products before you cleared them will remain on your WSUS server and will be listed as available. For more information about removing unused updates, see the section "The local directory is running out of disk space" in [Issues with Update Storage](https://technet.microsoft.com/a7a947d7-c2db-45e4-9495-70aba6d059fe). |
 
@@ -59,7 +59,7 @@ You can configure your WSUS server to use a proxy server during synchronization 
 
 3.  Click **OK**.
 
-| ![](images/Cc708616.note(WS.10).gif)Not                                                                                       |
+| ![](/security-updates/images/Cc708616.note(WS.10).gif)Not                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Because WSUS initiates all of its network traffic, there is no need to configure Windows Firewall on a WSUS server connected directly to Microsoft update. |
 

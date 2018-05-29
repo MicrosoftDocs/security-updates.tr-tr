@@ -63,6 +63,6 @@ Aşağıdaki tabloda, her bir komuttaki sözdizimi açıklanmaktadır.
 </tbody>
 </table>
   
-| ![](images/Cc747733.note(WS.10).gif)Not                                                                                                                                                                                             |  
+| ![](/security-updates/images/Cc747733.note(WS.10).gif)Not                                                                                                                                                                                             |  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Uygulamayı seçtiğiniz yükleme yöntemine bağlı olmaksızın, her iki .msi dosyasının da başarılı bir şekilde yüklendiğinden emin olmalısınız. MSDrmClient.msi dosyasının yüklenmesini engelleyen bir hata oluşursa, RMClientBackCompat.msi dosyası yüklenmemelidir. |

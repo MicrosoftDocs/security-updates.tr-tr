@@ -436,7 +436,7 @@ Configure Windows Server security settings to help ensure optional security and 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939800.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939800.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>

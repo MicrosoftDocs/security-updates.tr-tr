@@ -20,7 +20,7 @@ Confirm that you have completed WSUS setup and configured your SQL Server 2005 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939896.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939896.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -39,7 +39,7 @@ Confirm that you have completed WSUS setup and configured your SQL Server 2005 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939896.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939896.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -77,7 +77,7 @@ In this step you will install WSUS on the other front-end WSUS servers without c
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939896.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939896.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -113,7 +113,7 @@ You should create a single file location that is available to all the front-end 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939896.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939896.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -157,7 +157,7 @@ This step explains how to set up DFS on one of the servers in your cluster on a 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939896.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939896.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -254,7 +254,7 @@ Instructions for configuring WSUS client machines are given in [Update and Confi
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939896.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939896.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -276,7 +276,7 @@ Upgrading NLB
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939896.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939896.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

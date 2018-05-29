@@ -22,7 +22,7 @@ After you set up a client computer, it will take a few minutes before it appears
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939933.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939933.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -48,7 +48,7 @@ If the computer you are using to configure Group Policy has the latest version o
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939933.Important(WS.10).gif" />Önemli</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939933.Important(WS.10).gif" />Önemli</th>
 </tr>
 </thead>
 <tbody>
@@ -69,7 +69,7 @@ If the computer you are using to configure Group Policy does not have the latest
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939933.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939933.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -153,7 +153,7 @@ If the status is set to **Disabled** or **Not Configured**, no computer group in
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939933.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939933.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -201,7 +201,7 @@ If the status is set to **Disabled** or **Not Configured**, Automatic Updates wi
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939933.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939933.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>
@@ -307,7 +307,7 @@ If the status is set to **Disabled** or **Not Configured**, Automatic Updates wi
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939933.note(WS.10).gif" />Not</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939933.note(WS.10).gif" />Not</th>
 </tr>
 </thead>
 <tbody>

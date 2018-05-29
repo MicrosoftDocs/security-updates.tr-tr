@@ -18,7 +18,7 @@ Microsoft Kayıt Hizmeti RMS dağıtımınız için kök sertifika sunucusunun s
 
 Microsoft Kayıt Hizmeti'ne ek olarak, bir RMS sunucunuzun sunucu lisans sertifikasını iptal edebilecek bir üçüncü parti belirleyebilirsiniz. Bu üçüncü parti dışarıdan bir varlık veya yöneticinin kuruluş adına üreteceği ortak ya da özel bir anahtar çifti olabilir. Belirtilen üçüncü parti özel anahtarı, sunucu lisans sahibi sertifikasını iptal eden bir iptal listesi imzalayabilir. Bu üçüncü parti, RMS hazırlık sürecinde ortak anahtarıyla belirtilir. Sunucunuzun hak ilkesi şablonları da, üçüncü partilere RMS yüklemenizin yayınladığı içeriği, uygulama bildirimlerini, lisansları ve sertifikaları iptal etme izni verecek biçimde yapılandırılabilir. Daha fazla bilgi için bu konuda daha sonra yer alan "[Hak İlkesi Şablonlarını Oluşturma ve Değiştirme](https://technet.microsoft.com/6014176f-ef71-4d29-b3e3-da129c18563d)" bölümüne bakın.
 
-| ![](images/Cc747782.Important(WS.10).gif)Önemli                                                                                                                                |
+| ![](/security-updates/images/Cc747782.Important(WS.10).gif)Önemli                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kök sertifika sunucusunun sunucu lisans sahibi sertifikasını iptal etmede kullanmak için kendi anahtar çiftinizi üretmeye karar verirseniz, bu anahtar çiftini güvenli bir yerde sakladığınızdan emin olun. |
 

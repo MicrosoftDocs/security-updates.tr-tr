@@ -11,7 +11,7 @@ Windows Server Update Services için BeniOku Dosyası
 
 Bu belgede, Windows Server Update Services'ı (WSUS) etkilediği bilinen sorunlar açıklanır. Ayrıca, WSUS'u yüklemeye yönelik öneriler ve gereksinimlere yer verilir.
 
-| ![](images/Cc720505.note(WS.10).gif)Not                                                                                                                            |
+| ![](/security-updates/images/Cc720505.note(WS.10).gif)Not                                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu belgenin karşıdan yüklenebilir bir kopyası Microsoft Yükleme Merkezi'nde [http://go.microsoft.com/fwlink/?LinkId=48126](http://go.microsoft.com/fwlink/?linkid=48126) adresinde bulunabilir. |
 
@@ -200,7 +200,7 @@ Bilinen Sorunlar
 
 Windows 2000 Server çalışan bir bilgisayarda Internet Information Services (IIS) çalıştırıyorsanız, Microsoft TechNet'teki IIS Lockdown Aracı sayfasından IIS Lockdown Wizard'ın en son sürümünü (URLScan içerir) yükleyin. Microsoft, IIS sunucularınızın güvenliğini sağlamak için bu aracı yüklemenizi önerir. IIS Kilitleme Sihirbazı, güvenlik riski oluşma olasılığını azaltmak için IIS'nin gerek duyulmayan özelliklerini kapatma yöntemiyle çalışır.
 
-| ![](images/Cc720505.note(WS.10).gif)Not                                                                                                                                  |
+| ![](/security-updates/images/Cc720505.note(WS.10).gif)Not                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WSUS Setup bu bileşenleri yüklemez. Bunları el ile yüklemelisiniz. Windows Server 2003 çalışan bilgisayarlara IIS Lockdown aracını yüklemeniz gerekmez, çünkü bu işlevsellik yerleşik olarak bulunur. |
 

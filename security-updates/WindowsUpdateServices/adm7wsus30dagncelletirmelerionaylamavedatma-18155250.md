@@ -27,7 +27,7 @@ Bu adımda, sınama grubu içindeki herhangi bir sınama istemcisi bilgisayarı 
 
 5.  Güncelleştirmelerin onaylanmasıyla ilgili farklı görevlerin ilerleyişini gösteren yeni bir pencere (**Onaylama İlerlemesi**) göreceksiniz. Onaylama tamamlandığında, bu pencereyi kapatmak için **Kapat**'ı tıklatın.
 
-| ![](images/Cc708475.note(WS.10).gif)Not                                                     |
+| ![](/security-updates/images/Cc708475.note(WS.10).gif)Not                                                     |
 |--------------------------------------------------------------------------------------------------------------------------|
 | Son tarihleri ayarlama ve güncelleştirmeleri kaldırma gibi, güncelleştirmeleri onaylamayla ilgili birçok seçenek vardır. |
 

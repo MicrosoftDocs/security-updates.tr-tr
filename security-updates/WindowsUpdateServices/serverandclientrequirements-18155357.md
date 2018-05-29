@@ -27,7 +27,7 @@ The following software requirements are for WSUS servers and client computers.
 -   Microsoft Management Console 3.0
 -   Microsoft Report Viewer Redistributable 2005
 
-| ![](images/Cc708576.note(WS.10).gif)Not                                                |
+| ![](/security-updates/images/Cc708576.note(WS.10).gif)Not                                                |
 |---------------------------------------------------------------------------------------------------------------------|
 | WSUS 3.0 now allows you to install the WSUS Administration console on remote systems separate from the WSUS server. |
 
