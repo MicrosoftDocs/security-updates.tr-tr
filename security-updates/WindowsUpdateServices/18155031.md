@@ -1,0 +1,15 @@
+---
+TOCTitle: Storing the Updates
+Title: Storing the Updates
+ms:assetid: '2cadbce0-0169-40a8-bd44-0c88537fb75d'
+ms:contentKeyID: 18155031
+ms:mtpsurl: 'https://technet.microsoft.com/tr-tr/library/Cc720487(v=WS.10)'
+---
+
+Storing the Updates
+===================
+
+**In this section**
+
+-   [Specifying Where to Store the Updates](https://technet.microsoft.com/957a1ec6-4c55-4cb3-8dbd-b8d05f63320d)
+-   [Managing the Database](https://technet.microsoft.com/81545a18-2d30-444a-8a1e-846e065bd04b)
